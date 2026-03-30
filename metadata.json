@@ -1,0 +1,16 @@
+{
+  "title": "A Study in Scarlet",
+  "shortTitle": "A Study in Scarlet",
+  "author": "Arthur Conan Doyle",
+  "year": 1887,
+  "source": "https://standardebooks.org/ebooks/arthur-conan-doyle/a-study-in-scarlet",
+  "words": 43367,
+  "pulpDate": null,
+  "repo": "https://github.com/JohnQPulp/AStudyInScarlet",
+  "links": {
+    "Goodreads": "https://www.goodreads.com/book/show/102868.A_Study_in_Scarlet",
+    "Wikipedia": "https://en.wikipedia.org/wiki/A_Study_in_Scarlet"
+  },
+  "blurb": "foo",
+  "blurb2": "bar"
+}
