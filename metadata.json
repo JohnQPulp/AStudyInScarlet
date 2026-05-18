@@ -12,5 +12,6 @@
     "Wikipedia": "https://en.wikipedia.org/wiki/A_Study_in_Scarlet"
   },
   "blurb": "foo",
-  "blurb2": "bar"
+  "blurb2": "bar",
+  "useAvif": "true"
 }
