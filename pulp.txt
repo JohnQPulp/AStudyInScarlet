@@ -4315,7 +4315,7 @@ s=brigham;e:brigham=serious
 “The girl is young, and we would not have her wed grey hairs, neither would we deprive her of all choice.”
 
 
-“We Elders have many heifers, but our children must also be provided.”
+“We Elders have many heifers,<f>Heber C. Kemball, in one of his sermons, alludes to his hundred wives under this endearing epithet.</f> but our children must also be provided.”
 
 
 “Stangerson has a son, and Drebber has a son, and either of them would gladly welcome your daughter to their house.”
