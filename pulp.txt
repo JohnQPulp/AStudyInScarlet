@@ -1906,4 +1906,394 @@ e:holmes=excited
 Leaning back in the cab, this amateur bloodhound carolled away like a lark while I meditated upon the many-sidedness of the human mind.
 s=none;e:watson=contemplative
 
+### V<br>Our Advertisement Brings a Visitor
+r=title
+
+Our morning’s exertions had been too much for my weak health, and I was tired out in the afternoon.
+e:watson=weary
+
+After Holmes’ departure for the concert, I lay down upon the sofa and endeavoured to get a couple of hours’ sleep.
+
+
+It was a useless attempt. My mind had been too much excited by all that had occurred, and the strangest fancies and surmises crowded into it.
+e:watson=thinking
+
+Every time that I closed my eyes I saw before me the distorted baboon-like countenance of the murdered man.
+e:watson=fearful
+
+So sinister was the impression which that face had produced upon me that I found it difficult to feel anything but gratitude for him who had removed its owner from the world.
+e:watson=contemplative
+
+If ever human features bespoke vice of the most malignant type, they were certainly those of Enoch J. Drebber, of Cleveland.
+e:watson=serious
+
+Still I recognized that justice must be done, and that the depravity of the victim was no condonement in the eyes of the law.
+
+
+The more I thought of it the more extraordinary did my companion’s hypothesis, that the man had been poisoned, appear.
+e:watson=thinking
+
+I remembered how he had sniffed his lips, and had no doubt that he had detected something which had given rise to the idea.
+
+
+Then, again, if not poison, what had caused the man’s death, since there was neither wound nor marks of strangulation?
+e:watson=confused
+
+But, on the other hand, whose blood was that which lay so thickly upon the floor?
+
+
+There were no signs of a struggle, nor had the victim any weapon with which he might have wounded an antagonist.
+
+
+As long as all these questions were unsolved, I felt that sleep would be no easy matter, either for Holmes or myself.
+e:watson=weary
+
+His quiet self-confident manner convinced me that he had already formed a theory which explained all the facts, though what it was I could not for an instant conjecture.
+e:watson=thinking
+
+He was very late in returning﻿—so late, that I knew that the concert could not have detained him all the time.
+e:watson=curious
+
+Dinner was on the table before he appeared.
+
+
+“It was magnificent,” he said, as he took his seat.
+s=holmes;e:holmes=happy
+
+“Do you remember what Darwin says about music? He claims that the power of producing and appreciating it existed among the human race long before the power of speech was arrived at.”
+e:holmes=thinking
+
+“Perhaps that is why we are so subtly influenced by it. There are vague memories in our souls of those misty centuries when the world was in its childhood.”
+e:holmes=contemplative
+
+“That’s rather a broad idea,” I remarked.
+s=watson;e:watson=neutral
+
+“One’s ideas must be as broad as Nature if they are to interpret Nature,” he answered.
+s=holmes;e:holmes=smirking
+
+“What’s the matter? You’re not looking quite yourself. This Brixton Road affair has upset you.”
+e:holmes=curious
+
+“To tell the truth, it has,” I said. “I ought to be more case-hardened after my Afghan experiences. I saw my own comrades hacked to pieces at Maiwand without losing my nerve.”
+s=watson;e:watson=weary
+
+“I can understand. There is a mystery about this which stimulates the imagination; where there is no imagination there is no horror.”
+s=holmes;e:holmes=contemplative
+
+“Have you seen the evening paper?”
+e:holmes=neutral
+
+“No.”
+s=watson
+
+“It gives a fairly good account of the affair. It does not mention the fact that when the man was raised up, a woman’s wedding ring fell upon the floor. It is just as well it does not.”
+s=holmes;e:holmes=smirking
+
+“Why?”
+s=watson;e:watson=curious
+
+“Look at this advertisement,” he answered. “I had one sent to every paper this morning immediately after the affair.”
+s=holmes;e:holmes=neutral
+
+He threw the paper across to me and I glanced at the place indicated.
+s=none
+
+It was the first announcement in the “Found” column.
+
+
+“In Brixton Road, this morning,” it ran, “a plain gold wedding ring, found in the roadway between the White Hart Tavern and Holland Grove. Apply Dr. Watson, 221B, Baker Street, between eight and nine this evening.”
+
+
+“Excuse my using your name,” he said. “If I used my own some of these dunderheads would recognize it, and want to meddle in the affair.”
+s=holmes;e:holmes=smirking
+
+“That is all right,” I answered. “But supposing anyone applies, I have no ring.”
+s=watson;e:watson=confused
+
+“Oh yes, you have,” said he, handing me one. “This will do very well. It is almost a facsimile.”
+s=holmes;e:holmes=happy
+
+“And who do you expect will answer this advertisement.”
+s=watson;e:watson=curious
+
+“Why, the man in the brown coat﻿—our florid friend with the square toes. If he does not come himself he will send an accomplice.”
+s=holmes;e:holmes=serious
+
+“Would he not consider it as too dangerous?”
+s=watson;e:watson=wary
+
+“Not at all. If my view of the case is correct, and I have every reason to believe that it is, this man would rather risk anything than lose the ring.”
+s=holmes;e:holmes=thinking
+
+“According to my notion he dropped it while stooping over Drebber’s body, and did not miss it at the time.”
+
+
+“After leaving the house he discovered his loss and hurried back, but found the police already in possession, owing to his own folly in leaving the candle burning.”
+
+
+“He had to pretend to be drunk in order to allay the suspicions which might have been aroused by his appearance at the gate. Now put yourself in that man’s place.”
+
+
+“On thinking the matter over, it must have occurred to him that it was possible that he had lost the ring in the road after leaving the house. What would he do, then?”
+e:holmes=serious
+
+“He would eagerly look out for the evening papers in the hope of seeing it among the articles found. His eye, of course, would light upon this. He would be overjoyed. Why should he fear a trap?”
+
+
+“There would be no reason in his eyes why the finding of the ring should be connected with the murder. He would come. He will come.”
+
+
+“You shall see him within an hour.”
+e:holmes=excited
+
+“And then?” I asked.
+s=watson;e:watson=curious
+
+“Oh, you can leave me to deal with him then.”
+s=holmes;e:holmes=smirking
+
+“Have you any arms?”
+e:holmes=serious
+
+“I have my old service revolver and a few cartridges.”
+s=watson;e:watson=neutral
+
+“You had better clean it and load it. He will be a desperate man, and though I shall take him unawares, it is as well to be ready for anything.”
+s=holmes;e:holmes=serious
+
+I went to my bedroom and followed his advice.
+s=none
+
+When I returned with the pistol the table had been cleared, and Holmes was engaged in his favourite occupation of scraping upon his violin.
+
+
+“The plot thickens,” he said, as I entered; “I have just had an answer to my American telegram.”
+s=holmes;e:holmes=excited
+
+“My view of the case is the correct one.”
+e:holmes=happy
+
+“And that is?” I asked eagerly.
+s=watson;e:watson=excited
+
+“My fiddle would be the better for new strings,” he remarked. “Put your pistol in your pocket.”
+s=holmes;e:holmes=smirking
+
+“When the fellow comes speak to him in an ordinary way. Leave the rest to me. Don’t frighten him by looking at him too hard.”
+e:holmes=serious
+
+“It is eight o’clock now,” I said, glancing at my watch.
+s=watson;e:watson=neutral
+
+“Yes. He will probably be here in a few minutes. Open the door slightly. That will do.”
+s=holmes
+
+“Now put the key on the inside. Thank you! This is a queer old book I picked up at a stall yesterday﻿—*De Jure inter Gentes*﻿—published in Latin at Liege in the Lowlands, in 1642.”
+e:holmes=curious
+
+“Charles’ head was still firm on his shoulders when this little brown-backed volume was struck off.”
+
+
+“Who is the printer?”
+s=watson
+
+“Philippe de Croy, whoever he may have been. On the flyleaf, in very faded ink, is written ‘Ex libris Guliolmi Whyte.’ I wonder who William Whyte was.”
+s=holmes
+
+“Some pragmatical seventeenth century lawyer, I suppose. His writing has a legal twist about it. Here comes our man, I think.”
+e:holmes=thinking
+
+As he spoke there was a sharp ring at the bell.
+s=none
+
+Sherlock Holmes rose softly and moved his chair in the direction of the door. We heard the servant pass along the hall, and the sharp click of the latch as she opened it.
+
+
+“Does Dr. Watson live here?” asked a clear but rather harsh voice.
+n:sawyer=?;;e:sawyer=neutral;m=dialogue
+
+We could not hear the servant’s reply, but the door closed, and someone began to ascend the stairs.
+s=none;m=
+
+The footfall was an uncertain and shuffling one. A look of surprise passed over the face of my companion as he listened to it.
+e:holmes=surprised
+
+It came slowly along the passage, and there was a feeble tap at the door.
+
+
+“Come in,” I cried.
+s=watson
+
+At my summons, instead of the man of violence whom we expected, a very old and wrinkled woman hobbled into the apartment.
+s=none;e:watson=surprised
+
+She appeared to be dazzled by the sudden blaze of light, and after dropping a curtsey, she stood blinking at us with her bleared eyes and fumbling in her pocket with nervous, shaky fingers.
+e:sawyer=nervous
+
+I glanced at my companion, and his face had assumed such a disconsolate expression that it was all I could do to keep my countenance.
+e:holmes=annoyed;e:watson=smirking
+
+The old crone drew out an evening paper, and pointed at our advertisement.
+
+
+“It’s this as has brought me, good gentlemen,” she said, dropping another curtsey; “a gold wedding ring in the Brixton Road.”
+s=sawyer
+
+“It belongs to my girl Sally, as was married only this time twelvemonth, which her husband is steward aboard a Union boat, and what he’d say if he come ’ome and found her without her ring is more than I can think, he being short enough at the best o’ times, but more especially when he has the drink.”
+e:sawyer=fearful
+
+“If it please you, she went to the circus last night along with﻿—”
+
+
+“Is that her ring?” I asked.
+s=watson;e:watson=neutral
+
+“The Lord be thanked!” cried the old woman; “Sally will be a glad woman this night. That’s the ring.”
+s=sawyer;e:sawyer=happy
+
+“And what may your address be?” I inquired, taking up a pencil.
+s=watson;e:watson=curious
+
+“13, Duncan Street, Houndsditch. A weary way from here.”
+s=sawyer;e:sawyer=weary
+
+“The Brixton Road does not lie between any circus and Houndsditch,” said Sherlock Holmes sharply.
+s=holmes;e:holmes=suspicious
+
+The old woman faced round and looked keenly at him from her little red-rimmed eyes.
+s=none;e:sawyer=wary
+
+“The gentleman asked me for *my* address,” she said. “Sally lives in lodgings at 3, Mayfield Place, Peckham.”
+s=sawyer;e:sawyer=annoyed
+
+“And your name is﻿—?”
+s=holmes
+
+“My name is Sawyer﻿—hers is Dennis, which Tom Dennis married her﻿—and a smart, clean lad, too, as long as he’s at sea, and no steward in the company more thought of;”
+n:sawyer=Mrs. Sawyer;s=sawyer;e:sawyer=neutral
+
+“but when on shore, what with the women and what with liquor shops﻿—”
+e:sawyer=upset
+
+“Here is your ring, Mrs. Sawyer,” I interrupted, in obedience to a sign from my companion; “it clearly belongs to your daughter, and I am glad to be able to restore it to the rightful owner.”
+s=watson;e:watson=neutral
+
+With many mumbled blessings and protestations of gratitude the old crone packed it away in her pocket, and shuffled off down the stairs.
+s=none;e:sawyer=happy
+
+Sherlock Holmes sprang to his feet the moment that she was gone and rushed into his room.
+e:holmes=excited
+
+He returned in a few seconds enveloped in an ulster and a cravat.
+
+
+“I’ll follow her,” he said, hurriedly; “she must be an accomplice, and will lead me to him.”
+s=holmes;e:holmes=serious
+
+“Wait up for me.”
+
+
+The hall door had hardly slammed behind our visitor before Holmes had descended the stair.
+s=none
+
+Looking through the window I could see her walking feebly along the other side, while her pursuer dogged her some little distance behind.
+
+
+“Either his whole theory is incorrect,” I thought to myself, “or else he will be led now to the heart of the mystery.”
+s=watson;e:watson=thinking
+
+There was no need for him to ask me to wait up for him, for I felt that sleep was impossible until I heard the result of his adventure.
+s=none;e:watson=curious
+
+It was close upon nine when he set out.
+
+
+I had no idea how long he might be, but I sat stolidly puffing at my pipe and skipping over the pages of Henri Murger’s *Vie de Bohème*.
+e:watson=weary
+
+Ten o’clock passed, and I heard the footsteps of the maid as they pattered off to bed.
+
+
+Eleven, and the more stately tread of the landlady passed my door, bound for the same destination.
+
+
+It was close upon twelve before I heard the sharp sound of his latchkey.
+e:watson=surprised
+
+The instant he entered I saw by his face that he had not been successful.
+e:holmes=annoyed
+
+Amusement and chagrin seemed to be struggling for the mastery, until the former suddenly carried the day, and he burst into a hearty laugh.
+e:holmes=happy
+
+“I wouldn’t have the Scotland Yarders know it for the world,” he cried, dropping into his chair; “I have chaffed them so much that they would never have let me hear the end of it.”
+s=holmes
+
+“I can afford to laugh, because I know that I will be even with them in the long run.”
+e:holmes=smirking
+
+“What is it then?” I asked.
+s=watson;e:watson=curious
+
+“Oh, I don’t mind telling a story against myself.”
+s=holmes;e:holmes=smirking
+
+“That creature had gone a little way when she began to limp and show every sign of being footsore.”
+e:holmes=neutral
+
+“Presently she came to a halt, and hailed a four-wheeler which was passing.”
+
+
+“I managed to be close to her so as to hear the address, but I need not have been so anxious, for she sang it out loud enough to be heard at the other side of the street, ‘Drive to 13, Duncan Street, Houndsditch,’ she cried.”
+
+
+“This begins to look genuine, I thought, and having seen her safely inside, I perched myself behind.”
+e:holmes=thinking
+
+“That’s an art which every detective should be an expert at.”
+e:holmes=smirking
+
+“Well, away we rattled, and never drew rein until we reached the street in question.”
+e:holmes=neutral
+
+“I hopped off before we came to the door, and strolled down the street in an easy, lounging way.”
+
+
+“I saw the cab pull up. The driver jumped down, and I saw him open the door and stand expectantly.”
+
+
+“Nothing came out though. When I reached him he was groping about frantically in the empty cab, and giving vent to the finest assorted collection of oaths that ever I listened to.”
+e:holmes=surprised
+
+“There was no sign or trace of his passenger, and I fear it will be some time before he gets his fare.”
+e:holmes=smirking
+
+“On inquiring at Number 13 we found that the house belonged to a respectable paperhanger, named Keswick, and that no one of the name either of Sawyer or Dennis had ever been heard of there.”
+e:holmes=serious
+
+“You don’t mean to say,” I cried, in amazement, “that that tottering, feeble old woman was able to get out of the cab while it was in motion, without either you or the driver seeing her?”
+s=watson;e:watson=surprised
+
+“Old woman be damned!” said Sherlock Holmes, sharply.
+s=holmes;e:holmes=angry
+
+“We were the old women to be so taken in. It must have been a young man, and an active one, too, besides being an incomparable actor.”
+e:holmes=serious
+
+“The getup was inimitable. He saw that he was followed, no doubt, and used this means of giving me the slip.”
+
+
+“It shows that the man we are after is not as lonely as I imagined he was, but has friends who are ready to risk something for him.”
+e:holmes=thinking
+
+“Now, Doctor, you are looking done-up. Take my advice and turn in.”
+e:holmes=neutral
+
+I was certainly feeling very weary, so I obeyed his injunction.
+s=none;e:watson=weary
+
+I left Holmes seated in front of the smouldering fire, and long into the watches of the night I heard the low, melancholy wailings of his violin, and knew that he was still pondering over the strange problem which he had set himself to unravel.
+e:watson=thinking
+
 
