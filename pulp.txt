@@ -115,11 +115,8 @@ s=watson;e:watson=excited
 Young Stamford looked rather strangely at me over his wineglass.
 s=none;e:stamford=wary
 
-“You don’t know Sherlock Holmes yet,” he said;
+“You don’t know Sherlock Holmes yet,” he said; “perhaps you would not care for him as a constant companion.”
 s=stamford
-
-“perhaps you would not care for him as a constant companion.”
-
 
 “Why, what is there against him?”
 s=watson;e:watson=curious
@@ -181,11 +178,8 @@ s=watson;e:watson=happy
 As we made our way to the hospital after leaving the Holborn, Stamford gave me a few more particulars about the gentleman whom I proposed to take as a fellow-lodger.
 s=none;e:watson=neutral
 
-“You mustn’t blame me if you don’t get on with him,” he said;
+“You mustn’t blame me if you don’t get on with him,” he said; “I know nothing more of him than I have learned from meeting him occasionally in the laboratory.”
 s=stamford;e:stamford=wary
-
-“I know nothing more of him than I have learned from meeting him occasionally in the laboratory.”
-
 
 “You proposed this arrangement, so you must not hold me responsible.”
 
@@ -577,10 +571,7 @@ e:holmes=contemplative
 As the weeks went by, my interest in him and my curiosity as to his aims in life, gradually deepened and increased. His very person and appearance were such as to strike the attention of the most casual observer.
 e:watson=curious;e:holmes=neutral
 
-In height he was rather over six feet, and so excessively lean that he seemed to be considerably taller. His eyes were sharp and piercing, save during those intervals of torpor to which I have alluded;
-
-
-and his thin, hawk-like nose gave his whole expression an air of alertness and decision. His chin, too, had the prominence and squareness which mark the man of determination.
+In height he was rather over six feet, and so excessively lean that he seemed to be considerably taller. His eyes were sharp and piercing, save during those intervals of torpor to which I have alluded; and his thin, hawk-like nose gave his whole expression an air of alertness and decision. His chin, too, had the prominence and squareness which mark the man of determination.
 e:holmes=serious
 
 His hands were invariably blotted with ink and stained with chemicals, yet he was possessed of extraordinary delicacy of touch, as I frequently had occasion to observe when I watched him manipulating his fragile philosophical instruments.
@@ -637,11 +628,8 @@ s=holmes;e:holmes=serious
 “But the Solar System!” I protested.
 s=watson;e:watson=upset
 
-“What the deuce is it to me?” he interrupted impatiently;
+“What the deuce is it to me?” he interrupted impatiently; “you say that we go round the sun. If we went round the moon it would not make a pennyworth of difference to me or to my work.”
 s=holmes;e:holmes=annoyed
-
-“you say that we go round the sun. If we went round the moon it would not make a pennyworth of difference to me or to my work.”
-
 
 I was on the point of asking him what that work might be, but something in his manner showed me that the question would be an unwelcome one.
 s=none;e:watson=wary
@@ -994,11 +982,8 @@ If you are unable to come I shall give you fuller details, and would esteem it a
 Yours faithfully,<br>Tobias Gregson
 
 
-“Gregson is the smartest of the Scotland Yarders,” my friend remarked;
+“Gregson is the smartest of the Scotland Yarders,” my friend remarked; “he and Lestrade are the pick of a bad lot. They are both quick and energetic, but conventional﻿—shockingly so.”
 s=holmes;e:holmes=smirking
-
-“he and Lestrade are the pick of a bad lot. They are both quick and energetic, but conventional﻿—shockingly so.”
-
 
 “They have their knives into one another, too. They are as jealous as a pair of professional beauties. There will be some fun over this case if they are both put upon the scent.”
 
@@ -2111,7 +2096,7 @@ Sherlock Holmes rose softly and moved his chair in the direction of the door. We
 
 
 “Does Dr. Watson live here?” asked a clear but rather harsh voice.
-n:sawyer=?;;e:sawyer=neutral;m=dialogue
+n:sawyer=?;e:sawyer=neutral;m=dialogue
 
 We could not hear the servant’s reply, but the door closed, and someone began to ascend the stairs.
 s=none;m=
@@ -2170,11 +2155,8 @@ s=sawyer;e:sawyer=annoyed
 “And your name is﻿—?”
 s=holmes
 
-“My name is Sawyer﻿—hers is Dennis, which Tom Dennis married her﻿—and a smart, clean lad, too, as long as he’s at sea, and no steward in the company more thought of;”
-n:sawyer=Mrs. Sawyer;s=sawyer;e:sawyer=neutral
-
-“but when on shore, what with the women and what with liquor shops﻿—”
-e:sawyer=upset
+“My name is Sawyer﻿—hers is Dennis, which Tom Dennis married her﻿—and a smart, clean lad, too, as long as he’s at sea, and no steward in the company more thought of; but when on shore, what with the women and what with liquor shops﻿—”
+n:sawyer=Mrs. Sawyer;s=sawyer;e:sawyer=neutral;e:sawyer=upset
 
 “Here is your ring, Mrs. Sawyer,” I interrupted, in obedience to a sign from my companion; “it clearly belongs to your daughter, and I am glad to be able to restore it to the rightful owner.”
 s=watson;e:watson=neutral
@@ -3724,20 +3706,14 @@ e:ferrier=unhappy
 “Is she your child?” asked someone.
 s=youngman;e:youngman=curious
 
-“I guess she is now,” the other cried, defiantly;
-s=ferrier;e:ferrier=serious
-
-“she’s mine ’cause I saved her. No man will take her from me. She’s Lucy Ferrier from this day on.”
-n:lucy=Lucy Ferrier
+“I guess she is now,” the other cried, defiantly; “she’s mine ’cause I saved her. No man will take her from me. She’s Lucy Ferrier from this day on.”
+s=ferrier;e:ferrier=serious;n:lucy=Lucy Ferrier
 
 “Who are you, though?” he continued, glancing with curiosity at his stalwart, sunburned rescuers; “there seems to be a powerful lot of ye.”
 e:ferrier=curious
 
-“Nigh upon ten thousand,” said one of the young men;
-s=youngman;e:youngman=neutral
-
-“we are the persecuted children of God﻿—the chosen of the Angel Merona.”
-e:youngman=serious
+“Nigh upon ten thousand,” said one of the young men; “we are the persecuted children of God﻿—the chosen of the Angel Merona.”
+s=youngman;e:youngman=neutral;e:youngman=serious
 
 “I never heard tell on him,” said the wanderer. “He appears to have chosen a fair crowd of ye.”
 s=ferrier;e:ferrier=confused
@@ -4513,11 +4489,8 @@ s=none;e:stangerson=surprised;e:drebber=surprised
 In their eyes this competition between them for the maiden’s hand was the highest of honours both to her and her father.
 
 
-“There are two ways out of the room,” cried Ferrier;
+“There are two ways out of the room,” cried Ferrier; “there is the door, and there is the window. Which do you care to use?”
 s=ferrier
-
-“there is the door, and there is the window. Which do you care to use?”
-
 
 His brown face looked so savage, and his gaunt hands so threatening, that his visitors sprang to their feet and beat a hurried retreat.
 s=none;e:stangerson=fearful;e:drebber=fearful
@@ -5044,10 +5017,7 @@ e:jefferson=excited
 On the edge of a jutting pinnacle, three or four hundred feet above him, there stood a creature somewhat resembling a sheep in appearance, but armed with a pair of gigantic horns.
 
 
-The bighorn﻿—for so it is called﻿—was acting, probably, as a guardian over a flock which were invisible to the hunter;
-
-
-but fortunately it was heading in the opposite direction, and had not perceived him.
+The bighorn﻿—for so it is called﻿—was acting, probably, as a guardian over a flock which were invisible to the hunter; but fortunately it was heading in the opposite direction, and had not perceived him.
 
 
 Lying on his face, he rested his rifle upon a rock, and took a long and steady aim before drawing the trigger.
@@ -5194,10 +5164,7 @@ e:jefferson=weary
 For five days he toiled footsore and weary through the defiles which he had already traversed on horseback.
 
 
-At night he flung himself down among the rocks, and snatched a few hours of sleep;
-
-
-but before daybreak he was always well on his way.
+At night he flung himself down among the rocks, and snatched a few hours of sleep; but before daybreak he was always well on his way.
 
 
 On the sixth day, he reached the Eagle Canyon, from which they had commenced their ill-fated flight.
@@ -5278,11 +5245,8 @@ s=cowper;e:cowper=nervous
 “There was some words between young Drebber and young Stangerson as to which was to have her.”
 
 
-“They’d both been in the party that followed them, and Stangerson had shot her father, which seemed to give him the best claim;”
+“They’d both been in the party that followed them, and Stangerson had shot her father, which seemed to give him the best claim; but when they argued it out in council, Drebber’s party was the stronger, so the Prophet gave her over to him.”
 e:cowper=serious
-
-“but when they argued it out in council, Drebber’s party was the stronger, so the Prophet gave her over to him.”
-
 
 “No one won’t have her very long though, for I saw death in her face yesterday. She is more like a ghost than a woman.”
 e:cowper=unhappy
@@ -5311,11 +5275,8 @@ The prediction of the Mormon was only too well fulfilled.
 Whether it was the terrible death of her father or the effects of the hateful marriage into which she had been forced, poor Lucy never held up her head again, but pined away and died within a month.
 
 
-Her sottish husband, who had married her principally for the sake of John Ferrier’s property, did not affect any great grief at his bereavement;
+Her sottish husband, who had married her principally for the sake of John Ferrier’s property, did not affect any great grief at his bereavement; but his other wives mourned over her, and sat up with her the night before the burial, as is the Mormon custom.
 e:drebber=smirking
-
-but his other wives mourned over her, and sat up with her the night before the burial, as is the Mormon custom.
-
 
 They were grouped round the bier in the early hours of the morning, when, to their inexpressible fear and astonishment, the door was flung open, and a savage-looking, weather-beaten man in tattered garments strode into the room.
 e:jefferson=serious
@@ -5455,20 +5416,14 @@ s=jefferson;e:jefferson=neutral
 “My cab’s at the door. If you’ll loose my legs I’ll walk down to it. I’m not so light to lift as I used to be.”
 s=jefferson;e:jefferson=smirking
 
-Gregson and Lestrade exchanged glances as if they thought this proposition rather a bold one;
-s=none;e:gregson=wary;e:lestrade=wary
-
-but Holmes at once took the prisoner at his word, and loosened the towel which we had bound round his ankles.
-e:holmes=neutral
+Gregson and Lestrade exchanged glances as if they thought this proposition rather a bold one; but Holmes at once took the prisoner at his word, and loosened the towel which we had bound round his ankles.
+s=none;e:gregson=wary;e:lestrade=wary;e:holmes=neutral
 
 He rose and stretched his legs, as though to assure himself that they were free once more.
 e:jefferson=neutral
 
-I remember that I thought to myself, as I eyed him, that I had seldom seen a more powerfully built man;
-e:watson=contemplative
-
-and his dark sunburned face bore an expression of determination and energy which was as formidable as his personal strength.
-e:jefferson=serious
+I remember that I thought to myself, as I eyed him, that I had seldom seen a more powerfully built man; and his dark sunburned face bore an expression of determination and energy which was as formidable as his personal strength.
+e:watson=contemplative;e:jefferson=serious
 
 “If there’s a vacant place for a chief of the police, I reckon you are the man for it,” he said, gazing with undisguised admiration at my fellow-lodger.
 s=jefferson;e:jefferson=happy
@@ -5500,11 +5455,8 @@ n:inspector=Inspector
 The official was a white-faced unemotional man, who went through his duties in a dull mechanical way.
 e:inspector=neutral
 
-“The prisoner will be put before the magistrates in the course of the week,” he said;
-s=inspector
-
-“in the meantime, Mr. Jefferson Hope, have you anything that you wish to say? I must warn you that your words will be taken down, and may be used against you.”
-s=inspector;e:inspector=serious
+“The prisoner will be put before the magistrates in the course of the week,” he said; “in the meantime, Mr. Jefferson Hope, have you anything that you wish to say? I must warn you that your words will be taken down, and may be used against you.”
+s=inspector;s=inspector;e:inspector=serious
 
 “I’ve got a good deal to say,” our prisoner said slowly.
 s=jefferson;e:jefferson=serious
@@ -5593,11 +5545,8 @@ e:jefferson=neutral
 I can vouch for the accuracy of the subjoined account, for I have had access to Lestrade’s notebook, in which the prisoner’s words were taken down exactly as they were uttered.
 e:watson=serious
 
-“It don’t much matter to you why I hated these men,” he said;
-s=jefferson;e:jefferson=serious
-
-“it’s enough that they were guilty of the death of two human beings—a father and a daughter—and that they had, therefore, forfeited their own lives.”
-s=jefferson;e:jefferson=angry
+“It don’t much matter to you why I hated these men,” he said; “it’s enough that they were guilty of the death of two human beings—a father and a daughter—and that they had, therefore, forfeited their own lives.”
+s=jefferson;e:jefferson=serious;s=jefferson;e:jefferson=angry
 
 “After the lapse of time that has passed since their crime, it was impossible for me to secure a conviction against them in any court.”
 s=jefferson;e:jefferson=scowling
@@ -5731,11 +5680,8 @@ s=jefferson
 “I could not catch what Stangerson said to that, but the other burst out swearing, and reminded him that he was nothing more than his paid servant, and that he must not presume to dictate to him.”
 s=jefferson
 
-“On that the Secretary gave it up as a bad job, and simply bargained with him that if he missed the last train he should rejoin him at Halliday’s Private Hotel;”
-s=jefferson
-
-“to which Drebber answered that he would be back on the platform before eleven, and made his way out of the station.”
-s=jefferson
+“On that the Secretary gave it up as a bad job, and simply bargained with him that if he missed the last train he should rejoin him at Halliday’s Private Hotel; to which Drebber answered that he would be back on the platform before eleven, and made his way out of the station.”
+s=jefferson;s=jefferson
 
 “The moment for which I had waited so long had at last come.”
 s=jefferson;e:jefferson=excited
