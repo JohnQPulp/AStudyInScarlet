@@ -682,7 +682,7 @@ It ran in this way—
 12. Has a good practical knowledge of British law.
 
 
-When I had got so far in my list I threw it into the fire in despair.
+When I had got so far in my list I threw it into the fire in despair.<e>What an amusing list of quirks this Holmes has. I'm sure they'll remain very consistent over the course of his many books.</e>
 e:watson=weary
 
 “If I can only find what the fellow is driving at by reconciling all these accomplishments, and discovering a calling which needs them all,” I said to myself, “I may as well give up the attempt at once.”
@@ -709,7 +709,10 @@ e:watson=surprised
 There was one little sallow rat-faced, dark-eyed fellow who was introduced to me as Mr. Lestrade, and who came three or four times in a single week.
 n:lestrade=Mr. Lestrade
 
-One morning a young girl called, fashionably dressed, and stayed for half an hour or more. The same afternoon brought a grey-headed, seedy visitor, looking like a Jew pedlar, who appeared to me to be much excited, and who was closely followed by a slipshod elderly woman.
+One morning a young girl called, fashionably dressed, and stayed for half an hour or more.
+
+
+The same afternoon brought a grey-headed, seedy visitor, looking like a Jew pedlar, who appeared to me to be much excited, and who was closely followed by a slipshod elderly woman.<e>Reset the counter.</e>
 
 
 On another occasion an old white-haired gentleman had an interview with my companion; and on another a railway porter in his velveteen uniform.
@@ -733,10 +736,19 @@ e:watson=annoyed
 Then I picked up a magazine from the table and attempted to while away the time with it, while my companion munched silently at his toast. One of the articles had a pencil mark at the heading, and I naturally began to run my eye through it.
 e:watson=neutral
 
-Its somewhat ambitious title was “The Book of Life,” and it attempted to show how much an observant man might learn by an accurate and systematic examination of all that came in his way. It struck me as being a remarkable mixture of shrewdness and of absurdity. The reasoning was close and intense, but the deductions appeared to me to be far-fetched and exaggerated.
+Its somewhat ambitious title was “The Book of Life,” and it attempted to show how much an observant man might learn by an accurate and systematic examination of all that came in his way.
+
+
+It struck me as being a remarkable mixture of shrewdness and of absurdity. The reasoning was close and intense, but the deductions appeared to me to be far-fetched and exaggerated.
 e:watson=suspicious
 
-The writer claimed by a momentary expression, a twitch of a muscle or a glance of an eye, to fathom a man’s inmost thoughts. Deceit, according to him, was an impossibility in the case of one trained to observation and analysis. His conclusions were as infallible as so many propositions of Euclid. So startling would his results appear to the uninitiated that until they learned the processes by which he had arrived at them they might well consider him as a necromancer.
+The writer claimed by a momentary expression, a twitch of a muscle or a glance of an eye, to fathom a man’s inmost thoughts. Deceit, according to him, was an impossibility in the case of one trained to observation and analysis.
+
+
+His conclusions were as infallible as so many propositions of Euclid.<e>What's the fifth postulate of profiling?</e>
+
+
+So startling would his results appear to the uninitiated that until they learned the processes by which he had arrived at them they might well consider him as a necromancer.
 
 
 “From a drop of water,” said the writer, “a logician could infer the possibility of an Atlantic or a Niagara without having seen or heard of one or the other. So all life is a great chain, the nature of which is known whenever we are shown a single link of it.”
@@ -1144,7 +1156,7 @@ Two doors opened out of it to the left and to the right.
 One of these had obviously been closed for many weeks.
 
 
-The other belonged to the dining-room, which was the apartment in which the mysterious affair had occurred.
+The other belonged to the dining-room, which was the apartment in which the mysterious affair had occurred.<e><book>The Mysterious Affair at Styles|At Styles?</book></e>
 
 
 Holmes walked in, and I followed him with that subdued feeling at my heart which the presence of death inspires.
@@ -1222,7 +1234,7 @@ e:holmes=neutral
 “No, sir.”
 s=gregson;e:gregson=confused
 
-“Read it up﻿—you really should. There is nothing new under the sun. It has all been done before.”
+“Read it up﻿—you really should. There is nothing new under the sun. It has all been done before.”<e>Ecclesiastes and its consequences have been a disaster for western literature.</e>
 s=holmes;e:holmes=smirking
 
 As he spoke, his nimble fingers were flying here, there, and everywhere, feeling, pressing, unbuttoning, examining, while his eyes wore the same faraway expression which I have already remarked upon.
@@ -1885,7 +1897,7 @@ e:holmes=contemplative
 “And now for lunch, and then for Norman Neruda. Her attack and her bowing are splendid.”
 e:holmes=happy
 
-“What’s that little thing of Chopin’s she plays so magnificently: Tra-la-la-lira-lira-lay.”
+“What’s that little thing of Chopin’s she plays so magnificently: Tra-la-la-lira-lira-lay.”<e>Here's a blog post from 2009 with the unsourced claim that none other than Raymond Chandler weighed in to call Doyle an idiot for this line: https://sohothedog.blogspot.com/2009/01/three-pipe-problem.html. I want to believe. It brings me joy thinking of Holmes being BTFOd by <book>Farewell, My Lovely|Marlowe</book>.</e>
 e:holmes=excited
 
 Leaning back in the cab, this amateur bloodhound carolled away like a lark while I meditated upon the many-sidedness of the human mind.
@@ -2305,7 +2317,10 @@ The Socialists had many branches in America, and the deceased had, no doubt, inf
 After alluding airily to the Vehmgericht, *aqua Tofana*, Carbonari, the Marchioness de Brinvilliers, the Darwinian theory, the principles of Malthus, and the Ratcliff Highway murders, the article concluded by admonishing the Government and advocating a closer watch over foreigners in England.
 
 
-The *Standard* commented upon the fact that lawless outrages of the sort usually occurred under a Liberal Administration. They arose from the unsettling of the minds of the masses, and the consequent weakening of all authority.
+The *Standard* commented upon the fact that lawless outrages of the sort usually occurred under a Liberal Administration.<e>(This message endorsed by Reform UK.)</e>
+
+
+They arose from the unsettling of the minds of the masses, and the consequent weakening of all authority.
 
 
 The deceased was an American gentleman who had been residing for some weeks in the Metropolis. He had stayed at the boardinghouse of Madame Charpentier, in Torquay Terrace, Camberwell.
@@ -2344,7 +2359,7 @@ A great step had been gained by the discovery of the address of the house at whi
 Sherlock Holmes and I read these notices over together at breakfast, and they appeared to afford him considerable amusement.
 e:holmes=smirking
 
-“I told you that, whatever happened, Lestrade and Gregson would be sure to score.”
+“I told you that, whatever happened, Lestrade and Gregson would be sure to score.”<e>Huh huh huh huh… he said "score".</e>
 s=holmes
 
 “That depends on how it turns out.”
@@ -2356,11 +2371,11 @@ s=holmes;e:holmes=smirking
 “It’s heads I win and tails you lose. Whatever they do, they will have followers. ‘*Un sot trouve toujours un plus sot qui l’admire.*’”
 
 
-“What on earth is this?”
-s=watson;e:watson=surprised
+“What on earth is this?” I cried,
+s=watson;e:watson=surprised;m=allowbreak
 
-I cried, for at this moment there came the pattering of many steps in the hall and on the stairs, accompanied by audible expressions of disgust upon the part of our landlady.
-s=none
+for at this moment there came the pattering of many steps in the hall and on the stairs, accompanied by audible expressions of disgust upon the part of our landlady.
+s=none;m=
 
 “It’s the Baker Street division of the detective police force,” said my companion, gravely;
 s=holmes;e:holmes=serious
@@ -2815,7 +2830,7 @@ e:gregson=surprised
 I stared in silence at Sherlock Holmes, whose lips were compressed and his brows drawn down over his eyes.
 e:watson=serious;e:holmes=contemplative
 
-“Stangerson too!” he muttered. “The plot thickens.”
+“Stangerson too!” he muttered. “The plot thickens.”<e>Twice in one book, Doyle?</e>
 s=holmes;e:holmes=serious
 
 “It was quite thick enough before,” grumbled Lestrade, taking a chair.
@@ -3271,7 +3286,7 @@ r=title
 In the central portion of the great North American Continent there lies an arid and repulsive desert, which for many a long year served as a barrier against the advance of civilisation.
 
 
-From the Sierra Nevada to Nebraska, and from the Yellowstone River in the north to the Colorado upon the south, is a region of desolation and silence.
+From the Sierra Nevada to Nebraska, and from the Yellowstone River in the north to the Colorado upon the south, is a region of desolation and silence.<e>Because when I think Yellowstone, I think "repulsive desert". (Also: wait what are we talking about now.)</e>
 
 
 Nor is Nature always in one mood throughout this grim district.
@@ -3295,7 +3310,7 @@ The coyote skulks among the scrub, the buzzard flaps heavily through the air, an
 These are the sole dwellers in the wilderness.
 
 
-In the whole world there can be no more dreary view than that from the northern slope of the Sierra Blanco.
+In the whole world there can be no more dreary view than that from the northern slope of the Sierra Blanco.<e>How about the moors, you British ass. (Also: not a real mountain, obviously.)</e>
 
 
 As far as the eye can reach stretches the great flat plain-land, all dusted over with patches of alkali, and intersected by clumps of the dwarfish chaparral bushes.
@@ -3313,7 +3328,7 @@ There is no bird in the steel-blue heaven, no movement upon the dull, grey earth
 Listen as one may, there is no shadow of a sound in all that mighty wilderness; nothing but silence﻿—complete and heart-subduing silence.
 
 
-It has been said there is nothing appertaining to life upon the broad plain.
+It has been said there is nothing appertaining to life upon the broad plain.<e>It has been said… three sentences ago??? (Dear reader, can you tell this book was written in three weeks?)</e>
 
 
 That is hardly true. Looking down from the Sierra Blanco, one sees a pathway traced out across the desert, which winds away and is lost in the extreme distance.
@@ -3688,7 +3703,7 @@ e:ferrier=confused
 “This is what they call delirium, I guess,” he muttered.
 s=ferrier;e:ferrier=weary
 
-The child stood beside him, holding on to the skirt of his coat, and said nothing but looked all round her with the wondering questioning gaze of childhood.
+The child stood beside him, holding on to the skirt of his coat, and said nothing but looked all round her with the wondering questioning gaze of childhood.<e>You can't write "child" twice in one sentence like that, Doyle. That's not how prose works. And furthermore: <i>what the actual fuck is going on</i>.</e>
 s=none;e:lucy=curious
 
 The rescuing party were speedily able to convince the two castaways that their appearance was no delusion.
@@ -3754,7 +3769,7 @@ Their escort did not halt, however, but pushed on, followed by a great crowd of 
 Six horses were yoked to it, whereas the others were furnished with two, or, at most, four apiece.
 
 
-Beside the driver there sat a man who could not have been more than thirty years of age, but whose massive head and resolute expression marked him as a leader.
+Beside the driver there sat a man who could not have been more than thirty years of age, but whose massive head and resolute expression marked him as a leader.<e>Lest you think you're no longer reading a Doyle novel: some phrenology to pull you back in.</e>
 n:brigham=?
 
 He was reading a brown-backed volume, but as the crowd approached he laid it aside, and listened attentively to an account of the episode.
@@ -3805,7 +3820,7 @@ This is not the place to commemorate the trials and privations endured by the im
 From the shores of the Mississippi to the western slopes of the Rocky Mountains they had struggled on with a constancy almost unparalleled in history.
 
 
-The savage man, and the savage beast, hunger, thirst, fatigue, and disease—every impediment which Nature could place in the way, had all been overcome with Anglo-Saxon tenacity.
+The savage man, and the savage beast, hunger, thirst, fatigue, and disease—every impediment which Nature could place in the way, had all been overcome with Anglo-Saxon tenacity.<e>Banger sentence, Doyle. (And so we're uh… sticking with this new plot, hah?)</e>
 
 
 Yet the long journey and the accumulated terrors had shaken the hearts of the stoutest among them.
@@ -4057,7 +4072,7 @@ e:jefferson=happy;e:ferrier=happy
 John, cooped up in the valley, and absorbed in his work, had had little chance of learning the news of the outside world during the last twelve years.
 
 
-All this Jefferson Hope was able to tell him, and in a style which interested Lucy as well as her father.
+All this Jefferson Hope was able to tell him, and in a style which interested Lucy as well as her father.<e>Great sentence construction.</e>
 e:lucy=curious
 
 He had been a pioneer in California, and could narrate many a strange tale of fortunes made and fortunes lost in those wild, halcyon days.
@@ -4159,10 +4174,7 @@ The victims of persecution had now turned persecutors on their own account, and 
 Not the Inquisition of Seville, nor the German Vehmgericht, nor the Secret Societies of Italy, were ever able to put a more formidable machinery in motion than that which cast a cloud over the State of Utah.
 
 
-Its invisibility, and the mystery which was attached to it, made this organization doubly terrible.
-
-
-It appeared to be omniscient and omnipotent, and yet was neither seen nor heard.
+Its invisibility, and the mystery which was attached to it, made this organization doubly terrible. It appeared to be omniscient and omnipotent, and yet was neither seen nor heard.
 
 
 The man who held out against the Church vanished away, and none knew whither he had gone or what had befallen him.
@@ -4177,10 +4189,7 @@ A rash word or a hasty act was followed by annihilation, and yet none knew what 
 No wonder that men went about in fear and trembling, and that even in the heart of the wilderness they dared not whisper the doubts which oppressed them.
 
 
-At first this vague and terrible power was exercised only upon the recalcitrants who, having embraced the Mormon faith, wished afterwards to pervert or to abandon it.
-
-
-Soon, however, it took a wider range.
+At first this vague and terrible power was exercised only upon the recalcitrants who, having embraced the Mormon faith, wished afterwards to pervert or to abandon it. Soon, however, it took a wider range.
 
 
 The supply of adult women was running short, and polygamy without a female population on which to draw was a barren doctrine indeed.
@@ -4213,7 +4222,7 @@ The names of the participators in the deeds of blood and violence done under the
 The very friend to whom you communicated your misgivings as to the Prophet and his mission, might be one of those who would come forth at night with fire and sword to exact a terrible reparation.
 
 
-Hence every man feared his neighbour, and none spoke of the things which were nearest his heart.
+Hence every man feared his neighbour, and none spoke of the things which were nearest his heart.<e>On the one hand: "Source? I made it up." On the other: the Mormons kind of have it coming for <book>How Few Remain|Timeline-191</book></e>
 
 
 One fine morning, John Ferrier was about to set out to his wheatfields, when he heard the click of the latch, and, looking through the window, saw a stout, sandy-haired, middle-aged man coming up the pathway.
@@ -6238,7 +6247,7 @@ e:holmes=serious
 “I then proceeded to make a careful examination of the room, which confirmed me in my opinion as to the murderer’s height, and furnished me with the additional details as to the Trichinopoly cigar and the length of his nails.”
 e:holmes=thinking
 
-“I had already come to the conclusion, since there were no signs of a struggle, that the blood which covered the floor had burst from the murderer’s nose in his excitement.”
+“I had already come to the conclusion, since there were no signs of a struggle, that the blood which covered the floor had burst from the murderer’s nose in his excitement.”<e>Follow the memetic trail, and you'll see that nosebleeds from excitement in Victorian literature share the same root as nosebleeds from arousal in anime. (This means that Sherlock Holmes is, canonically, shit.)</e>
 
 
 “I could perceive that the track of blood coincided with the track of his feet.”
@@ -6352,5 +6361,5 @@ e:watson=happy
 “*Populus me sibilat, at mihi plaudo*<br>*Ipse domi simul ac nummos contemplor in arca.*”
 
 
-<e>The End. TODO.</e>
+<e>The End, ending with untranslated Latin. A final middle finger to the audience. Doyle, this book was objectively hot garbage, and yet I can't help but be in awe by the baffling decisions you've made.</e>
 s=
