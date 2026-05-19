@@ -643,47 +643,23 @@ e:watson=happy
 It ran in this way—
 
 
-**Sherlock Holmes—His Limits.**
+<div class='center'>**Sherlock Holmes—His Limits.**</div><div class='faketable'><span>1. Knowledge of Literature.</span> <span>Nil.</span></div><div class='faketable'><span>2. Philosophy.</span> <span>Nil.</span></div><div class='faketable'><span>3. Astronomy.</span> <span>Nil.</span></div>
+m=margin
+
+<div class='faketable'><span>4. Politics.</span> <span>Feeble.</span></div><div class='faketable'><span>5. Botany.</span> <span>Variable. Well up in belladonna, opium, and poisons generally. Knows nothing of practical gardening.</span></div>
 
 
-1. Knowledge of Literature. Nil.
+<div class='faketable'><span>6. Geology.</span> <span>Practical, but limited. Tells at a glance different soils from each other. After walks has shown me splashes upon his trousers, and told me by their colour and consistence in what part of London he had received them.</span></div>
 
 
-2. Philosophy. Nil.
+<div class='faketable'><span>7. Chemistry.</span> <span>Profound.</span></div><div class='faketable'><span>8. Anatomy.</span> <span>Accurate, but unsystematic.</span></div><div class='faketable'><span>9. Sensational Literature.</span> <span>Immense. He appears to know every detail of every horror perpetrated in the century.</span></div>
 
 
-3. Astronomy. Nil.
-
-
-4. Politics. Feeble.
-
-
-5. Botany. Variable. Well up in belladonna, opium, and poisons generally. Knows nothing of practical gardening.
-
-
-6. Geology. Practical, but limited. Tells at a glance different soils from each other. After walks has shown me splashes upon his trousers, and told me by their colour and consistence in what part of London he had received them.
-
-
-7. Chemistry. Profound.
-
-
-8. Anatomy. Accurate, but unsystematic.
-
-
-9. Sensational Literature. Immense. He appears to know every detail of every horror perpetrated in the century.
-
-
-10. Plays the violin well.
-
-
-11. Is an expert singlestick player, boxer, and swordsman.
-
-
-12. Has a good practical knowledge of British law.
+10. Plays the violin well.<br>11. Is an expert singlestick player, boxer, and swordsman.<br>12. Has a good practical knowledge of British law.
 
 
 When I had got so far in my list I threw it into the fire in despair.<e>What an amusing list of quirks this Holmes has. I'm sure they'll remain very consistent over the course of his many books.</e>
-e:watson=weary
+e:watson=weary;m=
 
 “If I can only find what the fellow is driving at by reconciling all these accomplishments, and discovering a calling which needs them all,” I said to myself, “I may as well give up the attempt at once.”
 s=watson;e:watson=annoyed
@@ -961,8 +937,8 @@ s=holmes;e:holmes=neutral
 This is the letter which I read to him﻿—
 s=none;e:watson=serious
 
-My Dear Mr. Sherlock Holmes﻿—
-
+<span class='upper'>My Dear Mr. Sherlock Holmes﻿—</span>
+m=margin
 
 There has been a bad business during the night at 3, Lauriston Gardens, off the Brixton Road.
 n:gregson=Tobias Gregson
@@ -991,11 +967,11 @@ I have left everything *in statu quo* until I hear from you.
 If you are unable to come I shall give you fuller details, and would esteem it a great kindness if you would favour me with your opinion.
 
 
-Yours faithfully,<br>Tobias Gregson
+<div class='fright'>Yours faithfully,<br><span class='upper'>Tobias Gregson</span></div>
 
 
 “Gregson is the smartest of the Scotland Yarders,” my friend remarked; “he and Lestrade are the pick of a bad lot. They are both quick and energetic, but conventional﻿—shockingly so.”
-s=holmes;e:holmes=smirking
+s=holmes;e:holmes=smirking;m=
 
 “They have their knives into one another, too. They are as jealous as a pair of professional beauties. There will be some fun over this case if they are both put upon the scent.”
 
@@ -1369,10 +1345,7 @@ s=none;e:watson=serious
 In this particular corner of the room a large piece had peeled off, leaving a yellow square of coarse plastering.
 
 
-Across this bare space there was scrawled in bloodred letters a single word﻿—
-
-
-Rache
+<div>Across this bare space there was scrawled in bloodred letters a single word﻿—</div><br><div class='center upper'>Rache</div>
 
 
 “What do you think of that?” cried the detective, with the air of a showman exhibiting his show.
@@ -5134,7 +5107,7 @@ As the young hunter approached it, he perceived that a stick had been planted on
 The inscription upon the paper was brief, but to the point:
 
 
-John Ferrier<br>Formerly of Salt Lake City<br>Died August 4th, 1860.
+<div class='center upper'>John Ferrier<br>Formerly of Salt Lake City<br>Died August 4th, 1860.</div>
 
 
 The sturdy old man, whom he had left so short a time before, was gone, then, and this was all his epitaph.
@@ -6326,7 +6299,7 @@ It was the *Echo* for the day, and the paragraph to which he pointed was devoted
 s=none;e:watson=neutral
 
 “The public,” it said, “have lost a sensational treat through the sudden death of the man Hope, who was suspected of the murder of Mr. Enoch Drebber and of Mr. Joseph Stangerson.”
-
+m=margin
 
 “The details of the case will probably be never known now, though we are informed upon good authority that the crime was the result of an old standing and romantic feud, in which love and Mormonism bore a part.”
 
@@ -6347,7 +6320,7 @@ s=none;e:watson=neutral
 
 
 “Didn’t I tell you so when we started?” cried Sherlock Holmes with a laugh.
-s=holmes;e:holmes=happy
+s=holmes;e:holmes=happy;m=
 
 “That’s the result of all our Study in Scarlet: to get them a testimonial!”
 
@@ -6359,7 +6332,7 @@ s=watson;e:watson=smirking
 e:watson=happy
 
 “*Populus me sibilat, at mihi plaudo*<br>*Ipse domi simul ac nummos contemplor in arca.*”
-
+m=margin
 
 <e>The End, ending with untranslated Latin. A final middle finger to the audience. Doyle, this book was objectively hot garbage, and yet I can't help but be in awe by the baffling decisions you've made.</e>
-s=
+s=;m=
