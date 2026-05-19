@@ -13,5 +13,5 @@
   },
   "blurb": "foo",
   "blurb2": "bar",
-  "useAvif": "true"
+  "useAvif": true
 }
