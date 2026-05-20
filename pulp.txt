@@ -1,11 +1,11 @@
 A Study in Scarlet<br>Arthur Conan Doyle<e>TODO</e>
-
+b=title;t=author
 
 ## Part I<br>Being a Reprint from the Reminiscences of John H. Watson, M.D., Late of the Army Medical Department
-
+r=title
 
 ### I<br>Mr. Sherlock Holmes
-r=title
+r=london-wide
 
 In the year 1878 I took my degree of Doctor of Medicine of the University of London, and proceeded to Netley to go through the course prescribed for surgeons in the army.
 n:watson=Dr. Watson;e:watson=neutral
@@ -14,7 +14,7 @@ Having completed my studies there, I was duly attached to the Fifth Northumberla
 
 
 The regiment was stationed in India at the time, and before I could join it, the second Afghan war had broken out.
-
+b=afghanistan
 
 On landing at Bombay, I learned that my corps had advanced through the passes, and was already deep in the enemy’s country.
 
@@ -29,13 +29,13 @@ I was removed from my brigade and attached to the Berkshires, with whom I served
 
 
 There I was struck on the shoulder by a Jezail bullet, which shattered the bone and grazed the subclavian artery.
-e:watson=weary
+e:watson=weary;f:b:afghanistan=blur(3px)
 
 I should have fallen into the hands of the murderous Ghazis had it not been for the devotion and courage shown by Murray, my orderly, who threw me across a packhorse, and succeeded in bringing me safely to the British lines.
 e:watson=neutral
 
 Worn with pain, and weak from the prolonged hardships which I had undergone, I was removed, with a great train of wounded sufferers, to the base hospital at Peshawar.
-e:watson=weary
+e:watson=weary;b=peshawar
 
 Here I rallied, and had already improved so far as to be able to walk about the wards, and even to bask a little upon the verandah, when I was struck down by enteric fever, that curse of our Indian possessions.
 
@@ -44,13 +44,13 @@ For months my life was despaired of, and when at last I came to myself and becam
 
 
 I was dispatched, accordingly, in the troopship *Orontes*, and landed a month later on Portsmouth jetty, with my health irretrievably ruined, but with permission from a paternal government to spend the next nine months in attempting to improve it.
-e:watson=contemplative
+e:watson=contemplative;b=portsmouth
 
 I had neither kith nor kin in England, and was therefore as free as air﻿—or as free as an income of eleven shillings and sixpence a day will permit a man to be.
 
 
 Under such circumstances, I naturally gravitated to London, that great cesspool into which all the loungers and idlers of the Empire are irresistibly drained.
-
+b=london-wide
 
 There I stayed for some time at a private hotel in the Strand, leading a comfortless, meaningless existence, and spending such money as I had, considerably more freely than I ought.
 e:watson=unhappy
@@ -62,7 +62,7 @@ Choosing the latter alternative, I began by making up my mind to leave the hotel
 
 
 On the very day that I had come to this conclusion, I was standing at the Criterion Bar, when someone tapped me on the shoulder, and turning round I recognized young Stamford, who had been a dresser under me at Barts.
-n:stamford=Stamford;e:stamford=neutral;e:watson=surprised
+n:stamford=Stamford;e:stamford=neutral;e:watson=surprised;b=criterion
 
 The sight of a friendly face in the great wilderness of London is a pleasant thing indeed to a lonely man.
 e:watson=happy
@@ -71,22 +71,25 @@ In old days Stamford had never been a particular crony of mine, but now I hailed
 e:stamford=happy
 
 In the exuberance of my joy, I asked him to lunch with me at the Holborn, and we started off together in a hansom.
-
+b=london-hansom
 
 “Whatever have you been doing with yourself, Watson?” he asked in undisguised wonder, as we rattled through the crowded London streets.
-s=stamford;e:stamford=surprised
+s=stamford;e:stamford=curious;x:stamford=hat;x:watson=hat
 
 “You are as thin as a lath and as brown as a nut.”
 
 
-I gave him a short sketch of my adventures, and had hardly concluded it by the time that we reached our destination.
-s=none;e:watson=neutral;e:stamford=neutral
+I gave him a short sketch of my adventures,
+s=none;e:watson=neutral;e:stamford=neutral;m=allowbreak
+
+and had hardly concluded it by the time that we reached our destination.
+m=;b=holborn;x:watson=;x:stamford=
 
 “Poor devil!” he said, commiseratingly, after he had listened to my misfortunes.
-s=stamford;e:stamford=sadsmile
+s=stamford;e:stamford=serious
 
 “What are you up to now?”
-
+e:stamford=
 
 “Looking for lodgings,” I answered.
 s=watson;e:watson=contemplative
@@ -110,7 +113,7 @@ s=stamford;e:stamford=neutral
 s=watson;e:watson=excited
 
 “I should prefer having a partner to being alone.”
-
+e:watson=
 
 Young Stamford looked rather strangely at me over his wineglass.
 s=none;e:stamford=wary
@@ -121,14 +124,8 @@ s=stamford
 “Why, what is there against him?”
 s=watson;e:watson=curious
 
-“Oh, I didn’t say there was anything against him.”
+“Oh, I didn’t say there was anything against him. He is a little queer in his ideas﻿—an enthusiast in some branches of science. As far as I know he is a decent fellow enough.”
 s=stamford;e:stamford=neutral
-
-“He is a little queer in his ideas﻿—an enthusiast in some branches of science.”
-
-
-“As far as I know he is a decent fellow enough.”
-
 
 “A medical student, I suppose?” said I.
 s=watson
@@ -154,95 +151,77 @@ s=watson;e:watson=contemplative
 “If I am to lodge with anyone, I should prefer a man of studious and quiet habits.”
 
 
-“I am not strong enough yet to stand much noise or excitement.”
+“I am not strong enough yet to stand much noise or excitement. I had enough of both in Afghanistan to last me for the remainder of my natural existence.”
 e:watson=weary
 
-“I had enough of both in Afghanistan to last me for the remainder of my natural existence.”
-
-
 “How could I meet this friend of yours?”
-e:watson=curious
+e:watson=thinking
 
 “He is sure to be at the laboratory,” returned my companion.
 s=stamford;e:stamford=neutral
 
-“He either avoids the place for weeks, or else he works there from morning to night.”
+“He either avoids the place for weeks, or else he works there from morning to night. If you like, we shall drive round together after luncheon.”
 
 
-“If you like, we shall drive round together after luncheon.”
+“Certainly,” I answered,
+s=watson;e:watson=happy;m=allowbreak
 
-
-“Certainly,” I answered, and the conversation drifted away into other channels.
-s=watson;e:watson=happy
+and the conversation drifted away into other channels.
+m=;s=
 
 As we made our way to the hospital after leaving the Holborn, Stamford gave me a few more particulars about the gentleman whom I proposed to take as a fellow-lodger.
-s=none;e:watson=neutral
+s=none;e:watson=neutral;b=london-wide;x:watson=hat;x:stamford=hat
 
 “You mustn’t blame me if you don’t get on with him,” he said; “I know nothing more of him than I have learned from meeting him occasionally in the laboratory.”
 s=stamford;e:stamford=wary
 
 “You proposed this arrangement, so you must not hold me responsible.”
-
+e:stamford=serious
 
 “If we don’t get on it will be easy to part company,” I answered.
-s=watson;e:watson=neutral
+s=watson;e:watson=thinking
 
 “It seems to me, Stamford,” I added, looking hard at my companion, “that you have some reason for washing your hands of the matter.”
+e:watson=suspiciouslook
+
+“Is this fellow’s temper so formidable, or what is it? Don’t be mealymouthed about it.”
 e:watson=suspicious
 
-“Is this fellow’s temper so formidable, or what is it?”
-
-
-“Don’t be mealymouthed about it.”
-
-
 “It is not easy to express the inexpressible,” he answered with a laugh.
-s=stamford;e:stamford=happy
+s=stamford;e:stamford=smirking
 
 “Holmes is a little too scientific for my tastes﻿—it approaches to cold-bloodedness.”
-e:stamford=wary
+e:stamford=serious
 
 “I could imagine his giving a friend a little pinch of the latest vegetable alkaloid, not out of malevolence, you understand, but simply out of a spirit of inquiry in order to have an accurate idea of the effects.”
 
 
-“To do him justice, I think that he would take it himself with the same readiness.”
-
-
-“He appears to have a passion for definite and exact knowledge.”
-
+“To do him justice, I think that he would take it himself with the same readiness. He appears to have a passion for definite and exact knowledge.”
+e:stamford=thinking
 
 “Very right too.”
 s=watson;e:watson=neutral
 
-“Yes, but it may be pushed to excess.”
+“Yes, but it may be pushed to excess. When it comes to beating the subjects in the dissecting-rooms with a stick, it is certainly taking rather a bizarre shape.”
 s=stamford;e:stamford=serious
-
-“When it comes to beating the subjects in the dissecting-rooms with a stick, it is certainly taking rather a bizarre shape.”
-
 
 “Beating the subjects!”
 s=watson;e:watson=surprised
 
-“Yes, to verify how far bruises may be produced after death.”
+“Yes, to verify how far bruises may be produced after death. I saw him at it with my own eyes.”
 s=stamford
 
-“I saw him at it with my own eyes.”
-
-
 “And yet you say he is not a medical student?”
-s=watson;e:watson=curious
+s=watson;e:watson=confused
 
-“No.”
-s=stamford;e:stamford=neutral
-
-“Heaven knows what the objects of his studies are.”
-
+“No. Heaven knows what the objects of his studies are.”
+s=stamford;e:stamford=contemplative
 
 “But here we are, and you must form your own impressions about him.”
-
+e:stamford=
 
 As he spoke, we turned down a narrow lane and passed through a small side-door, which opened into a wing of the great hospital.
-s=none
+s=none;b=hospital-wing
 
 It was familiar ground to me, and I needed no guiding as we ascended the bleak stone staircase and made our way down the long corridor with its vista of whitewashed wall and dun-coloured doors.
 
@@ -251,7 +230,7 @@ Near the further end a low arched passage branched away from it and led to the c
 
 
 This was a lofty chamber, lined and littered with countless bottles.
-
+b=hospital-lab
 
 Broad, low tables were scattered about, which bristled with retorts, test-tubes, and little Bunsen lamps, with their blue flickering flames.
 
@@ -263,10 +242,10 @@ At the sound of our steps he glanced round and sprang to his feet with a cry of 
 e:holmes=excited
 
 “I’ve found it! I’ve found it,” he shouted to my companion, running towards us with a test-tube in his hand.
-s=holmes
+s=holmes;x:watson=;x:stamford=;x:holmes=lab
 
 “I have found a reagent which is precipitated by haemoglobin, and by nothing else.”
-
+e:holmes=happy
 
 Had he discovered a gold mine, greater delight could not have shone upon his features.
 s=none
@@ -278,7 +257,7 @@ s=stamford;e:stamford=happy;n:holmes=Sherlock Holmes
 s=holmes;e:holmes=happy
 
 “You have been in Afghanistan, I perceive.”
-
+e:holmes=
 
 “How on earth did you know that?” I asked in astonishment.
 s=watson;e:watson=surprised
@@ -286,10 +265,7 @@ s=watson;e:watson=surprised
 “Never mind,” said he, chuckling to himself.
 s=holmes;e:holmes=smirking
 
-“The question now is about haemoglobin.”
-
-
-“No doubt you see the significance of this discovery of mine?”
+“The question now is about haemoglobin. No doubt you see the significance of this discovery of mine?”
 e:holmes=excited
 
 “It is interesting, chemically, no doubt,” I answered, “but practically﻿—”
@@ -298,29 +274,26 @@ s=watson;e:watson=contemplative
 “Why, man, it is the most practical medico-legal discovery for years.”
 s=holmes;e:holmes=excited
 
-“Don’t you see that it gives us an infallible test for blood stains?”
-
-
-“Come over here now!”
+“Don’t you see that it gives us an infallible test for blood stains? Come over here now!”
 
 
 He seized me by the coat-sleeve in his eagerness, and drew me over to the table at which he had been working.
 s=none
 
-“Let us have some fresh blood,” he said, digging a long bodkin into his finger, and drawing off the resulting drop of blood in a chemical pipette.
-s=holmes;e:holmes=serious
+“Let us have some fresh blood,” he said, digging a long bodkin into his finger,
+s=holmes;e:holmes=blooding;m=allowbreak
+
+and drawing off the resulting drop of blood in a chemical pipette.
+m=;s=
 
 “Now, I add this small quantity of blood to a litre of water.”
+s=holmes;e:holmes=serious
 
-
-“You perceive that the resulting mixture has the appearance of pure water.”
-
-
-“The proportion of blood cannot be more than one in a million.”
+“You perceive that the resulting mixture has the appearance of pure water. The proportion of blood cannot be more than one in a million.”
 
 
 “I have no doubt, however, that we shall be able to obtain the characteristic reaction.”
-
+e:holmes=smirking;i=2
 
 As he spoke, he threw into the vessel a few white crystals, and then added some drops of a transparent fluid.
 s=none
@@ -329,7 +302,7 @@ In an instant the contents assumed a dull mahogany colour, and a brownish dust w
 
 
 “Ha! ha!” he cried, clapping his hands, and looking as delighted as a child with a new toy.
-s=holmes;e:holmes=happy
+s=holmes;e:holmes=happyclapping
 
 “What do you think of that?”
 e:holmes=excited
@@ -340,14 +313,8 @@ s=watson;e:watson=neutral
 “Beautiful! beautiful!”
 s=holmes;e:holmes=excited
 
-“The old Guaiacum test was very clumsy and uncertain.”
+“The old Guaiacum test was very clumsy and uncertain. So is the microscopic examination for blood corpuscles. The latter is valueless if the stains are a few hours old.”
 e:holmes=scowling
-
-“So is the microscopic examination for blood corpuscles.”
-
-
-“The latter is valueless if the stains are a few hours old.”
-
 
 “Now, this appears to act as well whether the blood is old or new.”
 e:holmes=happy
@@ -356,15 +323,12 @@ e:holmes=happy
 e:holmes=serious
 
 “Indeed!” I murmured.
-s=watson
+s=watson;e:watson=serious
 
 “Criminal cases are continually hinging upon that one point.”
 s=holmes;e:holmes=thinking
 
-“A man is suspected of a crime months perhaps after it has been committed.”
-
-
-“His linen or clothes are examined, and brownish stains discovered upon them.”
+“A man is suspected of a crime months perhaps after it has been committed. His linen or clothes are examined, and brownish stains discovered upon them.”
 
 
 “Are they blood stains, or mud stains, or rust stains, or fruit stains, or what are they?”
@@ -382,11 +346,8 @@ s=none
 “You are to be congratulated,” I remarked, considerably surprised at his enthusiasm.
 s=watson;e:watson=surprised
 
-“There was the case of Von Bischoff at Frankfort last year.”
+“There was the case of Von Bischoff at Frankfort last year. He would certainly have been hung had this test been in existence.”
 s=holmes;e:holmes=serious
-
-“He would certainly have been hung had this test been in existence.”
-
 
 “Then there was Mason of Bradford, and the notorious Muller, and Lefevre of Montpellier, and Samson of New Orleans.”
 
@@ -401,10 +362,10 @@ s=stamford;e:stamford=happy
 
 
 “Very interesting reading it might be made, too,” remarked Sherlock Holmes, sticking a small piece of plaster over the prick on his finger.
-s=holmes;e:holmes=neutral
+s=holmes;e:holmes=neutralplastering
 
 “I have to be careful,” he continued, turning to me with a smile, “for I dabble with poisons a good deal.”
-e:holmes=smirking
+e:holmes=smirkinghand
 
 He held out his hand as he spoke, and I noticed that it was all mottled over with similar pieces of plaster, and discoloured with strong acids.
 s=none;e:watson=wary
@@ -430,10 +391,7 @@ s=watson;e:watson=neutral
 “That’s good enough.”
 s=holmes;e:holmes=happy
 
-“I generally have chemicals about, and occasionally do experiments.”
-
-
-“Would that annoy you?”
+“I generally have chemicals about, and occasionally do experiments. Would that annoy you?”
 e:holmes=curious
 
 “By no means.”
@@ -442,14 +400,8 @@ s=watson
 “Let me see﻿—what are my other shortcomings?”
 s=holmes;e:holmes=thinking
 
-“I get in the dumps at times, and don’t open my mouth for days on end.”
-e:holmes=weary
-
-“You must not think I am sulky when I do that.”
-
-
-“Just let me alone, and I’ll soon be right.”
-e:holmes=neutral
+“I get in the dumps at times, and don’t open my mouth for days on end. You must not think I am sulky when I do that. Just let me alone, and I’ll soon be right.”
+e:holmes=serious
 
 “What have you to confess now?”
 e:holmes=curious
@@ -461,7 +413,7 @@ I laughed at this cross-examination.
 s=none;e:watson=happy
 
 “I keep a bull pup,” I said, “and I object to rows because my nerves are shaken, and I get up at all sorts of ungodly hours, and I am extremely lazy.”
-s=watson;e:watson=nervous
+s=watson;e:watson=smirking
 
 “I have another set of vices when I’m well, but those are the principal ones at present.”
 e:watson=sadsmile
@@ -473,7 +425,7 @@ s=holmes;e:holmes=wary
 s=watson;e:watson=smirking
 
 “A well-played violin is a treat for the gods﻿—a badly-played one﻿—”
-
+e:watson=thinking
 
 “Oh, that’s all right,” he cried, with a merry laugh.
 s=holmes;e:holmes=happy
@@ -490,11 +442,14 @@ s=holmes;e:holmes=neutral
 “All right﻿—noon exactly,” said I, shaking his hand.
 s=watson;e:watson=happy
 
-We left him working among his chemicals, and we walked together towards my hotel.
-s=none;e:watson=neutral
+We left him working among his chemicals,
+s=none;e:watson=neutral;m=allowbreak
+
+and we walked together towards my hotel.
+m=;b=london-street;x:watson=hat;x:stamford=hat
 
 “By the way,” I asked suddenly, stopping and turning upon Stamford, “how the deuce did he know that I had come from Afghanistan?”
-s=watson;e:watson=surprised
+s=watson;e:watson=confusedlook
 
 My companion smiled an enigmatical smile.
 s=none;e:stamford=smirking
@@ -506,13 +461,10 @@ s=stamford
 
 
 “Oh! a mystery is it?” I cried, rubbing my hands.
-s=watson;e:watson=excited
+s=watson;e:watson=happyrubbing
 
-“This is very piquant.”
-s=watson
-
-“I am much obliged to you for bringing us together.”
-
+“This is very piquant. I am much obliged to you for bringing us together.”
+s=watson;e:watson=smirking
 
 “‘The proper study of mankind is man,’ you know.”
 e:watson=smirking
@@ -520,17 +472,17 @@ e:watson=smirking
 “You must study him, then,” Stamford said, as he bade me goodbye.
 s=stamford;e:stamford=happy
 
-“You’ll find him a knotty problem, though.”
+“You’ll find him a knotty problem, though. I’ll wager he learns more about you than you about him.”
 e:stamford=smirking
-
-“I’ll wager he learns more about you than you about him.”
-
 
 “Goodbye.”
 e:stamford=neutral
 
-“Goodbye,” I answered, and strolled on to my hotel, considerably interested in my new acquaintance.
-s=watson;e:watson=contemplative
+“Goodbye,” I answered,
+s=watson;e:watson=contemplative;m=allowbreak
+
+and strolled on to my hotel, considerably interested in my new acquaintance.
+m=;s=
 
 ### II<br>The Science of Deduction
 r=title
