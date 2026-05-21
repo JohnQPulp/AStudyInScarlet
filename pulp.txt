@@ -2036,25 +2036,25 @@ s=none;e:watson=contemplative
 r=title
 
 Our morning’s exertions had been too much for my weak health, and I was tired out in the afternoon.
-e:watson=weary
+e:watson=weary;b=baker-sitting
 
 After Holmes’ departure for the concert, I lay down upon the sofa and endeavoured to get a couple of hours’ sleep.
 
 
 It was a useless attempt. My mind had been too much excited by all that had occurred, and the strangest fancies and surmises crowded into it.
-e:watson=thinking
+e:watson=thinking;f:b:baker-sitting=blur(3px)
 
 Every time that I closed my eyes I saw before me the distorted baboon-like countenance of the murdered man.
-e:watson=fearful
+e:watson=fearful;b=three-body;f:b:three-body=blur(3px)
 
-So sinister was the impression which that face had produced upon me that I found it difficult to feel anything but gratitude for him who had removed its owner from the world.
+So sinister was the impression which that face had produced upon me that I found it difficult to feel anything but gratitude for him who had removed its owner from the world.<e>Retroactive <book>Jekyll and Hyde</book> plagiarism.</e>
 e:watson=contemplative
 
-If ever human features bespoke vice of the most malignant type, they were certainly those of Enoch J. Drebber, of Cleveland.
+If ever human features bespoke vice of the most malignant type, they were certainly those of Enoch J. Drebber, of Cleveland.<e>This sentence could be improved by shortening: "If ever human features bespoke vice of the most malignant type, Cleveland."</e>
 e:watson=serious
 
 Still I recognized that justice must be done, and that the depravity of the victim was no condonement in the eyes of the law.
-
+b=baker-sitting
 
 The more I thought of it the more extraordinary did my companion’s hypothesis, that the man had been poisoned, appear.
 e:watson=thinking
@@ -2063,12 +2063,9 @@ I remembered how he had sniffed his lips, and had no doubt that he had detected 
 
 
 Then, again, if not poison, what had caused the man’s death, since there was neither wound nor marks of strangulation?
-e:watson=confused
-
-But, on the other hand, whose blood was that which lay so thickly upon the floor?
 
 
-There were no signs of a struggle, nor had the victim any weapon with which he might have wounded an antagonist.
+But, on the other hand, whose blood was that which lay so thickly upon the floor? There were no signs of a struggle, nor had the victim any weapon with which he might have wounded an antagonist.
 
 
 As long as all these questions were unsolved, I felt that sleep would be no easy matter, either for Holmes or myself.
@@ -2077,11 +2074,8 @@ e:watson=weary
 His quiet self-confident manner convinced me that he had already formed a theory which explained all the facts, though what it was I could not for an instant conjecture.
 e:watson=thinking
 
-He was very late in returning﻿—so late, that I knew that the concert could not have detained him all the time.
-e:watson=curious
-
-Dinner was on the table before he appeared.
-
+He was very late in returning﻿—so late, that I knew that the concert could not have detained him all the time. Dinner was on the table before he appeared.
+b=baker-dining-night
 
 “It was magnificent,” he said, as he took his seat.
 s=holmes;e:holmes=happy
@@ -2101,8 +2095,11 @@ s=holmes;e:holmes=smirking
 “What’s the matter? You’re not looking quite yourself. This Brixton Road affair has upset you.”
 e:holmes=curious
 
-“To tell the truth, it has,” I said. “I ought to be more case-hardened after my Afghan experiences. I saw my own comrades hacked to pieces at Maiwand without losing my nerve.”
+“To tell the truth, it has,” I said.
 s=watson;e:watson=weary
+
+“I ought to be more case-hardened after my Afghan experiences. I saw my own comrades hacked to pieces at Maiwand without losing my nerve.”
+
 
 “I can understand. There is a mystery about this which stimulates the imagination; where there is no imagination there is no horror.”
 s=holmes;e:holmes=contemplative
@@ -2137,8 +2134,11 @@ s=holmes;e:holmes=smirking
 “That is all right,” I answered. “But supposing anyone applies, I have no ring.”
 s=watson;e:watson=confused
 
-“Oh yes, you have,” said he, handing me one. “This will do very well. It is almost a facsimile.”
+“Oh yes, you have,” said he, handing me one.
 s=holmes;e:holmes=happy
+
+“This will do very well. It is almost a facsimile.”
+
 
 “And who do you expect will answer this advertisement.”
 s=watson;e:watson=curious
@@ -2164,13 +2164,13 @@ s=holmes;e:holmes=thinking
 “On thinking the matter over, it must have occurred to him that it was possible that he had lost the ring in the road after leaving the house. What would he do, then?”
 e:holmes=serious
 
-“He would eagerly look out for the evening papers in the hope of seeing it among the articles found. His eye, of course, would light upon this. He would be overjoyed. Why should he fear a trap?”
+“He would eagerly look out for the evening papers in the hope of seeing it among the articles found. His eye, of course, would light upon this. He would be overjoyed.”
 
 
-“There would be no reason in his eyes why the finding of the ring should be connected with the murder. He would come. He will come.”
+“Why should he fear a trap? There would be no reason in his eyes why the finding of the ring should be connected with the murder.”<e>???</e>
 
 
-“You shall see him within an hour.”
+“He would come. He will come. You shall see him within an hour.”
 e:holmes=excited
 
 “And then?” I asked.
@@ -2189,10 +2189,10 @@ s=watson;e:watson=neutral
 s=holmes;e:holmes=serious
 
 I went to my bedroom and followed his advice.
-s=none
+s=none;b=baker-watson-night
 
 When I returned with the pistol the table had been cleared, and Holmes was engaged in his favourite occupation of scraping upon his violin.
-
+b=baker-dining-night
 
 “The plot thickens,” he said, as I entered; “I have just had an answer to my American telegram.”
 s=holmes;e:holmes=excited
@@ -2203,11 +2203,14 @@ e:holmes=happy
 “And that is?” I asked eagerly.
 s=watson;e:watson=excited
 
-“My fiddle would be the better for new strings,” he remarked. “Put your pistol in your pocket.”
+“My fiddle would be the better for new strings,” he remarked.
 s=holmes;e:holmes=smirking
 
-“When the fellow comes speak to him in an ordinary way. Leave the rest to me. Don’t frighten him by looking at him too hard.”
+“Put your pistol in your pocket. When the fellow comes speak to him in an ordinary way.”
 e:holmes=serious
+
+“Leave the rest to me. Don’t frighten him by looking at him too hard.”
+
 
 “It is eight o’clock now,” I said, glancing at my watch.
 s=watson;e:watson=neutral
@@ -2215,10 +2218,13 @@ s=watson;e:watson=neutral
 “Yes. He will probably be here in a few minutes. Open the door slightly. That will do.”
 s=holmes
 
-“Now put the key on the inside. Thank you! This is a queer old book I picked up at a stall yesterday﻿—*De Jure inter Gentes*﻿—published in Latin at Liege in the Lowlands, in 1642.”
+“Now put the key on the inside. Thank you!”
+
+
+“This is a queer old book I picked up at a stall yesterday﻿—*De Jure inter Gentes*﻿—published in Latin at Liege in the Lowlands, in 1642.”
 e:holmes=curious
 
-“Charles’ head was still firm on his shoulders when this little brown-backed volume was struck off.”
+“Charles’ head was still firm on his shoulders when this little brown-backed volume was struck off.”<e>And <book>Cup of Gold|Steinbeck's Henry Morgan</book> was well on his way to being a whiny little bitch.</e>
 
 
 “Who is the printer?”
@@ -2227,13 +2233,19 @@ s=watson
 “Philippe de Croy, whoever he may have been. On the flyleaf, in very faded ink, is written ‘Ex libris Gulielmi Whyte.’ I wonder who William Whyte was.”
 s=holmes
 
-“Some pragmatical seventeenth century lawyer, I suppose. His writing has a legal twist about it. Here comes our man, I think.”
+“Some pragmatical seventeenth century lawyer, I suppose. His writing has a legal twist about it.”
 e:holmes=thinking
+
+“Here comes our man, I think.”
+e:holmes=serious
 
 As he spoke there was a sharp ring at the bell.
 s=none
 
-Sherlock Holmes rose softly and moved his chair in the direction of the door. We heard the servant pass along the hall, and the sharp click of the latch as she opened it.
+Sherlock Holmes rose softly and moved his chair in the direction of the door.
+
+
+We heard the servant pass along the hall, and the sharp click of the latch as she opened it.
 
 
 “Does Dr. Watson live here?” asked a clear but rather harsh voice.
@@ -2264,25 +2276,28 @@ The old crone drew out an evening paper, and pointed at our advertisement.
 
 
 “It’s this as has brought me, good gentlemen,” she said, dropping another curtsey; “a gold wedding ring in the Brixton Road.”
-s=sawyer
+s=sawyer;e:sawyer=curtsey
 
 “It belongs to my girl Sally, as was married only this time twelvemonth, which her husband is steward aboard a Union boat, and what he’d say if he come ’ome and found her without her ring is more than I can think, he being short enough at the best o’ times, but more especially when he has the drink.”
 e:sawyer=fearful
 
 “If it please you, she went to the circus last night along with﻿—”
-
+e:sawyer=nervous
 
 “Is that her ring?” I asked.
 s=watson;e:watson=neutral
 
-“The Lord be thanked!” cried the old woman; “Sally will be a glad woman this night. That’s the ring.”
+“The Lord be thanked!” cried the old woman; “Sally will be a glad woman this night.”
 s=sawyer;e:sawyer=happy
+
+“That’s the ring.”
+e:sawyer=
 
 “And what may your address be?” I inquired, taking up a pencil.
 s=watson;e:watson=curious
 
 “13, Duncan Street, Houndsditch. A weary way from here.”
-s=sawyer;e:sawyer=weary
+s=sawyer;e:sawyer=thinking
 
 “The Brixton Road does not lie between any circus and Houndsditch,” said Sherlock Holmes sharply.
 s=holmes;e:holmes=suspicious
@@ -2299,8 +2314,11 @@ s=holmes
 “My name is Sawyer﻿—hers is Dennis, which Tom Dennis married her﻿—and a smart, clean lad, too, as long as he’s at sea, and no steward in the company more thought of; but when on shore, what with the women and what with liquor shops﻿—”
 n:sawyer=Mrs. Sawyer;s=sawyer;e:sawyer=neutral;e:sawyer=upset
 
-“Here is your ring, Mrs. Sawyer,” I interrupted, in obedience to a sign from my companion; “it clearly belongs to your daughter, and I am glad to be able to restore it to the rightful owner.”
+“Here is your ring, Mrs. Sawyer,” I interrupted, in obedience to a sign from my companion;
 s=watson;e:watson=neutral
+
+“it clearly belongs to your daughter, and I am glad to be able to restore it to the rightful owner.”
+
 
 With many mumbled blessings and protestations of gratitude the old crone packed it away in her pocket, and shuffled off down the stairs.
 s=none;e:sawyer=happy
@@ -2309,7 +2327,7 @@ Sherlock Holmes sprang to his feet the moment that she was gone and rushed into 
 e:holmes=excited
 
 He returned in a few seconds enveloped in an ulster and a cravat.
-
+x:holmes=cravat
 
 “I’ll follow her,” he said, hurriedly; “she must be an accomplice, and will lead me to him.”
 s=holmes;e:holmes=serious
@@ -2324,16 +2342,13 @@ Looking through the window I could see her walking feebly along the other side, 
 
 
 “Either his whole theory is incorrect,” I thought to myself, “or else he will be led now to the heart of the mystery.”
-s=watson;e:watson=thinking
+t=watson;e:watson=contemplative
 
 There was no need for him to ask me to wait up for him, for I felt that sleep was impossible until I heard the result of his adventure.
-s=none;e:watson=curious
+s=none;e:watson=curious;t=
 
-It was close upon nine when he set out.
-
-
-I had no idea how long he might be, but I sat stolidly puffing at my pipe and skipping over the pages of Henri Murger’s *Vie de Bohème*.
-e:watson=weary
+It was close upon nine when he set out. I had no idea how long he might be, but I sat stolidly puffing at my pipe and skipping over the pages of Henri Murger’s *Vie de Bohème*.
+e:watson=weary;b=baker-sitting-night
 
 Ten o’clock passed, and I heard the footsteps of the maid as they pattered off to bed.
 
@@ -2363,7 +2378,7 @@ s=watson;e:watson=curious
 s=holmes;e:holmes=smirking
 
 “That creature had gone a little way when she began to limp and show every sign of being footsore.”
-e:holmes=neutral
+e:holmes=neutral;b=london-street-night;f:b:london-street-night=blur(3px)
 
 “Presently she came to a halt, and hailed a four-wheeler which was passing.”
 
@@ -2378,7 +2393,7 @@ e:holmes=thinking
 e:holmes=smirking
 
 “Well, away we rattled, and never drew rein until we reached the street in question.”
-e:holmes=neutral
+e:holmes=neutral;b=thirteen-wide-night;f:b:thirteen-wide-night=blur(3px)
 
 “I hopped off before we came to the door, and strolled down the street in an easy, lounging way.”
 
@@ -2387,7 +2402,7 @@ e:holmes=neutral
 
 
 “Nothing came out though. When I reached him he was groping about frantically in the empty cab, and giving vent to the finest assorted collection of oaths that ever I listened to.”
-e:holmes=surprised
+e:holmes=serious
 
 “There was no sign or trace of his passenger, and I fear it will be some time before he gets his fare.”
 e:holmes=smirking
@@ -2396,7 +2411,7 @@ e:holmes=smirking
 e:holmes=serious
 
 “You don’t mean to say,” I cried, in amazement, “that that tottering, feeble old woman was able to get out of the cab while it was in motion, without either you or the driver seeing her?”
-s=watson;e:watson=surprised
+s=watson;e:watson=surprised;b=baker-sitting-night
 
 “Old woman be damned!” said Sherlock Holmes, sharply.
 s=holmes;e:holmes=angry
@@ -2416,8 +2431,11 @@ e:holmes=neutral
 I was certainly feeling very weary, so I obeyed his injunction.
 s=none;e:watson=weary
 
-I left Holmes seated in front of the smouldering fire, and long into the watches of the night I heard the low, melancholy wailings of his violin, and knew that he was still pondering over the strange problem which he had set himself to unravel.
-e:watson=thinking
+I left Holmes seated in front of the smouldering fire,
+e:watson=thinking;m=allowbreak
+
+and long into the watches of the night I heard the low, melancholy wailings of his violin, and knew that he was still pondering over the strange problem which he had set himself to unravel.
+m=;f:b:baker-sitting-night=blur(3px)
 
 ### VI<br>Tobias Gregson Shows What He Can Do
 r=title
