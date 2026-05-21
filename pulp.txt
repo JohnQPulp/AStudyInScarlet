@@ -3509,7 +3509,7 @@ r=title
 
 
 In the central portion of the great North American Continent there lies an arid and repulsive desert, which for many a long year served as a barrier against the advance of civilisation.
-
+b=desert-wide
 
 From the Sierra Nevada to Nebraska, and from the Yellowstone River in the north to the Colorado upon the south, is a region of desolation and silence.<e>Because when I think Yellowstone, I think "repulsive desert". (Also: wait what are we talking about now.)</e>
 
@@ -3517,7 +3517,10 @@ From the Sierra Nevada to Nebraska, and from the Yellowstone River in the north 
 Nor is Nature always in one mood throughout this grim district.
 
 
-It comprises snow-capped and lofty mountains, and dark and gloomy valleys. There are swift-flowing rivers which dash through jagged canyons; and there are enormous plains, which in winter are white with snow, and in summer are grey with the saline alkali dust.
+It comprises snow-capped and lofty mountains, and dark and gloomy valleys.
+
+
+There are swift-flowing rivers which dash through jagged canyons; and there are enormous plains, which in winter are white with snow, and in summer are grey with the saline alkali dust.
 
 
 They all preserve, however, the common characteristics of barrenness, inhospitality, and misery.
@@ -3535,8 +3538,8 @@ The coyote skulks among the scrub, the buzzard flaps heavily through the air, an
 These are the sole dwellers in the wilderness.
 
 
-In the whole world there can be no more dreary view than that from the northern slope of the Sierra Blanco.<e>How about the moors, you British ass. (Also: not a real mountain, obviously.)</e>
-
+In the whole world there can be no more dreary view than that from the northern slope of the Sierra Blanco.
+b=blanco-view
 
 As far as the eye can reach stretches the great flat plain-land, all dusted over with patches of alkali, and intersected by clumps of the dwarfish chaparral bushes.
 
@@ -3553,7 +3556,7 @@ There is no bird in the steel-blue heaven, no movement upon the dull, grey earth
 Listen as one may, there is no shadow of a sound in all that mighty wilderness; nothing but silence﻿—complete and heart-subduing silence.
 
 
-It has been said there is nothing appertaining to life upon the broad plain.<e>It has been said… three sentences ago??? (Dear reader, can you tell this book was written in three weeks?)</e>
+It has been said there is nothing appertaining to life upon the broad plain.<e>It has been said… three sentences ago… (???)</e>
 
 
 That is hardly true. Looking down from the Sierra Blanco, one sees a pathway traced out across the desert, which winds away and is lost in the extreme distance.
@@ -3577,10 +3580,7 @@ For fifteen hundred miles one may trace this ghastly caravan route by these scat
 Looking down on this very scene, there stood upon the fourth of May, eighteen hundred and forty-seven, a solitary traveller.
 
 
-His appearance was such that he might have been the very genius or demon of the region.
-
-
-An observer would have found it difficult to say whether he was nearer to forty or to sixty.
+His appearance was such that he might have been the very genius or demon of the region. An observer would have found it difficult to say whether he was nearer to forty or to sixty.
 
 
 His face was lean and haggard, and the brown parchment-like skin was drawn tightly over the projecting bones; his long, brown hair and beard were all flecked and dashed with white; his eyes were sunken in his head, and burned with an unnatural lustre; while the hand which grasped his rifle was hardly more fleshy than that of a skeleton.
@@ -3608,16 +3608,16 @@ North, and east, and west he looked with wild questioning eyes, and then he real
 e:ferrier=fearful
 
 “Why not here, as well as in a feather bed, twenty years hence,” he muttered, as he seated himself in the shelter of a boulder.
-s=ferrier;e:ferrier=weary
+s=ferrier;e:ferrier=weary;a:ferrier=young;x:ferrier=bundle
 
 Before sitting down, he had deposited upon the ground his useless rifle, and also a large bundle tied up in a grey shawl, which he had carried slung over his right shoulder.
 s=none
 
 It appeared to be somewhat too heavy for his strength, for in lowering it, it came down on the ground with some little violence.
-
+x:ferrier=
 
 Instantly there broke from the grey parcel a little moaning cry, and from it there protruded a small, scared face, with very bright brown eyes, and two little speckled, dimpled fists.
-n:lucy=?
+n:lucy=?;a:lucy=young
 
 “You’ve hurt me!” said a childish voice reproachfully.
 s=lucy;e:lucy=upset
@@ -3631,17 +3631,20 @@ s=none;e:lucy=neutral
 The child was pale and wan, but her healthy arms and legs showed that she had suffered less than her companion.
 
 
-“How is it now?” he answered anxiously, for she was still rubbing the towsy golden curls which covered the back of her head.
-s=ferrier;e:ferrier=nervous
+“How is it now?” he answered anxiously,
+s=ferrier;e:ferrier=nervous;m=allowbreak
+
+for she was still rubbing the towsy golden curls which covered the back of her head.
+m=;s=
 
 “Kiss it and make it well,” she said, with perfect gravity, showing the injured part up to him.
-s=lucy;e:lucy=neutral
+s=lucy;e:lucy=showing
 
 “That’s what mother used to do. Where’s mother?”
-e:lucy=curious
+e:lucy=contemplative
 
 “Mother’s gone. I guess you’ll see her before long.”
-s=ferrier;e:ferrier=sadsmile
+s=ferrier;e:ferrier=contemplative
 
 “Gone, eh!” said the little girl.
 s=lucy;e:lucy=surprised
@@ -3656,19 +3659,22 @@ e:lucy=unhappy
 s=ferrier;e:ferrier=weary
 
 “You’ll just need to be patient awhile, and then you’ll be all right. Put your head up agin me like that, and then you’ll feel bullier.”
-e:ferrier=sadsmile
 
-“It ain’t easy to talk when your lips is like leather, but I guess I’d best let you know how the cards lie. What’s that you’ve got?”
-e:ferrier=neutral
+
+“It ain’t easy to talk when your lips is like leather, but I guess I’d best let you know how the cards lie.”
+e:ferrier=serious
+
+“What’s that you’ve got?”
+
 
 “Pretty things! fine things!” cried the little girl enthusiastically, holding up two glittering fragments of mica.
-s=lucy;e:lucy=excited
+s=lucy;e:lucy=holding
 
 “When we goes back to home I’ll give them to brother Bob.”
 e:lucy=happy
 
 “You’ll see prettier things than them soon,” said the man confidently.
-s=ferrier;e:ferrier=sadsmile
+s=ferrier;e:ferrier=thinking
 
 “You just wait a bit. I was going to tell you though﻿—you remember when we left the river?”
 
@@ -3686,10 +3692,10 @@ e:ferrier=weary
 s=lucy;e:lucy=serious
 
 “No, nor drink. And Mr. Bender, he was the fust to go, and then Indian Pete, and then Mrs. McGregor, and then Johnny Hones, and then, dearie, your mother.”
-s=ferrier;e:ferrier=sadsmile
+s=ferrier;e:ferrier=contemplative
 
 “Then mother’s a deader too,” cried the little girl dropping her face in her pinafore and sobbing bitterly.
-s=lucy;e:lucy=upset
+s=lucy;e:lucy=dropping
 
 “Yes, they all went except you and me.”
 s=ferrier;e:ferrier=weary
@@ -3710,7 +3716,7 @@ s=ferrier;e:ferrier=sadsmile
 s=lucy;e:lucy=happy
 
 “You gave me such a fright. Why, of course, now as long as we die we’ll be with mother again.”
-e:lucy=excited
+
 
 “Yes, you will, dearie.”
 s=ferrier;e:ferrier=sadsmile
@@ -3718,8 +3724,11 @@ s=ferrier;e:ferrier=sadsmile
 “And you too. I’ll tell her how awful good you’ve been.”
 s=lucy;e:lucy=happy
 
-“I’ll bet she meets us at the door of Heaven with a big pitcher of water, and a lot of buckwheat cakes, hot, and toasted on both sides, like Bob and me was fond of. How long will it be first?”
+“I’ll bet she meets us at the door of Heaven with a big pitcher of water, and a lot of buckwheat cakes, hot, and toasted on both sides, like Bob and me was fond of.”
 e:lucy=curious
+
+“How long will it be first?”
+
 
 “I don’t know﻿—not very long.”
 s=ferrier;e:ferrier=contemplative
@@ -3736,8 +3745,11 @@ They speedily resolved themselves into three large brown birds, which circled ov
 They were buzzards, the vultures of the west, whose coming is the forerunner of death.
 
 
-“Cocks and hens,” cried the little girl gleefully, pointing at their ill-omened forms, and clapping her hands to make them rise.
-s=lucy;e:lucy=excited
+“Cocks and hens,” cried the little girl gleefully,
+s=lucy;e:lucy=excited;m=allowbreak
+
+pointing at their ill-omened forms, and clapping her hands to make them rise.
+m=;s=
 
 “Say, did God make this country?”
 e:lucy=curious
@@ -3767,7 +3779,7 @@ s=ferrier;e:ferrier=neutral
 s=lucy;e:lucy=curious
 
 “I disremember them,” he answered.
-s=ferrier;e:ferrier=sadsmile
+s=ferrier;e:ferrier=thinking
 
 “I hain’t said none since I was half the height o’ that gun. I guess it’s never too late. You say them out, and I’ll stand by and come in on the choruses.”
 
@@ -3776,7 +3788,7 @@ s=ferrier;e:ferrier=sadsmile
 s=lucy;e:lucy=serious
 
 “You’ve got to put your hands up like this. It makes you feel kind o’ good.”
-e:lucy=happy
+e:lucy=praying
 
 It was a strange sight had there been anything but the buzzards to see it.
 s=none
@@ -3797,13 +3809,13 @@ For three days and three nights he had allowed himself neither rest nor repose.
 
 
 Slowly the eyelids drooped over the tired eyes, and the head sunk lower and lower upon the breast, until the man’s grizzled beard was mixed with the gold tresses of his companion, and both slept the same deep and dreamless slumber.
-
+f:b:blanco-view=blur(3px)
 
 Had the wanderer remained awake for another half hour a strange sight would have met his eyes.
 
 
 Far away on the extreme verge of the alkali plain there rose up a little spray of dust, very slight at first, and hardly to be distinguished from the mists of the distance, but gradually growing higher and broader until it formed a solid, well-defined cloud.
-
+b=cloud;f:b:cloud=blur(3px)
 
 This cloud continued to increase in size until it became evident that it could only be raised by a great multitude of moving creatures.
 
@@ -3815,12 +3827,9 @@ This was obviously impossible in these arid wilds.
 
 
 As the whirl of dust drew nearer to the solitary bluff upon which the two castaways were reposing, the canvas-covered tilts of wagons and the figures of armed horsemen began to show up through the haze, and the apparition revealed itself as being a great caravan upon its journey for the West.
+f:b:cloud=
 
-
-But what a caravan!
-
-
-When the head of it had reached the base of the mountains, the rear was not yet visible on the horizon.
+But what a caravan! When the head of it had reached the base of the mountains, the rear was not yet visible on the horizon.
 
 
 Right across the enormous plain stretched the straggling array, wagons and carts, men on horseback, and men on foot.
@@ -3842,16 +3851,16 @@ At the head of the column there rode a score or more of grave ironfaced men, cla
 
 
 On reaching the base of the bluff they halted, and held a short council among themselves.
-
+b=crag-wide
 
 “The wells are to the right, my brothers,” said one, a hard-lipped, clean-shaven man with grizzly hair.
-n:elder1=Elder;s=elder1;e:elder1=serious
+n:elder1=?;s=elder1;e:elder1=serious
 
 “To the right of the Sierra Blanco﻿—so we shall reach the Rio Grande,” said another.
-n:elder2=Elder;s=elder2;e:elder2=serious
+n:elder2=?;s=elder2;e:elder2=serious
 
 “Fear not for water,” cried a third. “He who could draw it from the rocks will not now abandon His own chosen people.”
-n:elder3=Elder;s=elder3;e:elder3=serious
+n:elder3=?;s=elder3;e:elder3=thinking
 
 “Amen! Amen!” responded the whole party.
 m=dialogue;s=
@@ -3869,27 +3878,24 @@ The word “Redskins” was on every lip.
 
 
 “There can’t be any number of Injuns here,” said the elderly man who appeared to be in command.
-n:elderstangerson=Elder Stangerson;s=elderstangerson;e:elderstangerson=serious
+n:elderstangerson=?;s=elderstangerson;e:elderstangerson=serious
 
 “We have passed the Pawnees, and there are no other tribes until we cross the great mountains.”
 
 
 “Shall I go forward and see, Brother Stangerson,” asked one of the band.
-n:youngman=Young Man;s=youngman;e:youngman=curious
+n:youngman=?;s=youngman;e:youngman=curious
 
 “And I,” “and I,” cried a dozen voices.
 s=none;m=dialogue
 
 “Leave your horses below and we will await you here,” the Elder answered.
-s=elderstangerson;e:elderstangerson=neutral;m=
+s=elderstangerson;e:elderstangerson=neutral;m=;n:elderstangerson=Brother Stangerson;a:elderstangerson=young
 
 In a moment the young fellows had dismounted, fastened their horses, and were ascending the precipitous slope which led up to the object which had excited their curiosity.
 s=none
 
-They advanced rapidly and noiselessly, with the confidence and dexterity of practised scouts.
-
-
-The watchers from the plain below could see them flit from rock to rock until their figures stood out against the skyline.
+They advanced rapidly and noiselessly, with the confidence and dexterity of practised scouts. The watchers from the plain below could see them flit from rock to rock until their figures stood out against the skyline.
 
 
 The young man who had first given the alarm was leading them.
@@ -3899,7 +3905,7 @@ Suddenly his followers saw him throw up his hands, as though overcome with aston
 
 
 On the little plateau which crowned the barren hill there stood a single giant boulder, and against this boulder there lay a tall man, long-bearded and hard-featured, but of an excessive thinness.
-
+b=blanco-view
 
 His placid face and regular breathing showed that he was fast asleep.
 e:ferrier=neutral
@@ -3926,9 +3932,9 @@ His face assumed an expression of incredulity as he gazed, and he passed his bon
 e:ferrier=confused
 
 “This is what they call delirium, I guess,” he muttered.
-s=ferrier;e:ferrier=weary
+s=ferrier;e:ferrier=wearyhand
 
-The child stood beside him, holding on to the skirt of his coat, and said nothing but looked all round her with the wondering questioning gaze of childhood.<e>You can't write "child" twice in one sentence like that, Doyle. That's not how prose works. And furthermore: <i>what the actual fuck is going on</i>.</e>
+The child stood beside him, holding on to the skirt of his coat, and said nothing but looked all round her with the wondering questioning gaze of childhood.<e>"child" twice in one sentence, Doyle.</e>
 s=none;e:lucy=curious
 
 The rescuing party were speedily able to convince the two castaways that their appearance was no delusion.
@@ -3944,13 +3950,16 @@ n:ferrier=John Ferrier;s=ferrier;e:ferrier=sadsmile
 e:ferrier=unhappy
 
 “Is she your child?” asked someone.
-s=youngman;e:youngman=curious
+m=dialogue;s=
 
 “I guess she is now,” the other cried, defiantly; “she’s mine ’cause I saved her. No man will take her from me. She’s Lucy Ferrier from this day on.”
-s=ferrier;e:ferrier=serious;n:lucy=Lucy Ferrier
+s=ferrier;e:ferrier=serious;n:lucy=Lucy Ferrier;m=
 
-“Who are you, though?” he continued, glancing with curiosity at his stalwart, sunburned rescuers; “there seems to be a powerful lot of ye.”
+“Who are you, though?” he continued, glancing with curiosity at his stalwart, sunburned rescuers;
 e:ferrier=curious
+
+“there seems to be a powerful lot of ye.”
+
 
 “Nigh upon ten thousand,” said one of the young men; “we are the persecuted children of God﻿—the chosen of the Angel Merona.”
 s=youngman;e:youngman=neutral;e:youngman=serious
@@ -3974,16 +3983,19 @@ s=none;e:ferrier=thinking
 s=ferrier;e:ferrier=neutral
 
 “We are the Mormons,” answered his companions with one voice.
-s=youngman;e:youngman=serious
+m=dialogue;s=
 
 “And where are you going?”
-s=ferrier;e:ferrier=curious
+s=ferrier;e:ferrier=curious;m=
 
-“We do not know. The hand of God is leading us under the person of our Prophet. You must come before him. He shall say what is to be done with you.”
+“We do not know. The hand of God is leading us under the person of our Prophet.”
 s=youngman;e:youngman=serious
 
+“You must come before him. He shall say what is to be done with you.”
+e:youngman=thinking
+
 They had reached the base of the hill by this time, and were surrounded by crowds of the pilgrims﻿—pale-faced meek-looking women, strong laughing children, and anxious earnest-eyed men.
-s=none
+s=none;b=crag-wide
 
 Many were the cries of astonishment and of commiseration which arose from them when they perceived the youth of one of the strangers and the destitution of the other.
 
@@ -3994,7 +4006,7 @@ Their escort did not halt, however, but pushed on, followed by a great crowd of 
 Six horses were yoked to it, whereas the others were furnished with two, or, at most, four apiece.
 
 
-Beside the driver there sat a man who could not have been more than thirty years of age, but whose massive head and resolute expression marked him as a leader.<e>Lest you think you're no longer reading a Doyle novel: some phrenology to pull you back in.</e>
+Beside the driver there sat a man who could not have been more than thirty years of age, but whose massive head and resolute expression marked him as a leader.<e>Lest you forget this is still a Doyle novel: phrenology.</e>
 n:brigham=?
 
 He was reading a brown-backed volume, but as the crowd approached he laid it aside, and listened attentively to an account of the episode.
@@ -4004,10 +4016,13 @@ Then he turned to the two castaways.
 
 
 “If we take you with us,” he said, in solemn words, “it can only be as believers in our own creed. We shall have no wolves in our fold.”
-s=brigham
+s=brigham;a:brigham=young
 
-“Better far that your bones should bleach in this wilderness than that you should prove to be that little speck of decay which in time corrupts the whole fruit. Will you come with us on these terms?”
+“Better far that your bones should bleach in this wilderness than that you should prove to be that little speck of decay which in time corrupts the whole fruit.”
 
+
+“Will you come with us on these terms?”
+i=3
 
 “Guess I’ll come with you on any terms,” said Ferrier, with such emphasis that the grave Elders could not restrain a smile.
 s=ferrier;e:ferrier=serious
@@ -4018,23 +4033,29 @@ s=none;e:brigham=serious
 “Take him, Brother Stangerson,” he said, “give him food and drink, and the child likewise. Let it be your task also to teach him our holy creed.”
 s=brigham
 
-“We have delayed long enough. Forward! On, on to Zion!”
-e:brigham=excited
+“We have delayed long enough.”
+e:brigham=thinking
+
+“Forward! On, on to Zion!”
+e:brigham=serious
 
 “On, on to Zion!” cried the crowd of Mormons, and the words rippled down the long caravan, passing from mouth to mouth until they died away in a dull murmur in the far distance.
-s=none
+s=none;m=dialogue;b=caravan-wide
 
 With a cracking of whips and a creaking of wheels the great wagons got into motion, and soon the whole caravan was winding along once more.
-
+m=
 
 The Elder to whose care the two waifs had been committed, led them to his wagon, where a meal was already awaiting them.
 
 
 “You shall remain here,” he said. “In a few days you will have recovered from your fatigues.”
-s=elderstangerson;e:elderstangerson=neutral
+s=elderstangerson;e:elderstangerson=thinking
 
-“In the meantime, remember that now and forever you are of our religion. Brigham Young has said it, and he has spoken with the voice of Joseph Smith, which is the voice of God.”
+“In the meantime, remember that now and forever you are of our religion.”
 e:elderstangerson=serious;n:brigham=Brigham Young
+
+“Brigham Young has said it, and he has spoken with the voice of Joseph Smith, which is the voice of God.”
+
 
 ### II<br>The Flower of Utah
 r=title
