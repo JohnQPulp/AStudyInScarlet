@@ -5,7 +5,7 @@ b=title;t=author
 r=title
 
 ### I<br>Mr. Sherlock Holmes
-r=london-wide
+r=london-wider
 
 In the year 1878 I took my degree of Doctor of Medicine of the University of London, and proceeded to Netley to go through the course prescribed for surgeons in the army.
 n:watson=Dr. Watson;e:watson=neutral
@@ -1621,14 +1621,14 @@ e:holmes=smirking;s=holmes
 “*Rache*, is the German for ‘revenge’; so don’t lose your time looking for Miss Rachel.”
 
 
-With which Parthian shot he walked away, leaving the two rivals open-mouthed behind him.<e>Romaboo writing.</e>
+With which Parthian shot he walked away, leaving the two rivals open-mouthed behind him.
 s=none;e:lestrade=surprised;e:gregson=surprised
 
-### IV<br>What John Rance Had to Tell
+### IV<br>What John Rance Had to Tell<e>With which Romaboo writing Doyle ended the chapter.</e>
 r=title
 
 It was one o’clock when we left No. 3, Lauriston Gardens.
-
+b=london-wider
 
 Sherlock Holmes led me to the nearest telegraph office, whence he dispatched a long telegram.
 
@@ -1637,7 +1637,7 @@ He then hailed a cab, and ordered the driver to take us to the address given us 
 
 
 “There is nothing like first hand evidence,” he remarked; “as a matter of fact, my mind is entirely made up upon the case, but still we may as well learn all that is to be learned.”
-s=holmes;e:holmes=serious
+s=holmes;e:holmes=serious;x:holmes=hat;x:watson=hat
 
 “You amaze me, Holmes,” said I. “Surely you are not as sure as you pretend to be of all those particulars which you gave.”
 s=watson;e:watson=surprised
@@ -1657,10 +1657,10 @@ e:holmes=serious
 “That seems simple enough,” said I; “but how about the other man’s height?”
 s=watson;e:watson=thinking
 
-“Why, the height of a man, in nine cases out of ten, can be told from the length of his stride.”
+“Why, the height of a man, in nine cases out of ten, can be told from the length of his stride. It is a simple calculation enough, though there is no use my boring you with figures.”
 s=holmes;e:holmes=neutral
 
-“It is a simple calculation enough, though there is no use my boring you with figures. I had this fellow’s stride both on the clay outside and on the dust within.”
+“I had this fellow’s stride both on the clay outside and on the dust within.”
 
 
 “Then I had a way of checking my calculation. When a man writes on a wall, his instinct leads him to write about the level of his own eyes.”
@@ -1696,11 +1696,8 @@ e:holmes=neutral
 “I gathered up some scattered ash from the floor. It was dark in colour and flakey﻿—such an ash as is only made by a Trichinopoly.”
 
 
-“I have made a special study of cigar ashes﻿—in fact, I have written a monograph upon the subject.”
+“I have made a special study of cigar ashes﻿—in fact, I have written a monograph upon the subject. I flatter myself that I can distinguish at a glance the ash of any known brand, either of cigar or of tobacco.”
 e:holmes=smirking
-
-“I flatter myself that I can distinguish at a glance the ash of any known brand, either of cigar or of tobacco.”
-
 
 “It is just in such details that the skilled detective differs from the Gregson and Lestrade type.”
 
@@ -1717,16 +1714,16 @@ s=none;e:watson=weary
 “My head is in a whirl,” I remarked; “the more one thinks of it the more mysterious it grows.”
 s=watson;e:watson=confused
 
-“How came these two men﻿—if there were two men﻿—into an empty house? What has become of the cabman who drove them?”
+“How came these two men﻿—if there were two men﻿—into an empty house? What has become of the cabman who drove them? How could one man compel another to take poison?”
 
 
-“How could one man compel another to take poison? Where did the blood come from?”
+“Where did the blood come from? What was the object of the murderer, since robbery had no part in it? How came the woman’s ring there?”
 
 
-“What was the object of the murderer, since robbery had no part in it? How came the woman’s ring there?”
+“Above all, why should the second man write up the German word **Rache** before decamping?”
 
 
-“Above all, why should the second man write up the German word **Rache** before decamping? I confess that I cannot see any possible way of reconciling all these facts.”
+“I confess that I cannot see any possible way of reconciling all these facts.”
 e:watson=weary
 
 My companion smiled approvingly.
@@ -1738,8 +1735,11 @@ s=holmes;e:holmes=neutral
 “There is much that is still obscure, though I have quite made up my mind on the main facts.”
 e:holmes=serious
 
-“As to poor Lestrade’s discovery it was simply a blind intended to put the police upon a wrong track, by suggesting Socialism and secret societies. It was not done by a German.”
+“As to poor Lestrade’s discovery it was simply a blind intended to put the police upon a wrong track, by suggesting Socialism and secret societies.”
 e:holmes=thinking
+
+“It was not done by a German.”
+
 
 “The A, if you noticed, was printed somewhat after the German fashion. Now, a real German invariably prints in the Latin character, so that we may safely say that this was not written by one, but by a clumsy imitator who overdid his part.”
 
@@ -1747,7 +1747,10 @@ e:holmes=thinking
 “It was simply a ruse to divert inquiry into a wrong channel.”
 e:holmes=neutral
 
-“I’m not going to tell you much more of the case, Doctor. You know a conjuror gets no credit when once he has explained his trick, and if I show you too much of my method of working, you will come to the conclusion that I am a very ordinary individual after all.”
+“I’m not going to tell you much more of the case, Doctor.”
+
+
+“You know a conjuror gets no credit when once he has explained his trick, and if I show you too much of my method of working, you will come to the conclusion that I am a very ordinary individual after all.”
 e:holmes=smirking
 
 “I shall never do that,” I answered; “you have brought detection as near an exact science as it ever will be brought in this world.”
@@ -1784,31 +1787,31 @@ This conversation had occurred while our cab had been threading its way through 
 s=none
 
 In the dingiest and dreariest of them our driver suddenly came to a stand.
-n:driver1=Driver
+n:driver1=Driver;b=audley-slit
 
 “That’s Audley Court in there,” he said, pointing to a narrow slit in the line of dead-coloured brick.
-s=driver1;e:driver1=neutral
+s=driver1;e:driver1=pointing
 
 “You’ll find me here when you come back.”
-
+e:driver1=neutralclosed
 
 Audley Court was not an attractive locality.
 s=none
 
 The narrow passage led us into a quadrangle paved with flags and lined by sordid dwellings.
-
+b=audley-wide
 
 We picked our way among groups of dirty children, and through lines of discoloured linen, until we came to Number 46, the door of which was decorated with a small slip of brass on which the name Rance was engraved.
 
 
 On enquiry we found that the constable was in bed, and we were shown into a little front parlour to await his coming.
-
+b=audley-parlor
 
 He appeared presently, looking a little irritable at being disturbed in his slumbers.
 n:rance=John Rance;e:rance=annoyed
 
 “I made my report at the office,” he said.
-s=rance
+s=rance;x:watson=;x:holmes=
 
 Holmes took a half-sovereign from his pocket and played with it pensively.
 s=none;e:holmes=contemplative
@@ -1817,7 +1820,7 @@ s=none;e:holmes=contemplative
 s=holmes;e:holmes=neutral
 
 “I shall be most happy to tell you anything I can,” the constable answered with his eyes upon the little golden disk.
-s=rance;e:rance=happy
+s=rance;e:rance=serious
 
 “Just let us hear it all in your own way as it occurred.”
 s=holmes;e:rance=neutral
@@ -1825,10 +1828,10 @@ s=holmes;e:rance=neutral
 Rance sat down on the horsehair sofa, and knitted his brows as though determined not to omit anything in his narrative.
 s=none;e:rance=thinking
 
-“I’ll tell it ye from the beginning,” he said. “My time is from ten at night to six in the morning.”
+“I’ll tell it ye from the beginning,” he said.
 s=rance
 
-“At eleven there was a fight at the White Hart; but bar that all was quiet enough on the beat.”
+“My time is from ten at night to six in the morning. At eleven there was a fight at the White Hart; but bar that all was quiet enough on the beat.”
 
 
 “At one o’clock it began to rain, and I met Harry Murcher﻿—him who has the Holland Grove beat﻿—and we stood together at the corner of Henrietta Street a-talkin’.”
@@ -1841,19 +1844,22 @@ s=rance
 
 
 “I was a-strollin’ down, thinkin’ between ourselves how uncommon handy a four of gin hot would be, when suddenly the glint of a light caught my eye in the window of that same house.”
-e:rance=surprised
+e:rance=serious;b=three-wide-night-rain;f:b:three-wide-night-rain=blur(3px)
 
 “Now, I knew that them two houses in Lauriston Gardens was empty on account of him that owns them who won’t have the drains seen to, though the very last tenant what lived in one of them died o’ typhoid fever.”
-e:rance=thinking
+
 
 “I was knocked all in a heap therefore at seeing a light in the window, and I suspected as something was wrong.”
-e:rance=wary
+e:rance=contemplative
 
 “When I got to the door﻿—”
 
 
-“You stopped, and then walked back to the garden gate,” my companion interrupted. “What did you do that for?”
-s=holmes;e:holmes=curious
+“You stopped, and then walked back to the garden gate,” my companion interrupted.
+s=holmes;e:holmes=curious;b=audley-parlor
+
+“What did you do that for?”
+
 
 Rance gave a violent jump, and stared at Sherlock Holmes with the utmost amazement upon his features.
 s=none;e:rance=surprised
@@ -1868,7 +1874,7 @@ e:rance=nervous
 
 
 “The thought gave me a kind o’ turn, and I walked back to the gate to see if I could see Murcher’s lantern, but there wasn’t no sign of him nor of anyone else.”
-e:rance=fearful
+e:rance=serious
 
 “There was no one in the street?”
 s=holmes;e:holmes=serious
@@ -1876,11 +1882,8 @@ s=holmes;e:holmes=serious
 “Not a livin’ soul, sir, nor as much as a dog.”
 s=rance;e:rance=neutral
 
-“Then I pulled myself together and went back and pushed the door open.”
-
-
-“All was quiet inside, so I went into the room where the light was a-burnin’.”
-
+“Then I pulled myself together and went back and pushed the door open. All was quiet inside, so I went into the room where the light was a-burnin’.”
+e:rance=serious
 
 “There was a candle flickerin’ on the mantelpiece﻿—a red wax one﻿—and by its light I saw﻿—”
 
@@ -1909,11 +1912,8 @@ e:holmes=curious
 Rance resumed his seat, without however losing his mystified expression.
 s=none;e:rance=suspicious
 
-“I went back to the gate and sounded my whistle.”
+“I went back to the gate and sounded my whistle. That brought Murcher and two more to the spot.”
 s=rance
-
-“That brought Murcher and two more to the spot.”
-
 
 “Was the street empty then?”
 s=holmes;e:holmes=serious
@@ -1955,10 +1955,13 @@ s=rance;e:rance=annoyed
 
 
 “That will do,” cried Holmes. “What became of him?”
-s=holmes;e:holmes=excited
+s=holmes;e:holmes=serious
 
-“We’d enough to do without lookin’ after him,” the policeman said, in an aggrieved voice. “I’ll wager he found his way home all right.”
-s=rance;e:rance=weary
+“We’d enough to do without lookin’ after him,” the policeman said, in an aggrieved voice.
+s=rance;e:rance=annoyed
+
+“I’ll wager he found his way home all right.”
+
 
 “How was he dressed?”
 s=holmes;e:holmes=serious
@@ -1972,16 +1975,19 @@ s=holmes;e:holmes=curious
 “A whip﻿—no.”
 s=rance;e:rance=confused
 
-“He must have left it behind,” muttered my companion. “You didn’t happen to see or hear a cab after that?”
+“He must have left it behind,” muttered my companion.
 s=holmes;e:holmes=thinking
+
+“You didn’t happen to see or hear a cab after that?”
+
 
 “No.”
 s=rance;e:rance=neutral
 
-“There’s a half-sovereign for you,” my companion said, standing up and taking his hat. “I am afraid, Rance, that you will never rise in the force.”
+“There’s a half-sovereign for you,” my companion said, standing up and taking his hat.
 s=holmes;e:holmes=neutral
 
-“That head of yours should be for use as well as ornament.”
+“I am afraid, Rance, that you will never rise in the force. That head of yours should be for use as well as ornament.”
 e:holmes=annoyed
 
 “You might have gained your sergeant’s stripes last night. The man whom you held in your hands is the man who holds the clue of this mystery, and whom we are seeking.”
@@ -1993,8 +1999,11 @@ e:holmes=serious
 We started off for the cab together, leaving our informant incredulous, but obviously uncomfortable.
 s=none;e:rance=nervous
 
-“The blundering fool,” Holmes said, bitterly, as we drove back to our lodgings. “Just to think of his having such an incomparable bit of good luck, and not taking advantage of it.”
-s=holmes;e:holmes=angry
+“The blundering fool,” Holmes said, bitterly, as we drove back to our lodgings.
+s=holmes;e:holmes=angry;b=london-wider;x:holmes=hat;x:watson=hat
+
+“Just to think of his having such an incomparable bit of good luck, and not taking advantage of it.”
+
 
 “I am rather in the dark still. It is true that the description of this man tallies with your idea of the second party in this mystery.”
 s=watson;e:watson=confused
@@ -2005,22 +2014,19 @@ s=watson;e:watson=confused
 “The ring, man, the ring: that was what he came back for.”
 s=holmes;e:holmes=excited
 
-“If we have no other way of catching him, we can always bait our line with the ring.”
+“If we have no other way of catching him, we can always bait our line with the ring. I shall have him, Doctor﻿—I’ll lay you two to one that I have him.”
 e:holmes=smirking
 
-“I shall have him, Doctor﻿—I’ll lay you two to one that I have him.”
-
-
-“I must thank you for it all. I might not have gone but for you, and so have missed the finest study I ever came across: a study in scarlet, eh?”
+“I must thank you for it all. I might not have gone but for you, and so have missed the finest study I ever came across: a study in scarlet, eh? Why shouldn’t we use a little art jargon.”
 e:holmes=happy
 
-“Why shouldn’t we use a little art jargon. There’s the scarlet thread of murder running through the colourless skein of life, and our duty is to unravel it, and isolate it, and expose every inch of it.”
+“There’s the scarlet thread of murder running through the colourless skein of life, and our duty is to unravel it, and isolate it, and expose every inch of it.”
 e:holmes=contemplative
 
 “And now for lunch, and then for Norman Neruda. Her attack and her bowing are splendid.”
 e:holmes=happy
 
-“What’s that little thing of Chopin’s she plays so magnificently: Tra-la-la-lira-lira-lay.”<e>Here's a blog post from 2009 with the unsourced claim that none other than Raymond Chandler weighed in to call Doyle an idiot for this line: https://sohothedog.blogspot.com/2009/01/three-pipe-problem.html. I want to believe. It brings me joy thinking of Holmes being BTFOd by <book>Farewell, My Lovely|Marlowe</book>.</e>
+“What’s that little thing of Chopin’s she plays so magnificently: Tra-la-la-lira-lira-lay.”<e>Here's a blog post from 2009 with the unsourced claim that Raymond Chandler called out Doyle for this line of dialogue in particular: https://sohothedog.blogspot.com/2009/01/three-pipe-problem.html. It seems plausible, what with Chandler not liking Holmes in general. (Not that <book>Farewell, My Lovely|Marlowe</book> is any better.)</e>
 e:holmes=excited
 
 Leaning back in the cab, this amateur bloodhound carolled away like a lark while I meditated upon the many-sidedness of the human mind.
