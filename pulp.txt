@@ -3014,7 +3014,7 @@ s=lestrade;e:lestrade=serious
 r=title
 
 The intelligence with which Lestrade greeted us was so momentous and so unexpected, that we were all three fairly dumbfounded.
-e:watson=surprised
+e:watson=surprised;b=baker-sitting
 
 Gregson sprang out of his chair and upset the remainder of his whiskey and water.
 e:gregson=surprised
@@ -3034,11 +3034,8 @@ e:lestrade=weary
 “Are you﻿—are you sure of this piece of intelligence?” stammered Gregson.
 s=gregson;e:gregson=nervous
 
-“I have just come from his room,” said Lestrade.
+“I have just come from his room,” said Lestrade. “I was the first to discover what had occurred.”
 s=lestrade;e:lestrade=serious
-
-“I was the first to discover what had occurred.”
-
 
 “We have been hearing Gregson’s view of the matter,” Holmes observed.
 s=holmes;e:holmes=neutral
@@ -3055,8 +3052,11 @@ e:lestrade=contemplative
 “Full of the one idea, I set myself to find out what had become of the secretary. They had been seen together at Euston Station about half-past eight on the evening of the third.”
 
 
-“At two in the morning Drebber had been found in the Brixton Road. The question which confronted me was to find out how Stangerson had been employed between eight thirty and the time of the crime, and what had become of him afterwards.”
+“At two in the morning Drebber had been found in the Brixton Road.”
 e:lestrade=thinking
+
+“The question which confronted me was to find out how Stangerson had been employed between eight thirty and the time of the crime, and what had become of him afterwards.”
+
 
 “I telegraphed to Liverpool, giving a description of the man, and warning them to keep a watch upon the American boats. I then set to work calling upon all the hotels and lodging-houses in the vicinity of Euston.”
 e:lestrade=serious
@@ -3071,24 +3071,18 @@ s=holmes;e:holmes=thinking
 s=lestrade;e:lestrade=weary
 
 “This morning I began very early, and at eight o’clock I reached Halliday’s Private Hotel, in Little George Street.”
-e:lestrade=neutral
+e:lestrade=neutral;b=hotel-int;f:b:hotel-int=blur(3px)
 
 “On my enquiry as to whether a Mr. Stangerson was living there, they at once answered me in the affirmative.”
 
 
-“ ‘No doubt you are the gentleman whom he was expecting,’ they said.”
-
-
-“ ‘He has been waiting for a gentleman for two days.’ ”
+“ ‘No doubt you are the gentleman whom he was expecting,’ they said. ‘He has been waiting for a gentleman for two days.’”
 
 
 “ ‘Where is he now?’ I asked.”
 
 
-“ ‘He is upstairs in bed.’ ”
-
-
-“ ‘He wished to be called at nine.’ ”
+“ ‘He is upstairs in bed. He wished to be called at nine.’ ”
 
 
 “ ‘I will go up and see him at once,’ I said.”
@@ -3098,7 +3092,7 @@ e:lestrade=neutral
 e:lestrade=contemplative
 
 “The Boots volunteered to show me the room: it was on the second floor, and there was a small corridor leading up to it.”
-
+b=hotel-hall;f:b:hotel-hall=blur(3px)
 
 “The Boots pointed out the door to me, and was about to go downstairs again when I saw something that made me feel sickish, in spite of my twenty years’ experience.”
 e:lestrade=upset
@@ -3109,29 +3103,38 @@ e:lestrade=fearful
 “I gave a cry, which brought the Boots back. He nearly fainted when he saw it.”
 
 
-“The door was locked on the inside, but we put our shoulders to it, and knocked it in. The window of the room was open, and beside the window, all huddled up, lay the body of a man in his nightdress.”
-e:lestrade=serious
+“The door was locked on the inside, but we put our shoulders to it, and knocked it in.”
+e:lestrade=serious;b=light
+
+“The window of the room was open, and beside the window, all huddled up, lay the body of a man in his nightdress.”
+b=hotel-body;f:b:hotel-body=blur(3px)
 
 “He was quite dead, and had been for some time, for his limbs were rigid and cold.”
 
 
 “When we turned him over, the Boots recognized him at once as being the same gentleman who had engaged the room under the name of Joseph Stangerson.”
-
+b=hotel-room;f:b:hotel-room=blur(3px)
 
 “The cause of death was a deep stab in the left side, which must have penetrated the heart.”
 
 
-“And now comes the strangest part of the affair. What do you suppose was above the murdered man?”
+“And now comes the strangest part of the affair.”
+
+
+“What do you suppose was above the murdered man?”
 e:lestrade=wary
 
 I felt a creeping of the flesh, and a presentiment of coming horror, even before Sherlock Holmes answered.
-s=none;e:watson=fearful
+s=none;e:watson=fearful;b=baker-sitting
 
 “The word **Rache**, written in letters of blood,” he said.
 s=holmes;e:holmes=serious
 
-“That was it,” said Lestrade, in an awestruck voice; and we were all silent for a while.
+“That was it,” said Lestrade, in an awestruck voice;
 s=lestrade;e:lestrade=surprised
+
+and we were all silent for a while.
+s=
 
 There was something so methodical and so incomprehensible about the deeds of this unknown assassin, that it imparted a fresh ghastliness to his crimes.
 s=none;e:watson=nervous
@@ -3139,22 +3142,19 @@ s=none;e:watson=nervous
 My nerves, which were steady enough on the field of battle tingled as I thought of it.
 
 
-“The man was seen,” continued Lestrade. “A milk boy, passing on his way to the dairy, happened to walk down the lane which leads from the mews at the back of the hotel.”
+“The man was seen,” continued Lestrade.
 s=lestrade;e:lestrade=serious
+
+“A milk boy, passing on his way to the dairy, happened to walk down the lane which leads from the mews at the back of the hotel.”
+
 
 “He noticed that a ladder, which usually lay there, was raised against one of the windows of the second floor, which was wide open.”
 
 
-“After passing, he looked back and saw a man descend the ladder.”
+“After passing, he looked back and saw a man descend the ladder. He came down so quietly and openly that the boy imagined him to be some carpenter or joiner at work in the hotel.”
 
 
-“He came down so quietly and openly that the boy imagined him to be some carpenter or joiner at work in the hotel.”
-
-
-“He took no particular notice of him, beyond thinking in his own mind that it was early for him to be at work.”
-
-
-“He has an impression that the man was tall, had a reddish face, and was dressed in a long, brownish coat.”
+“He took no particular notice of him, beyond thinking in his own mind that it was early for him to be at work. He has an impression that the man was tall, had a reddish face, and was dressed in a long, brownish coat.”
 
 
 “He must have stayed in the room some little time after the murder, for we found bloodstained water in the basin, where he had washed his hands, and marks on the sheets where he had deliberately wiped his knife.”
@@ -3178,8 +3178,11 @@ s=lestrade;e:lestrade=neutral
 “Whatever the motives of these extraordinary crimes, robbery is certainly not one of them.”
 e:lestrade=thinking
 
-“There were no papers or memoranda in the murdered man’s pocket, except a single telegram, dated from Cleveland about a month ago, and containing the words, ‘J. H. is in Europe.’ There was no name appended to this message.”
+“There were no papers or memoranda in the murdered man’s pocket, except a single telegram, dated from Cleveland about a month ago, and containing the words, ‘J. H. is in Europe.’”
 e:lestrade=serious
+
+“There was no name appended to this message.”
+
 
 “And there was nothing else?” Holmes asked.
 s=holmes;e:holmes=thinking
@@ -3193,8 +3196,11 @@ s=lestrade;e:lestrade=neutral
 Sherlock Holmes sprang from his chair with an exclamation of delight.
 s=none;e:holmes=excited
 
-“The last link,” he cried, exultantly. “My case is complete.”
-s=holmes;e:holmes=happy
+“The last link,” he cried, exultantly.
+s=holmes;e:holmes=excited
+
+“My case is complete.”
+
 
 The two detectives stared at him in amazement.
 s=none;e:lestrade=surprised;e:gregson=surprised
@@ -3208,14 +3214,20 @@ e:holmes=serious
 “I will give you a proof of my knowledge. Could you lay your hand upon those pills?”
 e:holmes=curious
 
-“I have them,” said Lestrade, producing a small white box; “I took them and the purse and the telegram, intending to have them put in a place of safety at the Police Station.”
+“I have them,” said Lestrade, producing a small white box;
 s=lestrade;e:lestrade=neutral
+
+“I took them and the purse and the telegram, intending to have them put in a place of safety at the Police Station.”
+
 
 “It was the merest chance my taking these pills, for I am bound to say that I do not attach any importance to them.”
 e:lestrade=smirking
 
-“Give them here,” said Holmes. “Now, Doctor,” turning to me, “are those ordinary pills?”
+“Give them here,” said Holmes.
 s=holmes;e:holmes=serious
+
+“Now, Doctor,” turning to me, “are those ordinary pills?”
+
 
 They certainly were not. They were of a pearly grey colour, small, round, and almost transparent against the light.
 s=none;e:watson=thinking
@@ -3223,23 +3235,38 @@ s=none;e:watson=thinking
 “From their lightness and transparency, I should imagine that they are soluble in water,” I remarked.
 s=watson;e:watson=neutral
 
-“Precisely so,” answered Holmes. “Now would you mind going down and fetching that poor little devil of a terrier which has been bad so long, and which the landlady wanted you to put out of its pain yesterday.”
+“Precisely so,” answered Holmes.
 s=holmes;e:holmes=serious
+
+“Now would you mind going down and fetching that poor little devil of a terrier which has been bad so long, and which the landlady wanted you to put out of its pain yesterday.”
+
 
 I went downstairs and carried the dog upstairs in my arms. Its laboured breathing and glazing eye showed that it was not far from its end.
 s=none;e:watson=sadsmile
 
-Indeed, its snow-white muzzle proclaimed that it had already exceeded the usual term of canine existence. I placed it upon a cushion on the rug.
+Indeed, its snow-white muzzle proclaimed that it had already exceeded the usual term of canine existence.
 
 
-“I will now cut one of these pills in two,” said Holmes, and drawing his penknife he suited the action to the word. “One half we return into the box for future purposes.”
+I placed it upon a cushion on the rug.
+
+
+“I will now cut one of these pills in two,” said Holmes,
+s=holmes;m=allowbreak
+
+and drawing his penknife he suited the action to the word.
+s=;m=
+
+“One half we return into the box for future purposes.”
 s=holmes;e:holmes=serious
 
 “The other half I will place in this wine glass, in which is a teaspoonful of water. You perceive that our friend, the Doctor, is right, and that it readily dissolves.”
 e:holmes=smirking
 
-“This may be very interesting,” said Lestrade, in the injured tone of one who suspects that he is being laughed at, “I cannot see, however, what it has to do with the death of Mr. Joseph Stangerson.”
+“This may be very interesting,” said Lestrade, in the injured tone of one who suspects that he is being laughed at,
 s=lestrade;e:lestrade=annoyed
+
+“I cannot see, however, what it has to do with the death of Mr. Joseph Stangerson.”
+
 
 “Patience, my friend, patience! You will find in time that it has everything to do with it.”
 s=holmes;e:holmes=smirking
@@ -3265,8 +3292,11 @@ e:holmes=angry
 So great was his emotion, that I felt sincerely sorry for him, while the two detectives smiled derisively, by no means displeased at this check which he had met.
 e:lestrade=smirking;e:gregson=smirking;e:watson=unhappy
 
-“It can’t be a coincidence,” he cried, at last springing from his chair and pacing wildly up and down the room; “it is impossible that it should be a mere coincidence.”
+“It can’t be a coincidence,” he cried, at last springing from his chair and pacing wildly up and down the room;
 s=holmes;e:holmes=upset
+
+“it is impossible that it should be a mere coincidence.”
+
 
 “The very pills which I suspected in the case of Drebber are actually found after the death of Stangerson. And yet they are inert.”
 e:holmes=angry
@@ -3274,7 +3304,10 @@ e:holmes=angry
 “What can it mean? Surely my whole chain of reasoning cannot have been false. It is impossible!”
 e:holmes=confused
 
-“And yet this wretched dog is none the worse. Ah, I have it! I have it!”
+“And yet this wretched dog is none the worse.”
+
+
+“Ah, I have it! I have it!”
 e:holmes=excited
 
 With a perfect shriek of delight he rushed to the box, cut the other pill in two, dissolved it, added milk, and presented it to the terrier.
@@ -3295,7 +3328,7 @@ e:holmes=serious
 This last statement appeared to me to be so startling, that I could hardly believe that he was in his sober senses.
 s=none;e:watson=confused
 
-There was the dead dog, however, to prove that his conjecture had been correct.
+There was the dead dog, however, to prove that his conjecture had been correct.<e>"Once you've eliminated the dog, whatever remains is the dead dog." —Holmes</e>
 
 
 It seemed to me that the mists in my own mind were gradually clearing away, and I began to have a dim, vague perception of the truth.
@@ -3392,7 +3425,7 @@ Neither of them had time to speak, however, before there was a tap at the door, 
 e:wiggins=neutral
 
 “Please, sir,” he said, touching his forelock, “I have the cab downstairs.”
-s=wiggins;e:wiggins=neutral
+s=wiggins;e:wiggins=touching
 
 “Good boy,” said Holmes, blandly.
 s=holmes;e:holmes=happy
@@ -3440,7 +3473,7 @@ For a second or two we might have been a group of statues.
 
 
 Then, with an inarticulate roar of fury, the prisoner wrenched himself free from Holmes’s grasp, and hurled himself through the window.
-e:jefferson=angry
+e:jefferson=angry;b=light
 
 Woodwork and glass gave way before him; but before he got quite through, Gregson, Lestrade, and Holmes sprang upon him like so many staghounds.
 e:holmes=serious;e:gregson=serious;e:lestrade=serious
@@ -3458,12 +3491,12 @@ It was not until Lestrade succeeded in getting his hand inside his neckcloth and
 e:lestrade=weary;e:jefferson=weary
 
 That done, we rose to our feet breathless and panting.
-e:watson=weary;e:holmes=weary;e:gregson=weary
+e:watson=weary;e:holmes=weary;e:gregson=weary;b=baker-sitting
 
-“We have his cab,” said Sherlock Holmes.
+“We have his cab,” said Sherlock Holmes. “It will serve to take him to Scotland Yard.”
 s=holmes;e:holmes=weary
 
-“It will serve to take him to Scotland Yard. And now, gentlemen,” he continued, with a pleasant smile, “we have reached the end of our little mystery.”
+“And now, gentlemen,” he continued, with a pleasant smile, “we have reached the end of our little mystery.”
 e:holmes=happy
 
 “You are very welcome to put any questions that you like to me now, and there is no danger that I will refuse to answer them.”
