@@ -4082,7 +4082,7 @@ All around farms were apportioned and allotted in proportion to the standing of 
 
 
 In the town streets and squares sprang up, as if by magic.
-b=town-wide
+b=utah-town-wide
 
 In the country there was draining and hedging, planting and clearing, until the next summer saw the whole country golden with the wheat crop.
 
@@ -4121,7 +4121,7 @@ Hence it came about that his farm and all that belonged to him prospered exceedi
 e:ferrier=happy
 
 In three years he was better off than his neighbours, in six he was well-to-do, in nine he was rich, and in twelve there were not half a dozen men in the whole of Salt Lake City who could compare with him.
-b=town-wide
+b=utah-town-wide
 
 From the great inland sea to the distant Wahsatch Mountains there was no name better known than that of John Ferrier.
 
@@ -4388,7 +4388,7 @@ e:lucy=happy
 r=title
 
 Three weeks had passed since Jefferson Hope and his comrades had departed from Salt Lake City.
-
+b=villa-sitting
 
 John Ferrier’s heart was sore within him when he thought of the young man’s return, and of the impending loss of his adopted child.
 e:ferrier=unhappy
@@ -4399,17 +4399,14 @@ e:ferrier=sadsmile
 He had always determined, deep down in his resolute heart, that nothing would ever induce him to allow his daughter to wed a Mormon.
 e:ferrier=serious
 
-Such a marriage he regarded as no marriage at all, but as a shame and a disgrace.
-
-
-Whatever he might think of the Mormon doctrines, upon that one point he was inflexible.
+Such a marriage he regarded as no marriage at all, but as a shame and a disgrace. Whatever he might think of the Mormon doctrines, upon that one point he was inflexible.
 e:ferrier=angry
 
 He had to seal his mouth on the subject, however, for to express an unorthodox opinion was a dangerous matter in those days in the Land of the Saints.
 e:ferrier=wary
 
 Yes, a dangerous matter﻿—so dangerous that even the most saintly dared only whisper their religious opinions with bated breath, lest something which fell from their lips might be misconstrued, and bring down a swift retribution upon them.
-
+b=utah-town-wide-night
 
 The victims of persecution had now turned persecutors on their own account, and persecutors of the most terrible description.
 
@@ -4432,7 +4429,10 @@ A rash word or a hasty act was followed by annihilation, and yet none knew what 
 No wonder that men went about in fear and trembling, and that even in the heart of the wilderness they dared not whisper the doubts which oppressed them.
 
 
-At first this vague and terrible power was exercised only upon the recalcitrants who, having embraced the Mormon faith, wished afterwards to pervert or to abandon it. Soon, however, it took a wider range.
+At first this vague and terrible power was exercised only upon the recalcitrants who, having embraced the Mormon faith, wished afterwards to pervert or to abandon it.
+
+
+Soon, however, it took a wider range.
 
 
 The supply of adult women was running short, and polygamy without a female population on which to draw was a barren doctrine indeed.
@@ -4456,20 +4456,17 @@ To this day, in the lonely ranches of the West, the name of the Danite Band, or 
 Fuller knowledge of the organization which produced such terrible results served to increase rather than to lessen the horror which it inspired in the minds of men.
 
 
-None knew who belonged to this ruthless society.
-
-
-The names of the participators in the deeds of blood and violence done under the name of religion were kept profoundly secret.
+None knew who belonged to this ruthless society. The names of the participators in the deeds of blood and violence done under the name of religion were kept profoundly secret.
 
 
 The very friend to whom you communicated your misgivings as to the Prophet and his mission, might be one of those who would come forth at night with fire and sword to exact a terrible reparation.
 
 
-Hence every man feared his neighbour, and none spoke of the things which were nearest his heart.<e>On the one hand: "Source? I made it up." On the other: the Mormons kind of have it coming for <book>How Few Remain|Timeline-191</book></e>
+Hence every man feared his neighbour, and none spoke of the things which were nearest his heart.<e>Source: <book>How Few Remain|Timeline-191</book></e>
 
 
 One fine morning, John Ferrier was about to set out to his wheatfields, when he heard the click of the latch, and, looking through the window, saw a stout, sandy-haired, middle-aged man coming up the pathway.
-e:ferrier=neutral
+e:ferrier=neutral;b=villa-wide
 
 His heart leapt to his mouth, for this was none other than the great Brigham Young himself.
 e:ferrier=surprised
@@ -4478,12 +4475,18 @@ Full of trepidation﻿—for he knew that such a visit boded him little good﻿�
 e:ferrier=nervous
 
 The latter, however, received his salutations coldly, and followed him with a stern face into the sitting-room.
-e:brigham=serious
+e:brigham=serious;b=villa-sitting
 
-“Brother Ferrier,” he said, taking a seat, and eyeing the farmer keenly from under his light-coloured eyelashes, “the true believers have been good friends to you.”
-s=brigham;e:brigham=serious
+“Brother Ferrier,” he said, taking a seat, and eyeing the farmer keenly from under his light-coloured eyelashes,
+s=brigham;e:brigham=serious;a:brigham=old
 
-“We picked you up when you were starving in the desert, we shared our food with you, led you safe to the Chosen Valley, gave you a goodly share of land, and allowed you to wax rich under our protection. Is not this so?”
+“the true believers have been good friends to you.”
+
+
+“We picked you up when you were starving in the desert, we shared our food with you, led you safe to the Chosen Valley, gave you a goodly share of land, and allowed you to wax rich under our protection.”
+e:brigham=thinking
+
+“Is not this so?”
 
 
 “It is so,” answered John Ferrier.
@@ -4493,22 +4496,25 @@ s=ferrier;e:ferrier=nervous
 s=brigham;e:brigham=serious
 
 “This you promised to do, and this, if common report says truly, you have neglected.”
-
+i=3
 
 “And how have I neglected it?” asked Ferrier, throwing out his hands in expostulation.
-s=ferrier;e:ferrier=upset
+s=ferrier;e:ferrier=expostulation
 
 “Have I not given to the common fund? Have I not attended at the Temple? Have I not﻿—?”
+e:ferrier=nervous
 
-
-“Where are your wives?” asked Young, looking round him. “Call them in, that I may greet them.”
+“Where are your wives?” asked Young, looking round him.
 s=brigham;e:brigham=suspicious
+
+“Call them in, that I may greet them.”
+
 
 “It is true that I have not married,” Ferrier answered.
 s=ferrier;e:ferrier=nervous
 
 “But women were few, and there were many who had better claims than I.”
-
+e:ferrier=contemplative
 
 “I was not a lonely man: I had my daughter to attend to my wants.”
 
@@ -4522,14 +4528,11 @@ s=brigham;e:brigham=serious
 John Ferrier groaned internally.
 s=none;e:ferrier=upset
 
-“There are stories of her which I would fain disbelieve﻿—stories that she is sealed to some Gentile.”
-s=brigham;e:brigham=angry
-
-“This must be the gossip of idle tongues.”
-
+“There are stories of her which I would fain disbelieve﻿—stories that she is sealed to some Gentile. This must be the gossip of idle tongues.”
+s=brigham;e:brigham=annoyed
 
 “What is the thirteenth rule in the code of the sainted Joseph Smith? ‘Let every maiden of the true faith marry one of the elect; for if she wed a Gentile, she commits a grievous sin.’”
-
+e:brigham=serious
 
 “This being so, it is impossible that you, who profess the holy creed, should suffer your daughter to violate it.”
 
@@ -4583,19 +4586,22 @@ One glance at her pale, frightened face showed him that she had heard what had p
 e:lucy=fearful
 
 “I could not help it,” she said, in answer to his look.
-s=lucy;e:lucy=upset
+s=lucy;e:lucy=unhappy
 
-“His voice rang through the house. Oh, father, father, what shall we do?”
+“His voice rang through the house.”
 
+
+“Oh, father, father, what shall we do?”
+e:lucy=upset
 
 “Don’t you scare yourself,” he answered, drawing her to him, and passing his broad, rough hand caressingly over her chestnut hair.
 s=ferrier;e:ferrier=sadsmile
 
 “We’ll fix it up somehow or another.”
-
+e:ferrier=thinking
 
 “You don’t find your fancy kind o’ lessening for this chap, do you?”
-e:ferrier=neutral
+e:ferrier=contemplative
 
 A sob and a squeeze of his hand was her only answer.
 s=none;e:lucy=sadsmile
@@ -4615,14 +4621,17 @@ e:ferrier=smirking
 Lucy laughed through her tears at her father’s description.
 s=none;e:lucy=sadsmile
 
-“When he comes, he will advise us for the best. But it is for you that I am frightened, dear.”
-s=lucy;e:lucy=fearful
+“When he comes, he will advise us for the best.”
+s=lucy;e:lucy=wary
 
-“One hears﻿—one hears such dreadful stories about those who oppose the Prophet: something terrible always happens to them.”
+“But it is for you that I am frightened, dear. One hears﻿—one hears such dreadful stories about those who oppose the Prophet: something terrible always happens to them.”
+e:lucy=fearful
 
+“But we haven’t opposed him yet,” her father answered.
+s=ferrier;e:ferrier=thinking
 
-“But we haven’t opposed him yet,” her father answered. “It will be time to look out for squalls when we do.”
-s=ferrier;e:ferrier=neutral
+“It will be time to look out for squalls when we do.”
+
 
 “We have a clear month before us; at the end of that, I guess we had best shin out of Utah.”
 e:ferrier=serious
@@ -4636,11 +4645,8 @@ s=ferrier;e:ferrier=neutral
 “But the farm?”
 s=lucy;e:lucy=nervous
 
-“We will raise as much as we can in money, and let the rest go.”
+“We will raise as much as we can in money, and let the rest go. To tell the truth, Lucy, it isn’t the first time I have thought of doing it.”
 s=ferrier;e:ferrier=thinking
-
-“To tell the truth, Lucy, it isn’t the first time I have thought of doing it.”
-
 
 “I don’t care about knuckling under to any man, as these folk do to their darned prophet. I’m a freeborn American, and it’s all new to me. Guess I’m too old to learn.”
 e:ferrier=angry
@@ -4658,10 +4664,10 @@ s=ferrier;e:ferrier=smirking
 e:ferrier=sadsmile
 
 “There’s nothing to be afeared about, and there’s no danger at all.”
-
+e:ferrier=thinking
 
 John Ferrier uttered these consoling remarks in a very confident tone, but she could not help observing that he paid unusual care to the fastening of the doors that night, and that he carefully cleaned and loaded the rusty old shotgun which hung upon the wall of his bedroom.
-s=none;e:ferrier=wary
+s=none;e:ferrier=wary;f:b:villa-sitting=blur(3px)
 
 ### IV<br>A Flight for Life
 r=title
