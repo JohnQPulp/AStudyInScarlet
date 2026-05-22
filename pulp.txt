@@ -2693,7 +2693,7 @@ e:gregson=smirking
 e:gregson=excited
 
 “‘Have you heard of the mysterious death of your late boarder Mr. Enoch J. Drebber, of Cleveland?’ I asked.”
-e:gregson=serious;g=,;s=gregson;b=boarding-int
+e:gregson=serious;g=boarding-int;s=gregson
 
 “The mother nodded. She didn’t seem able to get out a word.”
 s=
@@ -2849,7 +2849,7 @@ n:stangerson=Joseph Stangerson;n:drebber=Enoch J. Drebber
 
 
 “‘“You are of age,” he said, “and there is no law to stop you. I have money enough and to spare.”’”
-g=,;b=boarding-sitting;s=drebber;a:drebber=present;x:drebber=hat;e:drebber=serious
+g=boarding-sitting;s=drebber;a:drebber=present;x:drebber=hat;e:drebber=serious
 
 “‘“Never mind the old girl here, but come along with me now straight away. You shall live like a princess.”’”
 
@@ -2891,7 +2891,7 @@ s=gregson;e:gregson=serious
 
 
 “‘I do not know,’ she answered.”
-g=,;b=boarding-int;s=mrs
+g=boarding-int;s=mrs
 
 “‘Not know?’”
 s=gregson;e:gregson=suspicious
