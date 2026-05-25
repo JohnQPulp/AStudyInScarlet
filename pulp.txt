@@ -8,7 +8,7 @@ r=title
 r=london-wider
 
 In the year 1878 I took my degree of Doctor of Medicine of the University of London, and proceeded to Netley to go through the course prescribed for surgeons in the army.
-n:watson=Dr. Watson;e:watson=neutral
+n:watson=Dr. John H. Watson;e:watson=neutral
 
 Having completed my studies there, I was duly attached to the Fifth Northumberland Fusiliers as Assistant Surgeon.
 
@@ -2849,7 +2849,7 @@ n:stangerson=Joseph Stangerson;n:drebber=Enoch J. Drebber
 
 
 “‘“You are of age,” he said, “and there is no law to stop you. I have money enough and to spare.”’”
-g=boarding-sitting;s=drebber;a:drebber=present;x:drebber=hat;e:drebber=serious
+g=boarding-sitting;s=drebber;a:drebber=old;x:drebber=hat;e:drebber=serious
 
 “‘“Never mind the old girl here, but come along with me now straight away. You shall live like a princess.”’”
 
@@ -3608,7 +3608,7 @@ North, and east, and west he looked with wild questioning eyes, and then he real
 e:ferrier=fearful
 
 “Why not here, as well as in a feather bed, twenty years hence,” he muttered, as he seated himself in the shelter of a boulder.
-s=ferrier;e:ferrier=weary;a:ferrier=young;x:ferrier=bundle
+s=ferrier;e:ferrier=weary;a:ferrier=young
 
 Before sitting down, he had deposited upon the ground his useless rifle, and also a large bundle tied up in a grey shawl, which he had carried slung over his right shoulder.
 s=none
