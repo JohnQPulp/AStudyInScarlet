@@ -3860,7 +3860,7 @@ n:elder1=?;s=elder1;e:elder1=serious
 n:elder2=?;s=elder2;e:elder2=serious
 
 “Fear not for water,” cried a third. “He who could draw it from the rocks will not now abandon His own chosen people.”
-n:elder3=?;s=elder3;e:elder3=thinking
+n:elderstangerson=?;s=elderstangerson;e:elderstangerson=thinking;;a:elderstangerson=young
 
 “Amen! Amen!” responded the whole party.
 m=dialogue;s=
@@ -3878,7 +3878,7 @@ The word “Redskins” was on every lip.
 
 
 “There can’t be any number of Injuns here,” said the elderly man who appeared to be in command.
-n:elderstangerson=?;s=elderstangerson;e:elderstangerson=serious
+s=elderstangerson;e:elderstangerson=serious
 
 “We have passed the Pawnees, and there are no other tribes until we cross the great mountains.”
 
@@ -3890,7 +3890,7 @@ n:youngman=?;s=youngman;e:youngman=curious
 s=none;m=dialogue
 
 “Leave your horses below and we will await you here,” the Elder answered.
-s=elderstangerson;e:elderstangerson=neutral;m=;n:elderstangerson=Brother Stangerson;a:elderstangerson=young
+s=elderstangerson;e:elderstangerson=neutral;m=;n:elderstangerson=Brother Stangerson
 
 In a moment the young fellows had dismounted, fastened their horses, and were ascending the precipitous slope which led up to the object which had excited their curiosity.
 s=none
