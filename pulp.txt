@@ -3860,7 +3860,7 @@ n:elder1=?;s=elder1;e:elder1=serious
 n:elder2=?;s=elder2;e:elder2=serious
 
 “Fear not for water,” cried a third. “He who could draw it from the rocks will not now abandon His own chosen people.”
-n:elderstangerson=?;s=elderstangerson;e:elderstangerson=thinking;;a:elderstangerson=young
+n:elderstangerson=?;s=elderstangerson;e:elderstangerson=thinking
 
 “Amen! Amen!” responded the whole party.
 m=dialogue;s=
