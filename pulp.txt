@@ -1481,7 +1481,7 @@ In this particular corner of the room a large piece had peeled off, leaving a ye
 
 
 <div>Across this bare space there was scrawled in bloodred letters a single word﻿—</div><br><div class='center upper'>Rache</div>
-o=rache
+b=rache
 
 “What do you think of that?” cried the detective, with the air of a showman exhibiting his show.
 s=lestrade;e:lestrade=smirking
@@ -1520,7 +1520,7 @@ e:holmes=smirking
 e:holmes=serious
 
 As he spoke, he whipped a tape measure and a large round magnifying glass from his pocket.
-s=none;o=
+s=none;b=three-dining
 
 With these two implements he trotted noiselessly about the room, sometimes stopping, occasionally kneeling, and once lying flat upon his face.
 
@@ -5318,7 +5318,7 @@ A vague, nameless dread came over him, and he hurried onwards frantically, dropp
 e:jefferson=fearful
 
 When he turned the corner, he came full in sight of the spot where the fire had been lit.
-o=fire-ashes
+b=fire-ashes
 
 There was still a glowing pile of wood ashes there, but it had evidently not been tended since his departure. The same dead silence still reigned all round.
 
@@ -5327,7 +5327,7 @@ With his fears all changed to convictions, he hurried on.
 
 
 There was no living creature near the remains of the fire: animals, man, maiden, all were gone.
-e:jefferson=upset;o=
+e:jefferson=upset;b=canyon-nook-night
 
 It was only too clear that some sudden and terrible disaster had occurred during his absence﻿—a disaster which had embraced them all, and yet had left no traces behind it.
 
@@ -5351,7 +5351,7 @@ Jefferson Hope had almost persuaded himself that they must have done so, when hi
 e:jefferson=surprised
 
 A little way on one side of the camp was a low-lying heap of reddish soil, which had assuredly not been there before.
-o=grave
+b=grave
 
 There was no mistaking it for anything but a newly-dug grave.
 e:jefferson=fearful
@@ -5369,7 +5369,7 @@ The sturdy old man, whom he had left so short a time before, was gone, then, and
 e:jefferson=unhappy
 
 Jefferson Hope looked wildly round to see if there was a second grave, but there was no sign of one.
-e:jefferson=wary;o=
+e:jefferson=wary;b=canyon-nook-night
 
 Lucy had been carried back by their terrible pursuers to fulfil her original destiny, by becoming one of the harem of the Elder’s son.
 e:jefferson=angry
@@ -6449,13 +6449,13 @@ e:holmes=thinking
 
 
 “When the inscription was discovered upon the wall I was more inclined than ever to my opinion.”
-o=rache
+b=rache
 
 “The thing was too evidently a blind.”
 
 
 “When the ring was found, however, it settled the question. Clearly the murderer had used it to remind his victim of some dead or absent woman.”
-e:holmes=serious;o=
+e:holmes=serious;b=three-dining
 
 “It was at this point that I asked Gregson whether he had enquired in his telegram to Cleveland as to any particular point in Mr. Drebber’s former career.”
 
