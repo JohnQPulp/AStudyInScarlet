@@ -2378,7 +2378,7 @@ s=watson;e:watson=curious
 s=holmes;e:holmes=smirking
 
 “That creature had gone a little way when she began to limp and show every sign of being footsore.”
-e:holmes=neutral;b=london-street-night;f:b:london-street-night=blur(3px)
+e:holmes=neutral
 
 “Presently she came to a halt, and hailed a four-wheeler which was passing.”
 
@@ -2849,7 +2849,7 @@ n:stangerson=Joseph Stangerson;n:drebber=Enoch J. Drebber
 
 
 “‘“You are of age,” he said, “and there is no law to stop you. I have money enough and to spare.”’”
-g=boarding-sitting;s=drebber;a:drebber=old;x:drebber=hat;e:drebber=serious
+g=boarding-int;s=drebber;a:drebber=old;x:drebber=hat;e:drebber=serious
 
 “‘“Never mind the old girl here, but come along with me now straight away. You shall live like a princess.”’”
 
