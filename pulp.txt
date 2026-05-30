@@ -959,73 +959,67 @@ When I looked at him he had finished reading the note, and his eyes had assumed 
 e:holmes=thinking
 
 “How in the world did you deduce that?” I asked.
-s=watson;e:watson=curious
+s=watson;e:watson=curious;e:watson=confused;i=
 
 “Deduce what?” said he, petulantly.
-s=holmes;e:holmes=annoyed
+s=holmes;e:holmes=annoyed;e:holmes=curious;i=
 
 “Why, that he was a retired sergeant of Marines.”
 s=watson;e:watson=neutral
 
 “I have no time for trifles,” he answered, brusquely;
-s=holmes
+s=holmes;e:holmes=annoyed;i=
 
 then with a smile,
 s=
 
 “Excuse my rudeness. You broke the thread of my thoughts; but perhaps it is as well.”
-s=holmes;e:holmes=smirking
+s=holmes;e:holmes=smirking;e:holmes=smirking;i=2
 
 “So you actually were not able to see that that man was a sergeant of Marines?”
-e:holmes=curious
+e:holmes=curious;e:holmes=;i=3
 
 “No, indeed.”
-s=watson
+s=watson;e:watson=contemplative;i=
 
 “It was easier to know it than to explain why I knew it.”
 s=holmes;e:holmes=thinking
 
-“If you were asked to prove that two and two made four, you might find some difficulty, and yet you are quite sure of the fact.”<e>"Elementary set theory, my dear Watson. (If only set theory were invented yet.)"</e>
+“If you were asked to prove that two and two made four, you might find some difficulty, and yet you are quite sure of the fact.”<e>"Elementary set theory, my dear Watson." —Anachronistic apocryphal Sherlock Holmes</e>
 
 
 “Even across the street I could see a great blue anchor tattooed on the back of the fellow’s hand. That smacked of the sea.”
-
+;e:holmes=curious;i=2
 
 “He had a military carriage, however, and regulation side whiskers. There we have the marine.”
-
+;e:holmes=smirking;i=2
 
 “He was a man with some amount of self-importance and a certain air of command. You must have observed the way in which he held his head and swung his cane.”
-e:holmes=neutral
+i=
 
 “A steady, respectable, middle-aged man, too, on the face of him﻿—all facts which led me to believe that he had been a sergeant.”
-
+;e:holmes=;i=
 
 “Wonderful!” I ejaculated.
 s=watson;e:watson=excited
 
 “Commonplace,” said Holmes,
-s=holmes;e:holmes=smirking;m=allowbreak
+s=holmes;e:holmes=smirking;m=allowbreak;e:holmes=smirking;i=2
 
 though I thought from his expression that he was pleased at my evident surprise and admiration.
 m=;s=
 
-“I said just now that there were no criminals.”
-e:holmes=thinking;s=holmes
-
-“It appears that I am wrong﻿—look at this!”
-e:holmes=serious
+“I said just now that there were no criminals. It appears that I am wrong﻿—look at this!”
+e:holmes=thinking;s=holmes;e:holmes=serious
 
 He threw me over the note which the commissionaire had brought.
 s=none;e:watson=curious
 
 “Why,” I cried, as I cast my eye over it, “this is terrible!”
-s=watson;e:watson=surprised
+s=watson;e:watson=surprised;e:watson=annoyedeggpoint;i=
 
-“It does seem to be a little out of the common,” he remarked, calmly.
+“It does seem to be a little out of the common,” he remarked, calmly. “Would you mind reading it to me aloud?”
 s=holmes;e:holmes=neutral
-
-“Would you mind reading it to me aloud?”
-
 
 This is the letter which I read to him﻿—
 s=none;e:watson=serious
@@ -1034,7 +1028,7 @@ s=none;e:watson=serious
 m=margin
 
 There has been a bad business during the night at 3, Lauriston Gardens, off the Brixton Road.
-n:gregson=Tobias Gregson
+
 
 Our man on the beat saw a light there about two in the morning, and as the house was an empty one, suspected that something was amiss.
 
@@ -1045,10 +1039,7 @@ He found the door open, and in the front room, which is bare of furniture, disco
 There had been no robbery, nor is there any evidence as to how the man met his death. There are marks of blood in the room, but there is no wound upon his person.
 
 
-We are at a loss as to how he came into the empty house; indeed, the whole affair is a puzzler.
-
-
-If you can come round to the house any time before twelve, you will find me there.
+We are at a loss as to how he came into the empty house; indeed, the whole affair is a puzzler. If you can come round to the house any time before twelve, you will find me there.
 
 
 I have left everything *in statu quo* until I hear from you.
@@ -1061,28 +1052,28 @@ If you are unable to come I shall give you fuller details, and would esteem it a
 
 
 “Gregson is the smartest of the Scotland Yarders,” my friend remarked; “he and Lestrade are the pick of a bad lot. They are both quick and energetic, but conventional﻿—shockingly so.”
-s=holmes;e:holmes=smirking;m=
+s=holmes;e:holmes=smirking;m=;i=2
 
 “They have their knives into one another, too. They are as jealous as a pair of professional beauties. There will be some fun over this case if they are both put upon the scent.”
-
+i=
 
 I was amazed at the calm way in which he rippled on.
 s=none;e:watson=surprised
 
 “Surely there is not a moment to be lost,” I cried, “shall I go and order you a cab?”
-s=watson;e:watson=nervous
+s=watson;e:watson=nervous;e:watson=contemplative;i=
 
 “I’m not sure about whether I shall go. I am the most incurably lazy devil that ever stood in shoe leather﻿—that is, when the fit is on me, for I can be spry enough at times.”
-s=holmes;e:holmes=weary
+s=holmes;e:holmes=weary;e:holmes=contemplative;i=2
 
 “Why, it is just such a chance as you have been longing for.”
 s=watson;e:watson=confused
 
 “My dear fellow, what does it matter to me?”
-s=holmes;e:holmes=annoyed
+s=holmes;e:holmes=annoyed;e:holmes=;i=
 
 “Supposing I unravel the whole matter, you may be sure that Gregson, Lestrade, and Co. will pocket all the credit. That comes of being an unofficial personage.”
-
+;e:holmes=serious;i=
 
 “But he begs you to help him.”
 s=watson;e:watson=serious
@@ -1091,25 +1082,25 @@ s=watson;e:watson=serious
 s=holmes;e:holmes=smirking
 
 “However, we may as well go and have a look. I shall work it out on my own hook. I may have a laugh at them if I have nothing else.”
-e:holmes=
+e:holmes=;e:holmes=;i=3
 
 “Come on!”
-e:holmes=excited
+e:holmes=excited;e:holmes=annoyed;i=
 
 He hustled on his overcoat, and bustled about in a way that showed that an energetic fit had superseded the apathetic one.
 s=none
 
 “Get your hat,” he said.
-s=holmes;e:holmes=serious;x:holmes=hat
+s=holmes;e:holmes=serious;x:holmes=cravat;e:holmes=;i=
 
 “You wish me to come?”
-s=watson;e:watson=surprised
+s=watson;e:watson=surprised;e:watson=nervous;i=
 
 “Yes, if you have nothing better to do.”
-s=holmes;e:holmes=neutral
+s=holmes;e:holmes=neutral;e:holmes=;i=2
 
 A minute later we were both in a hansom, driving furiously for the Brixton Road.
-s=none;e:watson=neutral;b=london-wide-foggy;x:watson=hat
+s=none;e:watson=neutral;b=london-wide-foggy;x:watson=hat;x:holmes=hat
 
 It was a foggy, cloudy morning, and a dun-coloured veil hung over the housetops, looking like the reflection of the mud-coloured streets beneath.
 
@@ -1124,25 +1115,22 @@ e:watson=unhappy
 s=watson;e:watson=confused
 
 “No data yet,” he answered.
-s=holmes;e:holmes=serious
+s=holmes;e:holmes=serious;e:holmes=contemplative;i=
 
 “It is a capital mistake to theorize before you have all the evidence. It biases the judgment.”
-
+;e:holmes=;i=2
 
 “You will have your data soon,” I remarked, pointing with my finger; “this is the Brixton Road, and that is the house, if I am not very much mistaken.”
 s=watson;e:watson=pointing
 
-“So it is.”
+“So it is. Stop, driver, stop!”
 s=holmes;e:holmes=serious
 
-“Stop, driver, stop!”
-
-
 We were still a hundred yards or so from it, but he insisted upon our alighting, and we finished our journey upon foot.
-s=none
+s=
 
 Number 3, Lauriston Gardens wore an ill-omened and minatory look.
-b=three-wide
+b=three-wide;s=
 
 It was one of four which stood back some little way from the street, two being occupied and two empty.
 
@@ -1181,22 +1169,25 @@ Still I had had such extraordinary evidence of the quickness of his perceptive f
 e:watson=contemplative
 
 At the door of the house we were met by a tall, white-faced, flaxen-haired man, with a notebook in his hand, who rushed forward and wrung my companion’s hand with effusion.
-e:gregson=excited
+n:gregson=?;e:gregson=excited
 
 “It is indeed kind of you to come,” he said, “I have had everything left untouched.”
-s=gregson;x:gregson=hat
+s=gregson;x:gregson=hat;z:gregson=89,,8;e:gregson=curiousrub;i=;
 
 “Except that!” my friend answered, pointing at the pathway.
 s=holmes;e:holmes=annoyedpoint
 
-“If a herd of buffaloes had passed along there could not be a greater mess. No doubt, however, you had drawn your own conclusions, Gregson, before you permitted this.”
-e:holmes=annoyed
+“If a herd of buffaloes had passed along there could not be a greater mess.”
+e:holmes=annoyed;e:holmes=serious;i=2
+
+“No doubt, however, you had drawn your own conclusions, Gregson, before you permitted this.”
+;e:holmes=contemplative;i=
 
 “I have had so much to do inside the house,” the detective said evasively.
-s=gregson;e:gregson=nervous
+s=gregson;e:gregson=nervous;n:gregson=Tobias Gregson;e:gregson=confused;i=
 
 “My colleague, Mr. Lestrade, is here. I had relied upon him to look after this.”
-
+;e:gregson=serious;i=
 
 Holmes glanced at me and raised his eyebrows sardonically.
 s=none;e:holmes=smirking
@@ -1211,19 +1202,19 @@ s=none;e:gregson=curiousrub
 s=gregson
 
 “You did not come here in a cab?” asked Sherlock Holmes.
-s=holmes;e:holmes=serious
+s=holmes;e:holmes=serious;e:holmes=curiouspoint;i=
 
 “No, sir.”
 s=gregson;e:gregson=confused
 
 “Nor Lestrade?”
-s=holmes
+s=holmes;e:holmes=;i=2
 
 “No, sir.”
-s=gregson
+s=gregson;e:gregson=contemplative;i=2
 
 “Then let us go and look at the room.”
-s=holmes
+s=holmes;e:holmes=;i=
 
 With which inconsequent remark he strode on into the house, followed by Gregson, whose features expressed his astonishment.
 s=none;e:gregson=surprised
@@ -1237,7 +1228,7 @@ Two doors opened out of it to the left and to the right.
 One of these had obviously been closed for many weeks.
 
 
-The other belonged to the dining-room, which was the apartment in which the mysterious affair had occurred.<e><book>The Mysterious Affair at Styles|At Styles?</book></e>
+The other belonged to the dining-room, which was the apartment in which the mysterious affair had occurred.<e><book>The Mysterious Affair at Styles|…at Styles.</book></e>
 
 
 Holmes walked in, and I followed him with that subdued feeling at my heart which the presence of death inspires.
@@ -1264,7 +1255,7 @@ e:watson=serious;f:b:three-dining=blur(3px)
 At present my attention was centred upon the single grim motionless figure which lay stretched upon the boards, with vacant sightless eyes staring up at the discoloured ceiling.
 e:watson=wary;b=three-body
 
-It was that of a man about forty-three or forty-four years of age, middle-sized, broad shouldered, with crisp curling black hair, and a short stubbly beard.<e>"about forty-three or forty-four years of age" (???)</e>
+It was that of a man about forty-three or forty-four years of age, middle-sized, broad shouldered, with crisp curling black hair, and a short stubbly beard.<e>"about forty-three or forty-four years of age"</e>
 
 
 He was dressed in a heavy broadcloth frock coat and waistcoat, with light-coloured trousers, and immaculate collar and cuffs.
@@ -1289,40 +1280,37 @@ Lestrade, lean and ferret-like as ever, was standing by the doorway, and greeted
 n:lestrade=Inspector Lestrade;e:lestrade=neutral;x:lestrade=hat;b=three-dining;f:b:three-dining=
 
 “This case will make a stir, sir,” he remarked.
-s=lestrade;e:lestrade=serious
+s=lestrade;e:lestrade=serious;z:lestrade=82,,8
 
 “It beats anything I have seen, and I am no chicken.”
-
+;e:lestrade=scowling;i=
 
 “There is no clue?” said Gregson.
-s=gregson;e:gregson=contemplative
+s=gregson;e:gregson=contemplative;e:gregson=contemplative;i=2
 
 “None at all,” chimed in Lestrade.
-s=lestrade;e:lestrade=weary
+s=lestrade;e:lestrade=weary;e:lestrade=;i=2
 
 Sherlock Holmes approached the body, and, kneeling down, examined it intently.
 s=none;e:holmes=serious
 
 “You are sure that there is no wound?” he asked, pointing to numerous gouts and splashes of blood which lay all round.
-s=holmes;e:holmes=curiouspoint
+s=holmes;e:holmes=curiouspoint;n:placeholder=Lestrade / Gregson
 
 “Positive!” cried both detectives.
-m=dialogue;s=
+s=placeholder;m=nospeaker
 
 “Then, of course, this blood belongs to a second individual﻿—presumably the murderer, if murder has been committed.”
 s=holmes;e:holmes=thinking;m=
 
 “It reminds me of the circumstances attendant on the death of Van Jansen, in Utrecht, in the year ’34. Do you remember the case, Gregson?”
-e:holmes=neutral
+e:holmes=neutral;e:holmes=contemplative;i=
 
 “No, sir.”
-s=gregson;e:gregson=confused
+s=gregson;e:gregson=confused;e:gregson=contemplative;i=
 
-“Read it up﻿—you really should.”
-s=holmes;e:holmes=smirking
-
-“There is nothing new under the sun. It has all been done before.”<e>Ecclesiastes and its consequences have been a disaster for western literature.</e>
-e:holmes=serious
+“Read it up﻿—you really should. There is nothing new under the sun. It has all been done before.”<e>Ecclesiastes and its consequences have been a disaster for western literature.</e>
+s=holmes;e:holmes=serious;e:holmes=;i=2;e:holmes=curiouspoint;i=
 
 As he spoke, his nimble fingers were flying here, there, and everywhere, feeling, pressing, unbuttoning, examining, while his eyes wore the same faraway expression which I have already remarked upon.
 s=none;e:holmes=contemplative
@@ -1334,16 +1322,13 @@ Finally, he sniffed the dead man’s lips, and then glanced at the soles of his 
 e:holmes=curious
 
 “He has not been moved at all?” he asked.
-s=holmes
+s=holmes;e:holmes=contemplative;i=
 
 “No more than was necessary for the purposes of our examination.”
 s=gregson;e:gregson=serious
 
-“You can take him to the mortuary now,” he said.
-s=holmes;e:holmes=neutral
-
-“There is nothing more to be learned.”
-
+“You can take him to the mortuary now,” he said. “There is nothing more to be learned.”
+s=holmes;e:holmes=neutral;i=2
 
 Gregson had a stretcher and four men at hand. At his call they entered the room,
 s=none;m=allowbreak
@@ -1358,13 +1343,10 @@ Lestrade grabbed it up and stared at it with mystified eyes.
 e:lestrade=surprised
 
 “There’s been a woman here,” he cried. “It’s a woman’s wedding-ring.”
-s=lestrade;e:lestrade=surprised
+s=lestrade;e:lestrade=surprised;e:lestrade=confused;i=
 
-He held it out, as he spoke, upon the palm of his hand.
+He held it out, as he spoke, upon the palm of his hand. We all gathered round him and gazed at it.
 s=none
-
-We all gathered round him and gazed at it.
-e:watson=curious;e:gregson=curious;e:holmes=curious
 
 There could be no doubt that that circlet of plain gold had once adorned the finger of a bride.
 
@@ -1373,25 +1355,25 @@ There could be no doubt that that circlet of plain gold had once adorned the fin
 s=gregson;e:gregson=weary
 
 “You’re sure it doesn’t simplify them?” observed Holmes.
-s=holmes;e:holmes=
+s=holmes;e:holmes=;e:holmes=smirking;i=
 
 “There’s nothing to be learned by staring at it. What did you find in his pockets?”
-e:holmes=serious
+e:holmes=serious;e:holmes=;i=
 
 “We have it all here,” said Gregson, pointing to a litter of objects upon one of the bottom steps of the stairs.
 s=gregson;e:gregson=pointing
 
 “A gold watch, No. 97163, by Barraud, of London. Gold Albert chain, very heavy and solid. Gold ring, with masonic device. Gold pin﻿—bulldog’s head, with rubies as eyes.”
-e:gregson=contemplative
+e:gregson=contemplative;e:gregson=confused;i=
 
 “Russian leather card-case, with cards of Enoch J. Drebber of Cleveland, corresponding with the E. J. D. upon the linen. No purse, but loose money to the extent of seven pounds thirteen.”
-
+;e:gregson=contemplative;i=
 
 “Pocket edition of Boccaccio’s *Decameron*, with name of Joseph Stangerson upon the flyleaf. Two letters﻿—one addressed to E. J. Drebber and one to Joseph Stangerson.”
 
 
 “At what address?”
-s=holmes;e:holmes=curious
+s=holmes;e:holmes=curious;e:holmes=contemplative;i=
 
 “American Exchange, Strand﻿—to be left till called for.”
 s=gregson
@@ -1400,49 +1382,46 @@ s=gregson
 e:gregson=serious
 
 “Have you made any inquiries as to this man, Stangerson?”
-s=holmes
+s=holmes;e:holmes=thinking;i=2
 
-“I did it at once, sir,” said Gregson.
-s=gregson
-
-“I have had advertisements sent to all the newspapers, and one of my men has gone to the American Exchange, but he has not returned yet.”
-
+“I did it at once, sir,” said Gregson. “I have had advertisements sent to all the newspapers, and one of my men has gone to the American Exchange, but he has not returned yet.”
+s=gregson;e:gregson=curiousrub;i=
 
 “Have you sent to Cleveland?”
-s=holmes;e:holmes=thinking
+s=holmes;e:holmes=thinking;e:holmes=;i=
 
 “We telegraphed this morning.”
-s=gregson
+s=gregson;e:gregson=contemplative;i=
 
 “How did you word your inquiries?”
-s=holmes
+s=holmes;e:holmes=contemplative;i=
 
 “We simply detailed the circumstances, and said that we should be glad of any information which could help us.”
-s=gregson
+s=gregson;e:gregson=confused;i=
 
 “You did not ask for particulars on any point which appeared to you to be crucial?”
-s=holmes;e:holmes=annoyed
+s=holmes;e:holmes=annoyed;e:holmes=serious;i=;e:holmes=serious;i=2
 
 “I asked about Stangerson.”
-s=gregson;e:gregson=scowling
+s=gregson;e:gregson=scowling;e:gregson=weary;i=
 
 “Nothing else? Is there no circumstance on which this whole case appears to hinge? Will you not telegraph again?”
-s=holmes
+s=holmes;e:holmes=smirking;i=2
 
 “I have said all I have to say,” said Gregson, in an offended voice.
 s=gregson;e:gregson=angry
 
-Sherlock Holmes chuckled to himself, and appeared to be about to make some remark, when Lestrade, who had been in the front room while we were holding this conversation in the hall, reappeared upon the scene, rubbing his hands in a pompous and self-satisfied manner.<e>Lot of hand-rubbing in this book.</e>
+Sherlock Holmes chuckled to himself, and appeared to be about to make some remark, when Lestrade, who had been in the front room while we were holding this conversation in the hall, reappeared upon the scene, rubbing his hands in a pompous and self-satisfied manner.
 s=none;e:holmes=smirking;e:lestrade=smirkingrub
 
 “Mr. Gregson,” he said, “I have just made a discovery of the highest importance, and one which would have been overlooked had I not made a careful examination of the walls.”
-s=lestrade;e:lestrade=smirkingrub
+s=lestrade;e:lestrade=smirkingrub;e:lestrade=smirking;i=
 
 The little man’s eyes sparkled as he spoke, and he was evidently in a state of suppressed exultation at having scored a point against his colleague.
 s=none;e:lestrade=smirking
 
 “Come here,” he said,
-s=lestrade;e:lestrade=smirking;m=allowbreak
+s=lestrade;e:lestrade=smirking;m=allowbreak;e:lestrade=smirking;i=2
 
 bustling back into the room, the atmosphere of which felt clearer since the removal of its ghastly inmate.
 m=;b=three-dining;s=
@@ -1454,7 +1433,7 @@ He struck a match on his boot and held it up against the wall.
 s=none
 
 “Look at that!” he said, triumphantly.
-s=lestrade;e:lestrade=excited
+s=lestrade;e:lestrade=excited;e:lestrade=smirking;i=
 
 I have remarked that the paper had fallen away in parts.
 s=none;e:watson=serious
@@ -1463,49 +1442,46 @@ In this particular corner of the room a large piece had peeled off, leaving a ye
 
 
 <div>Across this bare space there was scrawled in bloodred letters a single word﻿—</div><br><div class='center upper'>Rache</div>
-b=rache
+b=rache;f:b:rache=brightness(90%)
 
 “What do you think of that?” cried the detective, with the air of a showman exhibiting his show.
-s=lestrade;e:lestrade=smirking
+s=lestrade;e:lestrade=smirking;e:lestrade=smirking;i=2
 
-“This was overlooked because it was in the darkest corner of the room, and no one thought of looking there. The murderer has written it with his or her own blood.”
-e:lestrade=serious
-
-“See this smear where it has trickled down the wall! That disposes of the idea of suicide anyhow.”
-e:lestrade=excited
+“This was overlooked because it was in the darkest corner of the room, and no one thought of looking there. The murderer has written it with his or her own blood. See this smear where it has trickled down the wall! That disposes of the idea of suicide anyhow.”
+e:lestrade=excited;e:lestrade=smirkingrub;i=
 
 “Why was that corner chosen to write it on? I will tell you.”
-e:lestrade=smirking
+e:lestrade=smirking;e:lestrade=;i=2
 
 “See that candle on the mantelpiece. It was lit at the time, and if it was lit this corner would be the brightest instead of the darkest portion of the wall.”
 e:lestrade=smirking
 
 “And what does it mean now that you *have* found it?” asked Gregson in a depreciatory voice.
-s=gregson;e:gregson=annoyed
+s=gregson;e:gregson=annoyed;e:gregson=serious;i=
 
 “Mean? Why, it means that the writer was going to put the female name Rachel, but was disturbed before he or she had time to finish.”
-s=lestrade;e:lestrade=smirking
+s=lestrade;e:lestrade=smirking;e:lestrade=smirking;i=2
 
 “You mark my words, when this case comes to be cleared up you will find that a woman named Rachel has something to do with it.”
-e:lestrade=serious
+e:lestrade=serious;e:lestrade=;i=;e:lestrade=serious;i=
 
 “It’s all very well for you to laugh, Mr. Sherlock Holmes. You may be very smart and clever, but the old hound is the best, when all is said and done.”
 e:lestrade=scowling
 
 “I really beg your pardon!” said my companion, who had ruffled the little man’s temper by bursting into an explosion of laughter.
-s=holmes;e:holmes=smirking
+s=holmes;e:holmes=smirking;e:holmes=curious;i=
 
 “You certainly have the credit of being the first of us to find this out, and, as you say, it bears every mark of having been written by the other participant in last night’s mystery.”
-e:holmes=smirking
+e:holmes=smirking;e:holmes=happy;i=
 
 “I have not had time to examine this room yet, but with your permission I shall do so now.”
-e:holmes=serious
+e:holmes=serious;e:holmes=smirking;i=
 
 As he spoke, he whipped a tape measure and a large round magnifying glass from his pocket.
-s=none;b=three-dining
+s=none;
 
 With these two implements he trotted noiselessly about the room, sometimes stopping, occasionally kneeling, and once lying flat upon his face.
-
+b=three-dining
 
 So engrossed was he with his occupation that he appeared to have forgotten our presence, for he chattered away to himself under his breath the whole time, keeping up a running fire of exclamations, groans, whistles, and little cries suggestive of encouragement and of hope.
 e:holmes=contemplative
@@ -1526,10 +1502,10 @@ This done, he appeared to be satisfied, for he replaced his tape and his glass i
 e:holmes=happy
 
 “They say that genius is an infinite capacity for taking pains,” he remarked with a smile.
-s=holmes;e:holmes=smirking
+s=holmes;e:holmes=smirking;e:holmes=smirking;i=2
 
 “It’s a very bad definition, but it does apply to detective work.”
-
+;e:holmes=;i=2
 
 Gregson and Lestrade had watched the manoeuvres of their amateur companion with considerable curiosity and some contempt.
 s=none;e:gregson=curious;e:lestrade=scowling
@@ -1537,8 +1513,8 @@ s=none;e:gregson=curious;e:lestrade=scowling
 They evidently failed to appreciate the fact, which I had begun to realize, that Sherlock Holmes’ smallest actions were all directed towards some definite and practical end.
 e:watson=serious
 
-“What do you think of it, sir?” they both asked.<e>You two really need to stop talking in-sync. (And for that matter, do we need <i>two</i> of you character type?)</e>
-m=dialogue
+“What do you think of it, sir?” they both asked.
+m=nospeaker;s=placeholder
 
 “It would be robbing you of the credit of the case if I was to presume to help you,” remarked my friend.
 s=holmes;e:holmes=smirking;m=
@@ -1550,37 +1526,34 @@ There was a world of sarcasm in his voice as he spoke.
 s=none
 
 “If you will let me know how your investigations go,” he continued, “I shall be happy to give you any help I can.”
-s=holmes;e:holmes=neutral
+s=holmes;e:holmes=neutral;e:holmes=;i=2
 
 “In the meantime I should like to speak to the constable who found the body. Can you give me his name and address?”
-
+;e:holmes=thinking;i=2
 
 Lestrade glanced at his notebook.
 s=none
 
-“John Rance,” he said.
-s=lestrade;e:lestrade=neutral
-
-“He is off duty now. You will find him at 46, Audley Court, Kennington Park Gate.”
-
+“John Rance,” he said. “He is off duty now. You will find him at 46, Audley Court, Kennington Park Gate.”
+s=lestrade;e:lestrade=neutral;e:lestrade=scowling;i=
 
 Holmes took a note of the address.
 s=none;e:holmes=serious
 
 “Come along, Doctor,” he said; “we shall go and look him up.”
-s=holmes
+s=holmes;e:holmes=curious;i=
 
 “I’ll tell you one thing which may help you in the case,” he continued, turning to the two detectives.
 e:holmes=smirking
 
 “There has been murder done, and the murderer was a man. He was more than six feet high, was in the prime of life, had small feet for his height, wore coarse, square-toed boots and smoked a Trichinopoly cigar.”
-e:holmes=serious
+e:holmes=serious;e:holmes=thinking;i=
 
 “He came here with his victim in a four-wheeled cab, which was drawn by a horse with three old shoes and one new one on his off fore leg.”
-
+;e:holmes=contemplative;i=
 
 “In all probability the murderer had a florid face, and the fingernails of his right hand were remarkably long.”
-
+;e:holmes=;i=
 
 “These are only a few indications, but they may assist you.”
 e:holmes=smirking
@@ -1589,24 +1562,24 @@ Lestrade and Gregson glanced at each other with an incredulous smile.
 s=none;e:lestrade=surprised;e:gregson=surprised
 
 “If this man was murdered, how was it done?” asked the former.
-s=lestrade;e:lestrade=confused
+s=lestrade;e:lestrade=confused;e:lestrade=serious;i=
 
 “Poison,” said Sherlock Holmes curtly,
-s=holmes;e:holmes=serious;m=allowbreak
+s=holmes;e:holmes=serious;e:holmes=;i=2;m=allowbreak
 
 and strode off.
-m=;s=
+m=;s=;f:b:three-dining=blur(3px)
 
 “One other thing, Lestrade,” he added, turning round at the door:
-e:holmes=smirking;s=holmes
+e:holmes=smirking;s=holmes;e:holmes=contemplative;i=
 
 “*Rache*, is the German for ‘revenge’; so don’t lose your time looking for Miss Rachel.”
+e:holmes=smirking
 
-
-With which Parthian shot he walked away, leaving the two rivals open-mouthed behind him.
+With which Parthian shot he walked away, leaving the two rivals open-mouthed behind him.<e>With which Romaboo writing Doyle ended the chapter.</e>
 s=none;e:lestrade=surprised;e:gregson=surprised
 
-### IV<br>What John Rance Had to Tell<e>With which Romaboo writing Doyle ended the chapter.</e>
+### IV<br>What John Rance Had to Tell
 r=title
 
 It was one o’clock when we left No. 3, Lauriston Gardens.
