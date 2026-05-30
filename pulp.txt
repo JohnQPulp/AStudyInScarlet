@@ -2396,7 +2396,7 @@ m=;f:b:baker-sitting-night=blur(3px)
 r=title
 
 The papers next day were full of the “Brixton Mystery,” as they termed it.
-b=three-wide
+b=three-wide;f:b:three-wide=blur(3px)
 
 Each had a long account of the affair, and some had leaders upon it in addition.
 
@@ -2468,19 +2468,19 @@ s=holmes
 s=watson;e:watson=neutral
 
 “Oh, bless you, it doesn’t matter in the least. If the man is caught, it will be *on account* of their exertions; if he escapes, it will be *in spite* of their exertions.”
-s=holmes;e:holmes=smirking
+s=holmes;e:holmes=smirking;e:holmes=contemplative;i=2
 
-“It’s heads I win and tails you lose. Whatever they do, they will have followers. ‘*Un sot trouve toujours un plus sot qui l’admire.*’”<e>"A fool always finds a greater fool to admire him."</e>
-
+“It’s heads I win and tails you lose. Whatever they do, they will have followers. ‘*Un sot trouve toujours un plus sot qui l’admire.*’”<e>"A bunghole always finds a greater bunghole to admire him."</e>
+;e:holmes=annoyed;i=
 
 “What on earth is this?” I cried,
-s=watson;e:watson=surprised;m=allowbreak
+s=watson;e:watson=surprised;m=allowbreak;e:watson=scowling;i=
 
 for at this moment there came the pattering of many steps in the hall and on the stairs, accompanied by audible expressions of disgust upon the part of our landlady.
 s=none;m=
 
 “It’s the Baker Street division of the detective police force,” said my companion, gravely;
-s=holmes;e:holmes=serious
+s=holmes;e:holmes=serious;e:holmes=suspicious;i=
 
 and as he spoke there rushed into the room half a dozen of the dirtiest and most ragged street arabs that ever I clapped eyes on.
 s=none
@@ -2492,22 +2492,22 @@ and the six dirty little scoundrels stood in a line like so many disreputable st
 m=;s=
 
 “In future you shall send up Wiggins alone to report, and the rest of you must wait in the street.”
-n:wiggins=Wiggins;e:holmes=neutral;s=holmes
+n:wiggins=Wiggins;e:holmes=neutral;s=holmes;e:holmes=;i=2
 
 “Have you found it, Wiggins?”
-
+;e:holmes=serious;i=
 
 “No, sir, we hain’t,” said one of the youths.
-s=wiggins;e:wiggins=wary
+s=wiggins;e:wiggins=wary;z:wiggins=81,,6
 
 “I hardly expected you would. You must keep on until you do. Here are your wages.”
-s=holmes;e:holmes=neutral
+s=holmes;e:holmes=neutral;e:holmes=contemplative;i=2
 
 He handed each of them a shilling.
 s=none
 
 “Now, off you go, and come back with a better report next time.”
-s=holmes
+s=holmes;e:holmes=serious;i=
 
 He waved his hand, and they scampered away downstairs like so many rats, and we heard their shrill voices next moment in the street.
 s=none
@@ -2519,19 +2519,19 @@ s=holmes;e:holmes=smirking
 
 
 “They are as sharp as needles, too; all they want is organisation.”
-
+;e:holmes=curious;i=
 
 “Is it on this Brixton case that you are employing them?” I asked.
 s=watson;e:watson=curious
 
 “Yes; there is a point which I wish to ascertain. It is merely a matter of time.”
-s=holmes;e:holmes=thinking
+s=holmes;e:holmes=thinking;e:holmes=;i=;e:holmes=;i=3
 
 “Hullo! we are going to hear some news now with a vengeance! Here is Gregson coming down the road with beatitude written upon every feature of his face.”
-e:holmes=surprised
+e:holmes=surprised;e:holmes=surprised;i=2
 
 “Bound for us, I know. Yes, he is stopping. There he is!”
-
+;e:holmes=confused;i=
 
 There was a violent peal at the bell, and in a few seconds the fair-haired detective came up the stairs, three steps at a time, and burst into our sitting-room.
 s=none;e:gregson=excited
@@ -2543,13 +2543,13 @@ A shade of anxiety seemed to me to cross my companion’s expressive face.
 s=none;e:holmes=wary
 
 “Do you mean that you are on the right track?” he asked.
-s=holmes
+s=holmes;e:holmes=;i=2
 
 “The right track! Why, sir, we have the man under lock and key.”
 s=gregson;e:gregson=smirking
 
 “And his name is?”
-s=holmes;e:holmes=curious
+s=holmes;e:holmes=curious;e:holmes=thinking;i=3;e:holmes=suspicious;i=
 
 “Arthur Charpentier, sublieutenant in Her Majesty’s navy,” cried Gregson, pompously, rubbing his fat hands and inflating his chest.
 n:arthur=Arthur Charpentier;s=gregson;e:gregson=happyrubbing
@@ -2561,22 +2561,22 @@ s=none;e:holmes=happy;n:mrs=Mrs. Charpentier;n:alice=Alice Charpentier
 s=holmes
 
 “We are anxious to know how you managed it. Will you have some whiskey and water?”
-
+;e:holmes=smirking;i=2
 
 “I don’t mind if I do,” the detective answered.
-s=gregson;e:gregson=
+s=gregson;e:gregson=;e:gregson=thinking;i=2
 
 “The tremendous exertions which I have gone through during the last day or two have worn me out.”
-e:gregson=weary
+e:gregson=weary;e:gregson=smirking;i=2
 
 “Not so much bodily exertion, you understand, as the strain upon the mind. You will appreciate that, Mr. Sherlock Holmes, for we are both brain-workers.”
-e:gregson=smirking
+e:gregson=smirking;e:gregson=smirking;i=
 
 “You do me too much honour,” said Holmes, gravely.
 s=holmes;e:holmes=serious
 
 “Let us hear how you arrived at this most gratifying result.”
-
+;e:holmes=;i=3
 
 The detective seated himself in the armchair, and puffed complacently at his cigar.
 s=none;e:gregson=neutral
@@ -2585,10 +2585,10 @@ Then suddenly he slapped his thigh in a paroxysm of amusement.
 e:gregson=happy
 
 “The fun of it is,” he cried, “that that fool Lestrade, who thinks himself so smart, has gone off upon the wrong track altogether.”
-s=gregson;e:gregson=smirking
+s=gregson;e:gregson=smirking;e:gregson=excited;i=
 
 “He is after the secretary Stangerson, who had no more to do with the crime than the babe unborn. I have no doubt that he has caught him by this time.”
-
+e:gregson=smirking
 
 The idea tickled Gregson so much that he laughed until he choked.
 s=none
@@ -2597,16 +2597,16 @@ s=none
 s=holmes;e:holmes=curious
 
 “Ah, I’ll tell you all about it. Of course, Doctor Watson, this is strictly between ourselves.”
-s=gregson;e:gregson=smirking
+s=gregson;e:gregson=smirking;e:gregson=smirking;i=2
 
 “The first difficulty which we had to contend with was the finding of this American’s antecedents.”
-
+;e:gregson=thinking;i=
 
 “Some people would have waited until their advertisements were answered, or until parties came forward and volunteered information. That is not Tobias Gregson’s way of going to work.”
-
+;e:gregson=happyrubbing;i=
 
 “You remember the hat beside the dead man?”
-
+;e:gregson=happy;i=
 
 “Yes,” said Holmes; “by John Underwood and Sons, 129, Camberwell Road.”
 s=holmes;e:holmes=neutral
@@ -2618,10 +2618,10 @@ s=none;e:gregson=surprised
 s=gregson;e:gregson=confused
 
 “No.”
-s=holmes;e:holmes=neutral
+s=holmes;e:holmes=neutral;e:holmes=;i=3
 
 “Ha!” cried Gregson, in a relieved voice; “you should never neglect a chance, however small it may seem.”
-s=gregson;e:gregson=happy
+s=gregson;e:gregson=happy;e:gregson=excited;i=
 
 “To a great mind, nothing is little,” remarked Holmes, sententiously.
 s=holmes;e:holmes=smirking
@@ -2633,7 +2633,7 @@ s=gregson;e:gregson=neutral
 
 
 “Smart﻿—very smart!” murmured Sherlock Holmes.
-s=holmes;e:holmes=smirking
+s=holmes;e:holmes=smirking;e:holmes=smirking;i=2
 
 “I next called upon Madame Charpentier,” continued the detective.
 s=gregson;e:gregson=serious
@@ -2645,10 +2645,10 @@ s=gregson;e:gregson=serious
 e:gregson=smirking
 
 “You know the feeling, Mr. Sherlock Holmes, when you come upon the right scent﻿—a kind of thrill in your nerves.”
-e:gregson=excited
+e:gregson=excited;e:gregson=thinking;i=;
 
 “‘Have you heard of the mysterious death of your late boarder Mr. Enoch J. Drebber, of Cleveland?’ I asked.”
-e:gregson=serious;g=boarding-int;s=gregson
+e:gregson=serious;g=boarding-int;s=gregson;e:gregson=suspicious;i=
 
 “The mother nodded. She didn’t seem able to get out a word.”
 s=
@@ -2657,13 +2657,13 @@ s=
 
 
 “‘At what o’clock did Mr. Drebber leave your house for the train?’ I asked.”
-s=gregson
+s=gregson;e:gregson=serious;i=2
 
 “‘At eight o’clock,’ she said, gulping in her throat to keep down her agitation.”
-s=mrs;e:mrs=nervous
+s=mrs;e:mrs=nervous;z:mrs=93,,8;e:mrs=fearful;i=
 
 “‘His secretary, Mr. Stangerson, said that there were two trains﻿—one at 9:15 and one at 11. He was to catch the first.’”
-
+;e:mrs=serious;i=2
 
 “‘And was that the last which you saw of him?’”
 s=gregson
@@ -2678,37 +2678,34 @@ m=dialogue
 m=
 
 “‘No good can ever come of falsehood, mother,’ she said.”
-s=alice;e:alice=contemplative
+s=alice;e:alice=contemplative;z:alice=92,,6;e:alice=unhappy;i=2
 
 “‘Let us be frank with this gentleman. We *did* see Mr. Drebber again.’”
-e:alice=unhappy
+e:alice=unhappy;i=
 
-“‘God forgive you!’ cried Madame Charpentier, throwing up her hands and sinking back in her chair.”
+“‘God forgive you!’ cried Madame Charpentier, throwing up her hands and sinking back in her chair. ‘You have murdered your brother.’”
 s=mrs;e:mrs=hands
-
-“‘You have murdered your brother.’”
-e:mrs=upset
 
 “‘Arthur would rather that we spoke the truth,’ the girl answered firmly.”
 s=alice;e:alice=serious
 
 “‘You had best tell me all about it now,’ I said.”
-s=gregson;e:gregson=serious
+s=gregson;e:gregson=serious;e:gregson=serious;i=2
 
 “‘Half-confidences are worse than none. Besides, you do not know how much we know of it.’”
-
+;e:gregson=serious;i=;e:gregson=annoyed;i=
 
 “‘On your head be it, Alice!’ cried her mother;”
-s=mrs;e:mrs=serious
+s=mrs;e:mrs=serious;e:mrs=upset;i=2
 
 “and then, turning to me,”
 s=;m=allowbreak
 
 “‘I will tell you all, sir.’”
-s=mrs;e:mrs=weary;m=
+s=mrs;e:mrs=weary;m=;e:mrs=annoyed;i=2
 
 “‘Do not imagine that my agitation on behalf of my son arises from any fear lest he should have had a hand in this terrible affair. He is utterly innocent of it.’”
-e:mrs=nervous
+e:mrs=nervous;e:mrs=annoyed;i=2;e:mrs=weary;i=
 
 “‘My dread is, however, that in your eyes and in the eyes of others he may appear to be compromised.’”
 e:mrs=unhappy
@@ -2720,10 +2717,10 @@ e:mrs=serious
 s=gregson
 
 “‘Depend upon it, if your son is innocent he will be none the worse.’”
-
+;e:gregson=suspicious;i=
 
 “‘Perhaps, Alice, you had better leave us together,’ she said,”
-s=mrs;m=allowbreak
+s=mrs;m=allowbreak;e:mrs=annoyed;i=
 
 “and her daughter withdrew.”
 m=;s=
@@ -2732,82 +2729,82 @@ m=;s=
 s=mrs;e:mrs=serious
 
 “‘Having once decided to speak, I will tell you all without omitting any particular.’”
-
+;e:mrs=unhappy;i=
 
 “‘It is your wisest course,’ said I.”
-s=gregson
+s=gregson;e:gregson=serious;i=2
 
 “‘Mr. Drebber has been with us nearly three weeks. He and his secretary, Mr. Stangerson, had been travelling on the Continent.’”
-s=mrs;e:mrs=thinking
+s=mrs;e:mrs=thinking;e:mrs=serious;i=2
 
 “‘I noticed a “Copenhagen” label upon each of their trunks, showing that that had been their last stopping place.’”
-
+;e:mrs=contemplative;i=
 
 “‘Stangerson was a quiet reserved man, but his employer, I am sorry to say, was far otherwise.’”
-
+;e:mrs=thinking;i=
 
 “‘He was coarse in his habits and brutish in his ways.’”
 e:mrs=annoyed
 
 “‘The very night of his arrival he became very much the worse for drink, and, indeed, after twelve o’clock in the day he could hardly ever be said to be sober.’”
-
+;e:mrs=unhappy;i=2
 
 “‘His manners towards the maidservants were disgustingly free and familiar.’”
-
+e:mrs=upset;i=2
 
 “‘Worst of all, he speedily assumed the same attitude towards my daughter, Alice, and spoke to her more than once in a way which, fortunately, she is too innocent to understand.’”
-e:mrs=upset
+;e:mrs=unhappy;i=
 
 “‘On one occasion he actually seized her in his arms and embraced her﻿—an outrage which caused his own secretary to reproach him for his unmanly conduct.’”
-
+;e:mrs=serious;i=2
 
 “‘But why did you stand all this?’ I asked. ‘I suppose that you can get rid of your boarders when you wish.’”
-s=gregson
+s=gregson;e:gregson=confused;i=
 
 “Mrs. Charpentier blushed at my pertinent question.”
 s=
 
 “‘Would to God that I had given him notice on the very day that he came,’ she said.”
-s=mrs;e:mrs=unhappy
+s=mrs;e:mrs=unhappy;e:mrs=nervous;i=2
 
 “‘But it was a sore temptation. They were paying a pound a day each﻿—fourteen pounds a week, and this is the slack season.’”
-
+;e:mrs=weary;i=
 
 “‘I am a widow, and my boy in the Navy has cost me much. I grudged to lose the money. I acted for the best.’”
-e:mrs=contemplative
+e:mrs=contemplative;e:mrs=serious;i=
 
 “‘This last was too much, however, and I gave him notice to leave on account of it. That was the reason of his going.’”
 e:mrs=serious
 
 “‘Well?’”
-s=gregson
+s=gregson;e:gregson=;i=2
 
 “‘My heart grew light when I saw him drive away.’”
-s=mrs
+s=mrs;e:mrs=upset;i=2
 
 “‘My son is on leave just now, but I did not tell him anything of all this, for his temper is violent, and he is passionately fond of his sister.’”
-
+;e:mrs=nervous;i=
 
 “‘When I closed the door behind them a load seemed to be lifted from my mind.’”
 e:mrs=thinking
 
 “‘Alas, in less than an hour there was a ring at the bell, and I learned that Mr. Drebber had returned.’”
-e:mrs=serious
+e:mrs=serious;e:mrs=annoyed;i=2
 
 “‘He was much excited, and evidently the worse for drink.’”
-n:stangerson=Joseph Stangerson;n:drebber=Enoch J. Drebber
+n:stangerson=Joseph Stangerson;n:drebber=Enoch J. Drebber;e:mrs=annoyed;i=
 
 “‘He forced his way into the room, where I was sitting with my daughter, and made some incoherent remark about having missed his train.’”
-
+;e:mrs=serious;i=
 
 “‘He then turned to Alice, and before my very face, proposed to her that she should fly with him.’”
-
+;e:mrs=unhappy;i=
 
 “‘“You are of age,” he said, “and there is no law to stop you. I have money enough and to spare.”’”
-g=boarding-int;s=drebber;a:drebber=old;x:drebber=hat;e:drebber=serious
+g=boarding-int-night;s=drebber;a:drebber=old;x:drebber=hat;e:drebber=serious;z:drebber=86,,10;i=2
 
 “‘“Never mind the old girl here, but come along with me now straight away. You shall live like a princess.”’”
-
+i=
 
 “‘Poor Alice was so frightened that she shrunk away from him, but he caught her by the wrist and endeavoured to draw her towards the door.’”
 s=
@@ -2822,82 +2819,82 @@ s=
 
 
 “‘“I don’t think that fine fellow will trouble us again,” he said. “I will just go after him and see what he does with himself.”’”
-s=arthur;e:arthur=smirking
+s=arthur;e:arthur=smirking;z:arthur=88,,7
 
 “‘With those words he took his hat and started off down the street.’”
-g=;
+g=;;e:mrs=annoyed;i=2
 
 “‘The next morning we heard of Mr. Drebber’s mysterious death.’”
-
+;e:mrs=nervous;i=2
 
 “This statement came from Mrs. Charpentier’s lips with many gasps and pauses. At times she spoke so low that I could hardly catch the words.”
-g=;
+g=;;e:gregson=happyrubbing;i=
 
 “I made shorthand notes of all that she said, however, so that there should be no possibility of a mistake.”
-
+;e:gregson=smirking;i=2
 
 “It’s quite exciting,” said Sherlock Holmes, with a yawn. “What happened next?”
-s=holmes;e:holmes=smirking
+s=holmes;e:holmes=yawning
 
 “When Mrs. Charpentier paused,” the detective continued, “I saw that the whole case hung upon one point.”
-s=gregson;e:gregson=serious
+s=gregson;e:gregson=serious;e:gregson=confused;i=
 
 “Fixing her with my eye in a way which I always found effective with women, I asked her at what hour her son returned.”
-
+;e:gregson=thinking;i=
 
 “‘I do not know,’ she answered.”
-g=boarding-int;s=mrs
+g=boarding-int;s=mrs;e:mrs=weary;i=
 
 “‘Not know?’”
-s=gregson;e:gregson=suspicious
+s=gregson;e:gregson=suspicious;e:gregson=serious;i=2
 
 “‘No; he has a latchkey, and he let himself in.’”
-s=mrs;e:mrs=thinking
+s=mrs;e:mrs=thinking;e:mrs=nervous;i=2
 
 “‘After you went to bed?’”
 s=gregson;e:gregson=serious
 
 “‘Yes.’”
-s=mrs
+s=mrs;e:mrs=unhappy;i=
 
 “‘When did you go to bed?’”
-s=gregson
+s=gregson;e:gregson=serious;i=2
 
 “‘About eleven.’”
-s=mrs
+s=mrs;e:mrs=contemplative;i=
 
 “‘So your son was gone at least two hours?’”
-s=gregson
+s=gregson;e:gregson=annoyed;i=
 
 “‘Yes.’”
-s=mrs;e:mrs=serious
+s=mrs;e:mrs=serious;e:mrs=nervous;i=2
 
 “‘Possibly four or five?’”
-s=gregson
+s=gregson;e:gregson=serious;i=
 
 “‘Yes.’”
-s=mrs
+s=mrs;e:mrs=thinking;i=
 
 “‘What was he doing during that time?’”
-s=gregson
+s=gregson;e:gregson=suspicious;i=
 
 “‘I do not know,’ she answered, turning white to her very lips.”
-s=mrs;e:mrs=fearful
+s=mrs;e:mrs=fearful;e:mrs=upset;i=2
 
 “Of course after that there was nothing more to be done. I found out where Lieutenant Charpentier was, took two officers with me, and arrested him.”
-e:gregson=smirking;g=
+e:gregson=smirking;g=;e:gregson=;i=2
 
 “When I touched him on the shoulder and warned him to come quietly with us, he answered us as bold as brass, ‘I suppose you are arresting me for being concerned in the death of that scoundrel Drebber,’ he said.”
-e:gregson=serious
+e:gregson=serious;e:gregson=suspicious;i=
 
 “We had said nothing to him about it, so that his alluding to it had a most suspicious aspect.”
-
+;e:gregson=thinking;i=
 
 “Very,” said Holmes.
 s=holmes;e:holmes=smirking
 
 “He still carried the heavy stick which the mother described him as having with him when he followed Drebber. It was a stout oak cudgel.”
-s=gregson;e:gregson=serious
+s=gregson;e:gregson=serious;e:gregson=serious;i=2
 
 “What is your theory, then?”
 s=holmes;e:holmes=curious
@@ -2906,34 +2903,34 @@ s=holmes;e:holmes=curious
 s=gregson;e:gregson=thinking
 
 “When there, a fresh altercation arose between them, in the course of which Drebber received a blow from the stick, in the pit of the stomach, perhaps, which killed him without leaving any mark.”
-
+;e:gregson=;i=
 
 “The night was so wet that no one was about, so Charpentier dragged the body of his victim into the empty house.”
-
+;e:gregson=serious;i=
 
 “As to the candle, and the blood, and the writing on the wall, and the ring, they may all be so many tricks to throw the police on to the wrong scent.”
 e:gregson=smirking
 
 “Well done!” said Holmes in an encouraging voice.
-s=holmes;e:holmes=happy
+s=holmes;e:holmes=happy;e:holmes=excited;i=
 
 “Really, Gregson, you are getting along. We shall make something of you yet.”
 e:holmes=smirking
 
 “I flatter myself that I have managed it rather neatly,” the detective answered proudly.
-s=gregson;e:gregson=happy
+s=gregson;e:gregson=happy;e:gregson=happy;i=2
 
 “The young man volunteered a statement, in which he said that after following Drebber some time, the latter perceived him, and took a cab in order to get away from him.”
 e:gregson=neutral
 
 “On his way home he met an old shipmate, and took a long walk with him. On being asked where this old shipmate lived, he was unable to give any satisfactory reply.”
-
+;e:gregson=thinking;i=2
 
 “I think the whole case fits together uncommonly well. What amuses me is to think of Lestrade, who had started off upon the wrong scent.”
-e:gregson=happy
+e:gregson=happy;e:gregson=smirking;i=2
 
 “I am afraid he won’t make much of﻿—”
-m=allowbreak;m=nospace
+m=allowbreak;m=nospace;e:gregson=smirking;i=
 
 “Why, by Jove, here’s the very man himself!”
 e:gregson=surprised;m=
@@ -2963,7 +2960,7 @@ s=gregson;e:gregson=smirking
 
 
 “The Secretary, Mr. Joseph Stangerson,” said Lestrade gravely, “was murdered at Halliday’s Private Hotel about six o’clock this morning.”
-s=lestrade;e:lestrade=serious
+s=lestrade;e:lestrade=serious;e:lestrade=upset;i=
 
 ### VII<br>Light in the Darkness
 r=title
