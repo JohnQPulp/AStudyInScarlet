@@ -493,26 +493,23 @@ b=baker-sitting
 Holmes was certainly not a difficult man to live with. He was quiet in his ways, and his habits were regular.
 
 
-It was rare for him to be up after ten at night, and he had invariably breakfasted and gone out before I rose in the morning.
+It was rare for him to be up after ten at night, and he had invariably breakfasted and gone out before I rose in the morning. Sometimes he spent his day at the chemical laboratory, sometimes in the dissecting-rooms, and occasionally in long walks, which appeared to take him into the lowest portions of the City.
 
-
-Sometimes he spent his day at the chemical laboratory, sometimes in the dissecting-rooms, and occasionally in long walks, which appeared to take him into the lowest portions of the City.
-f:b:baker-sitting=blur(3px)
 
 Nothing could exceed his energy when the working fit was upon him; but now and again a reaction would seize him, and for days on end he would lie upon the sofa in the sitting-room, hardly uttering a word or moving a muscle from morning to night.
-e:holmes=weary
+e:holmes=weary;f:b:baker-sitting=blur(3px)
 
 On these occasions I have noticed such a dreamy, vacant expression in his eyes, that I might have suspected him of being addicted to the use of some narcotic, had not the temperance and cleanliness of his whole life forbidden such a notion.
 e:holmes=contemplative
 
 As the weeks went by, my interest in him and my curiosity as to his aims in life, gradually deepened and increased.
-b=light
+b=light;f:b:light=blur(3px)
 
 His very person and appearance were such as to strike the attention of the most casual observer.
 e:watson=curious;e:holmes=neutral
 
 In height he was rather over six feet, and so excessively lean that he seemed to be considerably taller.
-c=holmes;e:holmes=thinking
+c=holmes;e:holmes=thinking;v=100,110,25;f:c:holmes=blur(3px)
 
 His eyes were sharp and piercing, save during those intervals of torpor to which I have alluded; and his thin, hawk-like nose gave his whole expression an air of alertness and decision.
 e:holmes=serious
@@ -521,16 +518,16 @@ His chin, too, had the prominence and squareness which mark the man of determina
 
 
 His hands were invariably blotted with ink and stained with chemicals, yet he was possessed of extraordinary delicacy of touch, as I frequently had occasion to observe when I watched him manipulating his fragile philosophical instruments.
-c=
+c=;f:c:holmes=
 
 The reader may set me down as a hopeless busybody, when I confess how much this man stimulated my curiosity, and how often I endeavoured to break through the reticence which he showed on all that concerned himself.
-b=baker-sitting
+
 
 Before pronouncing judgment, however, be it remembered, how objectless was my life and how little there was to engage my attention.
 
 
 My health forbade me from venturing out unless the weather was exceptionally genial, and I had no friends who would call upon me and break the monotony of my daily existence.
-
+b=baker-wide
 
 Under these circumstances, I eagerly hailed the little mystery which hung around my companion, and spent much of my time in endeavouring to unravel it.
 e:watson=contemplative
@@ -553,8 +550,11 @@ e:watson=thinking
 His ignorance was as remarkable as his knowledge.
 
 
-Of contemporary literature, philosophy and politics he appeared to know next to nothing. Upon my quoting Thomas Carlyle, he inquired in the naivest way who he might be and what he had done.
-e:holmes=confused
+Of contemporary literature, philosophy and politics he appeared to know next to nothing.
+
+
+Upon my quoting Thomas Carlyle, he inquired in the naivest way who he might be and what he had done.
+e:holmes=confused;b=baker-sitting;f:b:baker-sitting=
 
 My surprise reached a climax, however, when I found incidentally that he was ignorant of the Copernican Theory and of the composition of the Solar System.
 
@@ -563,16 +563,16 @@ That any civilized human being in this nineteenth century should not be aware th
 e:watson=surprised
 
 “You appear to be astonished,” he said, smiling at my expression of surprise.
-s=holmes;e:holmes=smirking;f:b:baker-sitting=
+s=holmes;e:holmes=smirking;f:b:baker-sitting=;e:holmes=happy;i=
 
 “Now that I do know it I shall do my best to forget it.”
-
+e:holmes=smirking
 
 “To forget it!”
-s=watson;e:watson=surprised
+s=watson;e:watson=surprised;e:watson=confused;i=
 
 “You see,” he explained, “I consider that a man’s brain originally is like a little empty attic, and you have to stock it with such furniture as you choose.”
-s=holmes;e:holmes=serious
+s=holmes;e:holmes=;i=3
 
 “A fool takes in all the lumber of every sort that he comes across, so that the knowledge which might be useful to him gets crowded out, or at best is jumbled up with a lot of other things so that he has a difficulty in laying his hands upon it.”
 
@@ -581,16 +581,16 @@ s=holmes;e:holmes=serious
 
 
 “It is a mistake to think that that little room has elastic walls and can distend to any extent. Depend upon it there comes a time when for every addition of knowledge you forget something that you knew before.”
-
+;e:holmes=serious;i=
 
 “It is of the highest importance, therefore, not to have useless facts elbowing out the useful ones.”
-
+;e:holmes=annoyed;i=
 
 “But the Solar System!” I protested.
-s=watson;e:watson=upset
+s=watson;e:watson=upset;e:watson=surprised;i=
 
 “What the deuce is it to me?” he interrupted impatiently; “you say that we go round the sun. If we went round the moon it would not make a pennyworth of difference to me or to my work.”
-s=holmes;e:holmes=annoyed
+s=holmes;e:holmes=annoyed;e:holmes=serious;i=2
 
 I was on the point of asking him what that work might be, but something in his manner showed me that the question would be an unwelcome one.
 s=none;e:watson=wary
@@ -622,23 +622,23 @@ m=margin
 10. Plays the violin well.<br>11. Is an expert singlestick player, boxer, and swordsman.<br>12. Has a good practical knowledge of British law.
 
 
-When I had got so far in my list I threw it into the fire in despair.<e>Amusing list of quirks, Doyle. Do make sure to keep them consistent over your subsequent Holmes stories.</e>
+When I had got so far in my list I threw it into the fire in despair.
 e:watson=weary;m=
 
 “If I can only find what the fellow is driving at by reconciling all these accomplishments, and discovering a calling which needs them all,” I said to myself, “I may as well give up the attempt at once.”
-s=watson;e:watson=annoyed
+s=watson;e:watson=annoyed;e:watson=suspicious;i=
 
 I see that I have alluded above to his powers upon the violin. These were very remarkable, but as eccentric as all his other accomplishments.
 s=none;e:watson=contemplative
 
 That he could play pieces, and difficult pieces, I knew well, because at my request he has played me some of Mendelssohn’s Lieder, and other favourites.
-b=baker-sitting-night
+
 
 When left to himself, however, he would seldom produce any music or attempt any recognized air.
 
 
 Leaning back in his armchair of an evening, he would close his eyes and scrape carelessly at the fiddle which was thrown across his knee.
-e:holmes=contemplative
+e:holmes=contemplative;b=baker-sitting-night
 
 Sometimes the chords were sonorous and melancholy. Occasionally they were fantastic and cheerful.
 
@@ -674,7 +674,7 @@ He always apologized to me for putting me to this inconvenience.
 
 
 “I have to use this room as a place of business,” he said, “and these people are my clients.”
-s=holmes;e:holmes=neutral
+s=holmes;e:holmes=neutral;e:holmes=contemplative;i=2
 
 Again I had an opportunity of asking him a point blank question, and again my delicacy prevented me from forcing another man to confide in me.
 s=
@@ -740,46 +740,46 @@ So startling would his results appear to the uninitiated that until they learned
 
 
 “What ineffable twaddle!” I cried, slapping the magazine down on the table,
-s=watson;e:watson=angry
+s=watson;e:watson=angry;e:watson=serious;i=
 
 “I never read such rubbish in my life.”
-
+;e:watson=annoyed;i=
 
 “What is it?” asked Sherlock Holmes.
-s=holmes;e:holmes=curious
+s=holmes;e:holmes=curious;e:holmes=curious;i=2
 
 “Why, this article,” I said, pointing at it with my egg spoon as I sat down to my breakfast.
 s=watson;e:watson=annoyedeggpoint
 
 “I see that you have read it since you have marked it. I don’t deny that it is smartly written. It irritates me though.”
-e:watson=annoyed
+e:watson=annoyed;e:watson=scowling;i=
 
 “It is evidently the theory of some armchair lounger who evolves all these neat little paradoxes in the seclusion of his own study.”
-
+;e:watson=serious;i=;e:watson=annoyed;i=2
 
 “It is not practical. I should like to see him clapped down in a third class carriage on the Underground, and asked to give the trades of all his fellow-travellers.”
-
+e:watson=serious
 
 “I would lay a thousand to one against him.”
-
+;e:watson=smirking;i=
 
 “You would lose your money,” Sherlock Holmes remarked calmly.
-s=holmes;e:holmes=thinking
+s=holmes;e:holmes=thinking;e:holmes=;i=3
 
 “As for the article, I wrote it myself.”
-
+;e:holmes=;i=
 
 “You!”
 s=watson;e:watson=surprised
 
 “Yes, I have a turn both for observation and for deduction.”
-s=holmes;e:holmes=serious
+s=holmes;e:holmes=serious;e:holmes=;i=3
 
 “The theories which I have expressed there, and which appear to you to be so chimerical are really extremely practical—so practical that I depend upon them for my bread and cheese.”
-
+;e:holmes=smirking;i=
 
 “And how?” I asked involuntarily.
-s=watson;e:watson=curious
+s=watson;e:watson=curious;e:watson=nervous;i=
 
 “Well, I have a trade of my own. I suppose I am the only one in the world. I’m a consulting detective, if you can understand what that is.”
 s=holmes;e:holmes=neutral
@@ -788,16 +788,16 @@ s=holmes;e:holmes=neutral
 
 
 “They lay all the evidence before me, and I am generally able, by the help of my knowledge of the history of crime, to set them straight.”
-
+;e:holmes=;i=3
 
 “There is a strong family resemblance about misdeeds, and if you have all the details of a thousand at your finger ends, it is odd if you can’t unravel the thousand and first.”
-
+;e:holmes=curious;i=
 
 “Lestrade is a well-known detective. He got himself into a fog recently over a forgery case, and that was what brought him here.”
-
+;e:holmes=thinking;i=2
 
 “And these other people?”
-s=watson;e:watson=curious
+s=watson;e:watson=curious;e:watson=contemplative;i=
 
 “They are mostly sent on by private inquiry agencies. They are all people who are in trouble about something, and want a little enlightening.”
 s=holmes;e:holmes=smirking
@@ -806,67 +806,67 @@ s=holmes;e:holmes=smirking
 
 
 “But do you mean to say,” I said, “that without leaving your room you can unravel some knot which other men can make nothing of, although they have seen every detail for themselves?”
-s=watson;e:watson=surprised
+s=watson;e:watson=surprised;e:watson=suspicious;i=
 
 “Quite so. I have a kind of intuition that way.”
-s=holmes;e:holmes=thinking
+s=holmes;e:holmes=happy;i=
 
 “Now and again a case turns up which is a little more complex. Then I have to bustle about and see things with my own eyes.”
-
+e:holmes=thinking
 
 “You see I have a lot of special knowledge which I apply to the problem, and which facilitates matters wonderfully.”
 
 
 “Those rules of deduction laid down in that article which aroused your scorn, are invaluable to me in practical work. Observation with me is second nature.”
-
+;e:holmes=serious;i=;e:holmes=;i=
 
 “You appeared to be surprised when I told you, on our first meeting, that you had come from Afghanistan.”
 e:holmes=smirking
 
 “You were told, no doubt.”
-s=watson;e:watson=suspicious
+s=watson;e:watson=suspicious;e:watson=serious;i=
 
 “Nothing of the sort. I *knew* you came from Afghanistan.”
 s=holmes;e:holmes=neutral
 
 “From long habit the train of thoughts ran so swiftly through my mind, that I arrived at the conclusion without being conscious of intermediate steps. There were such steps, however.”
-
+;e:holmes=suspicious;i=
 
 “The train of reasoning ran, ‘Here is a gentleman of a medical type, but with the air of a military man. Clearly an army doctor, then.’”
-e:holmes=contemplative
+e:holmes=contemplative;e:holmes=thinking;i=2
 
 “‘He has just come from the tropics, for his face is dark, and that is not the natural tint of his skin, for his wrists are fair. He has undergone hardship and sickness, as his haggard face says clearly.’”
-
+i=3
 
 “‘His left arm has been injured. He holds it in a stiff and unnatural manner. Where in the tropics could an English army doctor have seen much hardship and got his arm wounded? Clearly in Afghanistan.’”
-
+;e:holmes=curious;i=
 
 “The whole train of thought did not occupy a second. I then remarked that you came from Afghanistan, and you were astonished.”
-
+;e:holmes=smirking;i=
 
 “It is simple enough as you explain it,” I said, smiling.
-s=watson;e:watson=smirking
+s=watson;e:watson=smirking;e:watson=curious;i=
 
 “You remind me of Edgar Allan Poe’s Dupin. I had no idea that such individuals did exist outside of stories.”
-
+e:watson=happy
 
 Sherlock Holmes rose and lit his pipe.
 s=none;e:holmes=annoyed
 
 “No doubt you think that you are complimenting me in comparing me to Dupin,” he observed.
-s=holmes;e:holmes=serious
+s=holmes;e:holmes=serious;e:holmes=annoyed;i=
 
 “Now, in my opinion, Dupin was a very inferior fellow.”
-e:holmes=scowling
+e:holmes=scowling;e:holmes=angry;i=2
 
 “That trick of his of breaking in on his friends’ thoughts with an apropos remark after a quarter of an hour’s silence is really very showy and superficial.”
-
+;e:holmes=annoyed;i=2
 
 “He had some analytical genius, no doubt; but he was by no means such a phenomenon as Poe appeared to imagine.”
-
+;e:holmes=;i=2
 
 “Have you read Gaboriau’s works?” I asked. “Does Lecoq come up to your idea of a detective?”
-s=watson;e:watson=curious
+s=watson;e:watson=curious;e:watson=contemplative;i=
 
 Sherlock Holmes sniffed sardonically.
 s=none;e:holmes=angry
@@ -877,44 +877,41 @@ s=holmes;e:holmes=angry
 “The question was how to identify an unknown prisoner. I could have done it in twenty-four hours. Lecoq took six months or so. It might be made a textbook for detectives to teach them what to avoid.”
 
 
-I felt rather indignant at having two characters whom I had admired treated in this cavalier style. I walked over to the window, and stood looking out into the busy street.
+I felt rather indignant at having two characters whom I had admired treated in this cavalier style.
 s=none;e:watson=annoyed
+
+I walked over to the window, and stood looking out into the busy street.
+
 
 “This fellow may be very clever,” I said to myself, “but he is certainly very conceited.”
 s=watson;e:watson=scowling
 
 “There are no crimes and no criminals in these days,” he said, querulously.
-s=holmes;e:holmes=weary
+s=holmes;e:holmes=weary;e:holmes=upset;i=2
 
 “What is the use of having brains in our profession? I know well that I have it in me to make my name famous.”
-
+e:holmes=weary
 
 “No man lives or has ever lived who has brought the same amount of study and of natural talent to the detection of crime which I have done. And what is the result?”
 e:holmes=serious
 
 “There is no crime to detect, or, at most, some bungling villainy with a motive so transparent that even a Scotland Yard official can see through it.”
-
+;e:holmes=angry;i=2
 
 I was still annoyed at his bumptious style of conversation. I thought it best to change the topic.
 s=none;e:watson=annoyed
 
-“I wonder what that fellow is looking for?” I asked,
-s=watson;e:watson=pointing;m=allowbreak
-
-pointing to a stalwart, plainly-dressed individual who was walking slowly down the other side of the street, looking anxiously at the numbers.
-m=;s=
+“I wonder what that fellow is looking for?” I asked, pointing to a stalwart, plainly-dressed individual who was walking slowly down the other side of the street, looking anxiously at the numbers.
+s=watson;e:watson=pointing;
 
 He had a large blue envelope in his hand, and was evidently the bearer of a message.
 s=none
 
 “You mean the retired sergeant of Marines,” said Sherlock Holmes.
-s=holmes;e:holmes=neutral
+s=holmes;e:holmes=neutral;e:holmes=curious;i=2
 
-“Brag and bounce!” thought I to myself.
-s=;t=watson;e:watson=annoyed
-
-“He knows that I cannot verify his guess.”
-e:watson=serious
+“Brag and bounce!” thought I to myself. “He knows that I cannot verify his guess.”
+s=;t=watson;e:watson=serious
 
 The thought had hardly passed through my mind when the man whom we were watching caught sight of the number on our door, and ran rapidly across the roadway.
 s=none;e:watson=surprised;t=
@@ -923,7 +920,7 @@ We heard a loud knock, a deep voice below, and heavy steps ascending the stair.
 
 
 “For Mr. Sherlock Holmes,” he said, stepping into the room and handing my friend the letter.
-n:sergeant=?;s=sergeant;e:sergeant=serious
+n:sergeant=?;s=sergeant;e:sergeant=serious;z:sergeant=78,,5
 
 Here was an opportunity of taking the conceit out of him. He little thought of this when he made that random shot.
 s=none;e:watson=smirking
@@ -931,17 +928,17 @@ s=none;e:watson=smirking
 “May I ask, my lad,” I said, in the blandest voice, “what your trade may be?”
 s=watson;e:watson=thinking
 
-“Commissionaire, sir,” he said, gruffly.
+“Commissionaire, sir,” he said, gruffly. “Uniform away for repairs.”
 s=sergeant;e:sergeant=serious;i=2
-
-“Uniform away for repairs.”
-i=3
 
 “And you were?” I asked, with a slightly malicious glance at my companion.
 s=watson;e:watson=curious
 
-“A sergeant, sir, Royal Marine Light Infantry, sir. No answer? Right, sir.”
-s=sergeant
+“A sergeant, sir, Royal Marine Light Infantry, sir.”
+s=sergeant;i=3;e:sergeant=serious;i=
+
+“No answer? Right, sir.”
+
 
 He clicked his heels together, raised his hand in a salute, and was gone.
 s=none;e:watson=surprised;e:holmes=smirking
