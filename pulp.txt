@@ -3452,10 +3452,10 @@ e:holmes=smirking
 r=title
 
 ### I<br>On the Great Alkali Plain
-
+b=desert-wide
 
 In the central portion of the great North American Continent there lies an arid and repulsive desert, which for many a long year served as a barrier against the advance of civilisation.
-b=desert-wide
+
 
 From the Sierra Nevada to Nebraska, and from the Yellowstone River in the north to the Colorado upon the south, is a region of desolation and silence.<e>Because when I think Yellowstone, I think "repulsive desert". (Also: wait what are we talking about now.)</e>
 
@@ -3986,10 +3986,10 @@ e:brigham=thinking
 e:brigham=serious
 
 “On, on to Zion!” cried the crowd of Mormons, and the words rippled down the long caravan, passing from mouth to mouth until they died away in a dull murmur in the far distance.
-s=none;m=dialogue;b=caravan-wide
+s=none;m=dialogue;
 
 With a cracking of whips and a creaking of wheels the great wagons got into motion, and soon the whole caravan was winding along once more.
-m=
+m=;b=caravan-wide
 
 The Elder to whose care the two waifs had been committed, led them to his wagon, where a meal was already awaiting them.
 
@@ -4145,13 +4145,13 @@ The travel-stained adventurers gazed after her in astonishment, and even the une
 
 
 She had reached the outskirts of the city when she found the road blocked by a great drove of cattle, driven by a half-dozen wild-looking herdsmen from the plains.
-e:lucy=wary;b=cattle
+e:lucy=wary;
 
 In her impatience she endeavoured to pass this obstacle by pushing her horse into what appeared to be a gap.
 e:lucy=annoyed
 
 Scarcely had she got fairly into it, however, before the beasts closed in behind her, and she found herself completely imbedded in the moving stream of fierce-eyed, long-horned bullocks.
-e:lucy=nervous
+e:lucy=nervous;b=cattle
 
 Accustomed as she was to deal with cattle, she was not alarmed at her situation, but took advantage of every opportunity to urge her horse on in the hopes of pushing her way through the cavalcade.
 e:lucy=serious
