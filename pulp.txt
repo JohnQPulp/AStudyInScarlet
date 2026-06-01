@@ -3425,7 +3425,7 @@ Woodwork and glass gave way before him; but before he got quite through, Gregson
 e:holmes=serious;e:gregson=serious;e:lestrade=serious
 
 He was dragged back into the room, and then commenced a terrific conflict. So powerful and so fierce was he, that the four of us were shaken off again and again.
-e:watson=fearful
+e:watson=fearful;b=baker-sitting-broken;f:b:baker-sitting-broken=blur(3px)
 
 He appeared to have the convulsive strength of a man in an epileptic fit.
 
@@ -3437,7 +3437,7 @@ It was not until Lestrade succeeded in getting his hand inside his neckcloth and
 e:lestrade=weary;e:jefferson=weary
 
 That done, we rose to our feet breathless and panting.
-e:watson=weary;e:holmes=weary;e:gregson=weary
+e:watson=weary;e:holmes=weary;e:gregson=weary;f:b:baker-sitting-broken=
 
 “We have his cab,” said Sherlock Holmes. “It will serve to take him to Scotland Yard.”
 s=holmes;e:holmes=weary;e:holmes=smirking;i=2
@@ -4859,7 +4859,7 @@ What was that? In the silence he heard a gentle scratching sound—low, but very
 e:ferrier=surprised
 
 It came from the door of the house. Ferrier crept into the hall and listened intently.
-e:ferrier=nervous;b=villa-hall-night
+e:ferrier=nervous;b=villa-sitting
 
 There was a pause for a few moments, and then the low insidious sound was repeated.
 
@@ -4988,7 +4988,7 @@ s=none;e:jefferson=smirking
 s=jefferson
 
 The lights inside the house had all been extinguished, and from the darkened window Ferrier peered over the fields which had been his own, and which he was now about to abandon forever.
-s=none;e:ferrier=sadsmile;b=villa-window-night
+s=none;e:ferrier=sadsmile;b=villa-wide-night
 
 He had long nerved himself to the sacrifice, however, and the thought of the honour and happiness of his daughter outweighed any regret at his ruined fortunes.
 e:ferrier=serious
@@ -5003,13 +5003,13 @@ Ferrier carried the bag of gold and notes, Jefferson Hope had the scanty provisi
 
 
 Opening the window very slowly and carefully, they waited until a dark cloud had somewhat obscured the night, and then one by one passed through into the little garden.
-e:ferrier=wary;e:jefferson=wary;e:lucy=wary;b=villa-hedges
+e:ferrier=wary;e:jefferson=wary;e:lucy=wary
 
 With bated breath and crouching figures they stumbled across it, and gained the shelter of the hedge, which they skirted until they came to the gap which opened into the cornfields.
 
 
 They had just reached this point when the young man seized his two companions and dragged them down into the shadow, where they lay silent and trembling.
-e:lucy=fearful;e:ferrier=nervous
+e:lucy=fearful;e:ferrier=nervous;b=villa-hedges
 
 It was as well that his prairie training had given Jefferson Hope the ears of a lynx.
 
@@ -5477,7 +5477,7 @@ So strange and so brief was the episode, that the watchers might have found it h
 s=none
 
 For some months Jefferson Hope lingered among the mountains, leading a strange wild life, and nursing in his heart the fierce desire for vengeance which possessed him.
-e:jefferson=angry;b=canyon-fruitless;f:b:canyon-fruitless=blur(3px)
+e:jefferson=angry;b=canyon-cliff;f:b:canyon-cliff=blur(3px)
 
 Tales were told in the City of the weird figure which was seen prowling about the suburbs, and which haunted the lonely mountain gorges.
 
@@ -5588,7 +5588,7 @@ As to what occurred there, we cannot do better than quote the old hunter’s own
 r=title
 
 Our prisoner’s furious resistance did not apparently indicate any ferocity in his disposition towards ourselves, for on finding himself powerless, he smiled in an affable manner, and expressed his hopes that he had not hurt any of us in the scuffle.
-e:jefferson=happy;a:jefferson=old;a:drebber=old;a:stangerson=old;b=baker-sitting;x:jefferson=cuffed
+e:jefferson=happy;a:jefferson=old;a:drebber=old;a:stangerson=old;b=baker-sitting-broken;x:jefferson=cuffed
 
 “I guess you’re going to take me to the police-station,” he remarked to Sherlock Holmes.
 s=jefferson;e:jefferson=serious
@@ -5762,7 +5762,7 @@ s=jefferson;e:jefferson=contemplative
 s=jefferson;e:jefferson=weary
 
 “When I got to London my pocket was about empty, and I found that I must turn my hand to something for my living.”
-s=jefferson;g=london-wide
+s=jefferson;g=london-wider
 
 “Driving and riding are as natural to me as walking, so I applied at a cabowner’s office, and soon got employment.”
 
@@ -5882,7 +5882,7 @@ s=jefferson;g=london-wide
 ;e:jefferson=contemplative
 
 “He walked down the road and went into one or two liquor shops, staying for nearly half-an-hour in the last of them.”
-;e:jefferson=neutral;b=london-wide-night
+;e:jefferson=neutral;b=london-wider-night
 
 “When he came out he staggered in his walk, and was evidently pretty well on.”
 ;e:jefferson=smirking
@@ -5933,7 +5933,7 @@ g=boarding-wide-night;s=arthur;e:arthur=angrystick
 ;e:jefferson=excited;s=
 
 “I drove along slowly, weighing in my own mind what it was best to do.”
-;e:jefferson=thinking;b=london-wide-night
+;e:jefferson=thinking;b=london-wider-night
 
 “I might take him right out into the country, and there in some deserted lane have my last interview with him.”
 ;e:jefferson=contemplative
@@ -5981,7 +5981,7 @@ g=boarding-wide-night;s=arthur;e:arthur=angrystick
 ;e:jefferson=contemplative;f:b:york-lab=blur(3px)
 
 “It was nearer one than twelve, and a wild, bleak night, blowing hard and raining in torrents.”
-;e:jefferson=serious;b=london-wide-night-rain
+;e:jefferson=serious;b=london-wider-night-rain
 
 “Dismal as it was outside, I was glad within—so glad that I could have shouted out from pure exultation.”
 ;e:jefferson=excited
@@ -6131,7 +6131,7 @@ s=jefferson;e:jefferson=angry
 ;e:jefferson=happy
 
 “Then I walked down to my cab and found that there was nobody about, and that the night was still very wild.”
-;e:jefferson=neutral;b=london-wide-night-rain
+;e:jefferson=neutral;b=london-wider-night-rain
 
 “I had driven some distance when I put my hand into the pocket in which I usually kept Lucy’s ring, and found that it was not there.”
 ;e:jefferson=surprised
@@ -6242,7 +6242,7 @@ s=none;e:watson=contemplative
 r=title
 
 We had all been warned to appear before the magistrates upon the Thursday; but when the Thursday came there was no occasion for our testimony.
-s=none;e:watson=neutral;b=london-wide
+s=none;e:watson=neutral;b=london-wider
 
 A higher Judge had taken the matter in hand, and Jefferson Hope had been summoned before a tribunal where strict justice would be meted out to him.
 
@@ -6425,7 +6425,7 @@ e:holmes=thinking
 e:holmes=smirking
 
 “Having left the house, I proceeded to do what Gregson had neglected.”
-e:holmes=neutral;b=london-wide
+e:holmes=neutral;b=london-wider
 
 “I telegraphed to the head of the police at Cleveland, limiting my enquiry to the circumstances connected with the marriage of Enoch Drebber.”
 
