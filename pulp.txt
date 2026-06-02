@@ -6251,7 +6251,7 @@ s=none;e:watson=contemplative;f:b:police-chamber=blur(3px)
 r=title
 
 We had all been warned to appear before the magistrates upon the Thursday; but when the Thursday came there was no occasion for our testimony.
-s=none;e:watson=neutral;b=london-wider
+s=none;e:watson=neutral;b=baker-parlor
 
 A higher Judge had taken the matter in hand, and Jefferson Hope had been summoned before a tribunal where strict justice would be meted out to him.
 
@@ -6260,10 +6260,10 @@ On the very night after his capture the aneurism burst, and he was found in the 
 e:watson=contemplative
 
 “Gregson and Lestrade will be wild about his death,” Holmes remarked, as we chatted it over next evening.
-s=holmes;e:holmes=smirking;b=baker-sitting
+s=holmes;e:holmes=smirking;b=baker-parlor;e:holmes=;i=
 
 “Where will their grand advertisement be now?”
-
+e:holmes=smirking;i=2
 
 “I don’t see that they had very much to do with his capture,” I answered.
 s=watson;e:watson=contemplative
@@ -6272,64 +6272,58 @@ s=watson;e:watson=contemplative
 s=holmes;e:holmes=annoyed
 
 “The question is, what can you make people believe that you have done.”
-e:holmes=serious
+e:holmes=serious;e:holmes=;i=
 
 “Never mind,” he continued, more brightly, after a pause.
-e:holmes=thinking
+e:holmes=thinking;e:holmes=happy;i=
 
-“I would not have missed the investigation for anything. There has been no better case within my recollection.”
-e:holmes=smirking
-
-“Simple as it was, there were several most instructive points about it.”
+“I would not have missed the investigation for anything. There has been no better case within my recollection. Simple as it was, there were several most instructive points about it.”
 e:holmes=smirking
 
 “Simple!” I ejaculated.
 s=watson;e:watson=surprised
 
 “Well, really, it can hardly be described as otherwise,” said Sherlock Holmes, smiling at my surprise.
-s=holmes;e:holmes=smirking
+s=holmes;e:holmes=smirking;e:holmes=curious;i=
 
 “The proof of its intrinsic simplicity is, that without any help save a few very ordinary deductions I was able to lay my hand upon the criminal within three days.”
-
+e:holmes=smirking;i=2
 
 “That is true,” said I.
-s=watson;e:watson=neutral
+s=watson;e:watson=neutral;e:watson=contemplative;i=
 
 “I have already explained to you that what is out of the common is usually a guide rather than a hindrance.”
-s=holmes;e:holmes=thinking
+s=holmes;e:holmes=thinking;e:holmes=;i=
 
-“In solving a problem of this sort, the grand thing is to be able to reason backwards.”
-
-
-“That is a very useful accomplishment, and a very easy one, but people do not practise it much.”
-
+“In solving a problem of this sort, the grand thing is to be able to reason backwards. That is a very useful accomplishment, and a very easy one, but people do not practise it much.”
+;e:holmes=;i=3
 
 “In the everyday affairs of life it is more useful to reason forwards, and so the other comes to be neglected. There are fifty who can reason synthetically for one who can reason analytically.”
-
+;e:holmes=thinking;i=2
 
 “I confess,” said I, “that I do not quite follow you.”
-s=watson;e:watson=confused
+s=watson;e:watson=confused;e:watson=suspicious;i=
 
 “I hardly expected that you would. Let me see if I can make it clearer.”
-s=holmes;e:holmes=thinking
+s=holmes;e:holmes=thinking;e:holmes=;i=3
 
-“Most people, if you describe a train of events to them, will tell you what the result would be.”
-
-
-“They can put those events together in their minds, and argue from them that something will come to pass.”
-
+“Most people, if you describe a train of events to them, will tell you what the result would be. They can put those events together in their minds, and argue from them that something will come to pass.”
+;e:holmes=thinking;i=
 
 “There are few people, however, who, if you told them a result, would be able to evolve from their own inner consciousness what the steps were which led up to that result.”
 e:holmes=thinking
 
 “This power is what I mean when I talk of reasoning backwards, or analytically.”
-
+;e:holmes=happy;i=
 
 “I understand,” said I.
 s=watson;e:watson=neutral
 
-“Now this was a case in which you were given the result and had to find everything else for yourself. Now let me endeavour to show you the different steps in my reasoning. To begin at the beginning.”
-s=holmes;e:holmes=serious
+“Now this was a case in which you were given the result and had to find everything else for yourself. Now let me endeavour to show you the different steps in my reasoning.”
+s=holmes;e:holmes=serious;e:holmes=;i=3
+
+“To begin at the beginning.”
+;e:holmes=;i=
 
 “I approached the house, as you know, on foot, and with my mind entirely free from all impressions.”
 g=three-wide
@@ -6403,14 +6397,11 @@ e:holmes=thinking
 “It must have been a private wrong, and not a political one, which called for such a methodical revenge.”
 
 
-“When the inscription was discovered upon the wall I was more inclined than ever to my opinion.”
-b=rache
-
-“The thing was too evidently a blind.”
+“When the inscription was discovered upon the wall I was more inclined than ever to my opinion. The thing was too evidently a blind.”
 
 
 “When the ring was found, however, it settled the question. Clearly the murderer had used it to remind his victim of some dead or absent woman.”
-e:holmes=serious;b=three-dining
+e:holmes=serious
 
 “It was at this point that I asked Gregson whether he had enquired in his telegram to Cleveland as to any particular point in Mr. Drebber’s former career.”
 
@@ -6421,7 +6412,7 @@ e:holmes=serious;b=three-dining
 “I then proceeded to make a careful examination of the room, which confirmed me in my opinion as to the murderer’s height, and furnished me with the additional details as to the Trichinopoly cigar and the length of his nails.”
 e:holmes=thinking
 
-“I had already come to the conclusion, since there were no signs of a struggle, that the blood which covered the floor had burst from the murderer’s nose in his excitement.”<e>Fun fact: excitement-induced nosebleeds in Victorian literature share the same memetic origin as "excitement"-induced nosebleeds in anime. (This means that Sherlock Holmes is, canonically, shit.)</e>
+“I had already come to the conclusion, since there were no signs of a struggle, that the blood which covered the floor had burst from the murderer’s nose in his excitement.”<e>Excitement-induced nosebleeds in Victorian literature share the same memetic origin as excitement-induced nosebleeds in anime. (Not a good look for Doyle.)</e>
 
 
 “I could perceive that the track of blood coincided with the track of his feet.”
@@ -6473,16 +6464,16 @@ e:holmes=thinking
 
 
 “I therefore organized my Street Arab detective corps, and sent them systematically to every cab proprietor in London until they ferreted out the man that I wanted.”
-e:holmes=happy
+e:holmes=happy;f:b:london-wider=blur(2px)
 
 “How well they succeeded, and how quickly I took advantage of it, are still fresh in your recollection.”
-g=;e:holmes=smirking
+g=;e:holmes=smirking;e:holmes=smirking;i=2
 
 “The murder of Stangerson was an incident which was entirely unexpected, but which could hardly in any case have been prevented.”
-e:holmes=serious
+e:holmes=serious;e:holmes=thinking;i=2
 
 “Through it, as you know, I came into possession of the pills, the existence of which I had already surmised.”
-
+;e:holmes=;i=3
 
 “You see the whole thing is a chain of logical sequences without a break or flaw.”
 e:holmes=happy
@@ -6490,17 +6481,14 @@ e:holmes=happy
 “It is wonderful!” I cried.
 s=watson;e:watson=excited
 
-“Your merits should be publicly recognized. You should publish an account of the case.”
+“Your merits should be publicly recognized. You should publish an account of the case. If you won’t, I will for you.”
 e:watson=happy
 
-“If you won’t, I will for you.”
-
-
 “You may do what you like, Doctor,” he answered.
-s=holmes;e:holmes=smirking
+s=holmes;e:holmes=smirking;e:holmes=;i=
 
 “See here!” he continued, handing a paper over to me, “look at this!”
-
+;e:holmes=annoyed;i=
 
 It was the *Echo* for the day, and the paragraph to which he pointed was devoted to the case in question.
 s=none;e:watson=neutral
@@ -6530,16 +6518,16 @@ m=margin
 s=holmes;e:holmes=happy;m=
 
 “That’s the result of all our Study in Scarlet: to get them a testimonial!”
-
+e:holmes=smirking
 
 “Never mind,” I answered, “I have all the facts in my journal, and the public shall know them.”
-s=watson;e:watson=smirking
+s=watson;e:watson=smirking;e:watson=curious;i=
 
 “In the meantime you must make yourself contented by the consciousness of success, like the Roman miser—”
 e:watson=happy
 
 “*Populus me sibilat, at mihi plaudo*<br>*Ipse domi simul ac nummos contemplor in arca.*”
-m=margin
+m=margin;e:watson=;i=2
 
-<e>The End, closing with Latin — Doyle's final middle finger to the audience, I suppose. In terms of prose and structure, this read was certainly hot garbage, though you do have to admire the sheer audacity of some of Doyle's decisions here.</e>
+<e>The End, closing with Latin. One final poor decision to round off this structural trainwreck of a book. The whole Utah section truly is one of the most incredible sequences ever put to print: objectively terrible, but highly entertaining, and you've got to admire the audacity.</e>
 s=;m=;r=title
