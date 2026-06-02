@@ -5150,16 +5150,16 @@ Lucy and her father would fain have rested longer, but Jefferson Hope was inexor
 e:jefferson=serious
 
 “They will be upon our track by this time,” he said.
-s=jefferson
+s=jefferson;e:jefferson=serious;i=2
 
 “Everything depends upon our speed. Once safe in Carson we may rest for the remainder of our lives.”
-e:jefferson=thinking
+i=
 
 During the whole of that day they struggled on through the defiles, and by evening they calculated that they were more than thirty miles from their enemies.
-s=none;e:jefferson=weary
+s=none;e:jefferson=weary;f:b:canyon-day=blur(3px)
 
 At nighttime they chose the base of a beetling crag, where the rocks offered some protection from the chill wind, and there huddled together for warmth, they enjoyed a few hours’ sleep.
-b=dark
+b=dark;f:b:dark=blur(3px)
 
 Before daybreak, however, they were up and on their way once more.
 
@@ -5186,7 +5186,7 @@ Looking back he saw the old man and the young girl crouching over the blazing fi
 e:jefferson=contemplative
 
 Then the intervening rocks hid them from his view.
-
+f:b:canyon-nook-day=blur(3px)
 
 He walked for a couple of miles through one ravine after another without success, though from the marks upon the bark of the trees, and other indications, he judged that there were numerous bears in the vicinity.
 e:jefferson=thinking;b=canyon-fruitless
@@ -5228,13 +5228,13 @@ Convinced that he had taken the wrong turn, he tried another, but with the same 
 e:jefferson=annoyed
 
 Night was coming on rapidly, and it was almost dark before he at last found himself in a defile which was familiar to him.
-e:jefferson=weary
+e:jefferson=weary;f:b:canyon-torrent-evening=blur(3px)
 
 Even then it was no easy matter to keep to the right track, for the moon had not yet risen, and the high cliffs on either side made the obscurity more profound.
 
 
 Weighed down with his burden, and weary from his exertions, he stumbled along, keeping up his heart by the reflection that every step brought him nearer to Lucy, and that he carried with him enough to ensure them food for the remainder of their journey.
-e:jefferson=contemplative
+e:jefferson=contemplative;b=dark
 
 He had now come to the mouth of the very defile in which he had left them.
 b=canyon-nook-night
@@ -5270,7 +5270,7 @@ With his fears all changed to convictions, he hurried on.
 
 
 There was no living creature near the remains of the fire: animals, man, maiden, all were gone.
-e:jefferson=upset;b=canyon-nook-night
+e:jefferson=upset;
 
 It was only too clear that some sudden and terrible disaster had occurred during his absence﻿—a disaster which had embraced them all, and yet had left no traces behind it.
 
@@ -5282,7 +5282,7 @@ He was essentially a man of action, however, and speedily recovered from his tem
 e:jefferson=serious
 
 Seizing a half-consumed piece of wood from the smouldering fire, he blew it into a flame, and proceeded with its help to examine the little camp.
-
+b=canyon-nook-night
 
 The ground was all stamped down by the feet of horses, showing that a large party of mounted men had overtaken the fugitives, and the direction of their tracks proved that they had afterwards turned back to Salt Lake City.
 e:jefferson=contemplative
@@ -5312,7 +5312,7 @@ The sturdy old man, whom he had left so short a time before, was gone, then, and
 e:jefferson=unhappy
 
 Jefferson Hope looked wildly round to see if there was a second grave, but there was no sign of one.
-e:jefferson=wary;b=canyon-nook-night
+e:jefferson=wary
 
 Lucy had been carried back by their terrible pursuers to fulfil her original destiny, by becoming one of the harem of the Elder’s son.
 e:jefferson=angry
@@ -5330,7 +5330,7 @@ With indomitable patience and perseverance, Jefferson Hope possessed also a powe
 
 
 As he stood by the desolate fire, he felt that the only one thing which could assuage his grief would be thorough and complete retribution, brought by his own hand upon his enemies.
-e:jefferson=angry
+e:jefferson=angry;b=canyon-nook-night
 
 His strong will and untiring energy should, he determined, be devoted to that one end.
 e:jefferson=contemplative
@@ -5342,13 +5342,13 @@ This he made up into a bundle, and, tired as he was, he set himself to walk back
 e:jefferson=weary
 
 For five days he toiled footsore and weary through the defiles which he had already traversed on horseback.
-b=dark
+b=dark;f:b:dark=
 
 At night he flung himself down among the rocks, and snatched a few hours of sleep; but before daybreak he was always well on his way.
 
 
 On the sixth day, he reached the Eagle Canyon, from which they had commenced their ill-fated flight.
-b=canyon-night
+b=utah-town-cliff-wide
 
 Thence he could look down upon the home of the saints.
 
@@ -5378,34 +5378,34 @@ Having, however, at last, satisfied himself as to his identity, the man’s surp
 e:cowper=fearful
 
 “You are mad to come here,” he cried.
-s=cowper;e:cowper=wary
+s=cowper;e:cowper=wary;z:cowper=98,,8
 
 “It is as much as my own life is worth to be seen talking with you. There is a warrant against you from the Holy Four for assisting the Ferriers away.”
-e:cowper=serious
+e:cowper=serious;e:cowper=nervous;i=
 
 “I don’t fear them, or their warrant,” Hope said, earnestly.
-s=jefferson;e:jefferson=annoyed
+s=jefferson;e:jefferson=annoyed;e:jefferson=serious;i=2
 
 “You must know something of this matter, Cowper. I conjure you by everything you hold dear to answer a few questions.”
-e:jefferson=serious
+e:jefferson=serious;e:jefferson=thinking;i=
 
 “We have always been friends. For God’s sake, don’t refuse to answer me.”
-
+;e:jefferson=weary;i=
 
 “What is it?” the Mormon asked uneasily.
-s=cowper;e:cowper=nervous
+s=cowper;e:cowper=nervous;e:cowper=unhappy;i=
 
 “Be quick. The very rocks have ears and the trees eyes.”
-
+;e:cowper=nervous;i=2
 
 “What has become of Lucy Ferrier?”
 s=jefferson;e:jefferson=serious
 
 “She was married yesterday to young Drebber.”
-s=cowper
+s=cowper;e:cowper=wary;i=
 
 “Hold up, man, hold up, you have no life left in you.”
-e:cowper=surprised;e:jefferson=upset
+e:cowper=surprised;e:jefferson=upset;e:cowper=serious;i=
 
 “Don’t mind me,” said Hope faintly.
 s=jefferson;e:jefferson=weary
@@ -5417,7 +5417,7 @@ s=none
 s=jefferson;e:jefferson=thinking
 
 “Married yesterday﻿—that’s what those flags are for on the Endowment House. There was some words between young Drebber and young Stangerson as to which was to have her.”
-s=cowper;e:cowper=nervous
+s=cowper;e:cowper=nervous;e:cowper=nervous;i=2
 
 “They’d both been in the party that followed them, and Stangerson had shot her father, which seemed to give him the best claim; but when they argued it out in council, Drebber’s party was the stronger, so the Prophet gave her over to him.”
 e:cowper=serious
@@ -5426,10 +5426,10 @@ e:cowper=serious
 e:cowper=unhappy
 
 “Are you off, then?”
-e:cowper=serious
+e:cowper=serious;e:cowper=wary;i=
 
 “Yes, I am off,” said Jefferson Hope, who had risen from his seat.
-s=jefferson;e:jefferson=serious
+s=jefferson;e:jefferson=serious;e:jefferson=serious;i=2;e:jefferson=weary;i=
 
 His face might have been chiselled out of marble, so hard and set was its expression, while its eyes glowed with a baleful light.
 s=none;e:jefferson=angry
@@ -5438,16 +5438,16 @@ s=none;e:jefferson=angry
 s=cowper;e:cowper=nervous
 
 “Never mind,” he answered;
-s=jefferson;e:jefferson=serious
+s=jefferson;e:jefferson=serious;;i=2;e:jefferson=thinking;i=;e:jefferson=serious;i=2
 
 and, slinging his weapon over his shoulder, strode off down the gorge and so away into the heart of the mountains to the haunts of the wild beasts.
-s=
+s=;f:b:utah-town-cliff-wide=blur(3px)
 
 Amongst them all there was none so fierce and so dangerous as himself.
 s=none
 
 The prediction of the Mormon was only too well fulfilled.
-b=utah-town-wide-night
+b=dark;f:b:dark=blur(3px)
 
 Whether it was the terrible death of her father or the effects of the hateful marriage into which she had been forced, poor Lucy never held up her head again, but pined away and died within a month.
 
@@ -5465,16 +5465,16 @@ Stooping over her, he pressed his lips reverently to her cold forehead, and then
 e:jefferson=sadsmile
 
 “She shall not be buried in that,” he cried with a fierce snarl,
-s=jefferson;e:jefferson=angry;m=allowbreak
+s=jefferson;e:jefferson=angry;i=2;m=allowbreak
 
 and before an alarm could be raised sprang down the stairs and was gone.
 m=;s=
 
 So strange and so brief was the episode, that the watchers might have found it hard to believe it themselves or persuade other people of it, had it not been for the undeniable fact that the circlet of gold which marked her as having been a bride had disappeared.
-s=none
+s=none;f:b:bier=blur(3px)
 
 For some months Jefferson Hope lingered among the mountains, leading a strange wild life, and nursing in his heart the fierce desire for vengeance which possessed him.
-e:jefferson=angry;b=canyon-cliff;f:b:canyon-cliff=blur(3px)
+e:jefferson=angry;b=utah-town-cliff-wide;f:b:utah-town-cliff-wide=blur(3px)
 
 Tales were told in the City of the weird figure which was seen prowling about the suburbs, and which haunted the lonely mountain gorges.
 
@@ -5492,7 +5492,7 @@ Then they adopted the precaution of never going out alone or after nightfall, an
 e:stangerson=wary;e:drebber=wary
 
 After a time they were able to relax these measures, for nothing was either heard or seen of their opponent, and they hoped that time had cooled his vindictiveness.
-e:stangerson=neutral;e:drebber=neutral;b=utah-town-wide;f:b:utah-town-wide=blur(3px)
+e:stangerson=neutral;e:drebber=neutral
 
 Far from doing so, it had, if anything, augmented it.
 e:jefferson=angry
@@ -5504,13 +5504,13 @@ He was, however, above all things practical. He soon realized that even his iron
 e:jefferson=thinking
 
 Exposure and want of wholesome food were wearing him out. If he died like a dog among the mountains, what was to become of his revenge then?
-e:jefferson=weary
+e:jefferson=weary;b=dark;f:b:dark=blur(3px)
 
 And yet such a death was sure to overtake him if he persisted.
 
 
 He felt that that was to play his enemy’s game, so he reluctantly returned to the old Nevada mines, there to recruit his health and to amass money enough to allow him to pursue his object without privation.
-e:jefferson=serious;b=light
+e:jefferson=serious
 
 His intention had been to be absent a year at the most, but a combination of unforeseen circumstances prevented his leaving the mines for nearly five.
 
@@ -5519,7 +5519,7 @@ At the end of that time, however, his memory of his wrongs and his craving for r
 e:jefferson=angry
 
 Disguised, and under an assumed name, he returned to Salt Lake City, careless what became of his own life, as long as he obtained what he knew to be justice.
-e:jefferson=serious;b=utah-town-wide;f:b:utah-town-wide=
+e:jefferson=serious;b=utah-town-wide;f:b:utah-town-wide=blur(3px)
 
 There he found evil tidings awaiting him.
 
@@ -5540,13 +5540,16 @@ Many a man, however vindictive, would have abandoned all thought of revenge in t
 e:jefferson=serious
 
 With the small competence he possessed, eked out by such employment as he could pick up, he travelled from town to town through the United States in quest of his enemies.
-b=light
+b=dark
 
 Year passed into year, his black hair turned grizzled, but still he wandered on, a human bloodhound, with his mind wholly set upon the one object upon which he had devoted his life.
 e:jefferson=weary
 
-At last his perseverance was rewarded. It was but a glance of a face in a window, but that one glance told him that Cleveland in Ohio possessed the men whom he was in pursuit of.
-e:jefferson=excited;b=cleveland-wide
+At last his perseverance was rewarded.
+e:jefferson=excited;b=cleveland-wide;f:b:cleveland-wide=blur(3px)
+
+It was but a glance of a face in a window, but that one glance told him that Cleveland in Ohio possessed the men whom he was in pursuit of.
+
 
 He returned to his miserable lodgings with his plan of vengeance all arranged.
 e:jefferson=smirking
@@ -5570,7 +5573,7 @@ Funds were wanting, however, and for some time he had to return to work, saving 
 e:jefferson=weary
 
 At last, having collected enough to keep life in him, he departed for Europe, and tracked his enemies from city to city, working his way in any menial capacity, but never overtaking the fugitives.
-e:jefferson=serious;b=light
+e:jefferson=serious;b=dark
 
 When he reached St. Petersburg they had departed for Paris; and when he followed them there he learned that they had just set off for Copenhagen.
 e:jefferson=annoyed
@@ -5578,8 +5581,8 @@ e:jefferson=annoyed
 At the Danish capital he was again a few days late, for they had journeyed on to London, where he at last succeeded in running them to earth.
 e:jefferson=smirking
 
-As to what occurred there, we cannot do better than quote the old hunter’s own account, as duly recorded in Dr. Watson’s Journal, to which we are already under such obligations.
-
+As to what occurred there, we cannot do better than quote the old hunter’s own account, as duly recorded in Dr. Watson’s Journal, to which we are already under such obligations.<e>And thus concludes the greatest aside in all of literature.</e>
+b=light;f:b:light=blur(3px)
 
 ### VI<br>A Continuation of the Reminiscences of John Watson, M.D.
 r=title
