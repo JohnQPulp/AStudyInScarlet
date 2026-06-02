@@ -4027,7 +4027,7 @@ b=utah-wide
 From the shores of the Mississippi to the western slopes of the Rocky Mountains they had struggled on with a constancy almost unparalleled in history.
 
 
-The savage man, and the savage beast, hunger, thirst, fatigue, and disease—every impediment which Nature could place in the way, had all been overcome with Anglo-Saxon tenacity.<e>I hate to interrupt banger sentences like these, Doyle, but when exactly are we getting back to Holmes?</e>
+The savage man, and the savage beast, hunger, thirst, fatigue, and disease—every impediment which Nature could place in the way, had all been overcome with Anglo-Saxon tenacity.
 
 
 Yet the long journey and the accumulated terrors had shaken the hearts of the stoutest among them.
@@ -4045,10 +4045,10 @@ All around farms were apportioned and allotted in proportion to the standing of 
 In the town streets and squares sprang up, as if by magic.
 b=utah-town-wide
 
-In the country there was draining and hedging, planting and clearing, until the next summer saw the whole country golden with the wheat crop.
+In the country there was draining and hedging, planting and clearing, until the next summer saw the whole country golden with the wheat crop. Everything prospered in the strange settlement.
 
 
-Everything prospered in the strange settlement. Above all, the great temple which they had erected in the centre of the city grew ever taller and larger.
+Above all, the great temple which they had erected in the centre of the city grew ever taller and larger.
 
 
 From the first blush of dawn until the closing of the twilight, the clatter of the hammer and the rasp of the saw was never absent from the monument which the immigrants erected to Him who had led them safe through many dangers.
@@ -4070,7 +4070,7 @@ So rapidly did he gain the esteem of his new companions, that when they reached 
 e:ferrier=happy
 
 On the farm thus acquired John Ferrier built himself a substantial log-house, which received so many additions in succeeding years that it grew into a roomy villa.
-b=villa-wide
+b=villa-wide;f:b:villa-wide=blur(3px)
 
 He was a man of a practical turn of mind, keen in his dealings and skilful with his hands.
 e:ferrier=serious
@@ -4082,15 +4082,12 @@ Hence it came about that his farm and all that belonged to him prospered exceedi
 e:ferrier=happy
 
 In three years he was better off than his neighbours, in six he was well-to-do, in nine he was rich, and in twelve there were not half a dozen men in the whole of Salt Lake City who could compare with him.
-b=utah-town-wide
+
 
 From the great inland sea to the distant Wahsatch Mountains there was no name better known than that of John Ferrier.
 
 
-There was one way and only one in which he offended the susceptibilities of his coreligionists.
-e:ferrier=neutral
-
-No argument or persuasion could ever induce him to set up a female establishment after the manner of his companions.
+There was one way and only one in which he offended the susceptibilities of his coreligionists. No argument or persuasion could ever induce him to set up a female establishment after the manner of his companions.
 
 
 He never gave reasons for this persistent refusal, but contented himself by resolutely and inflexibly adhering to his determination.
@@ -4108,10 +4105,7 @@ Whatever the reason, Ferrier remained strictly celibate.
 In every other respect he conformed to the religion of the young settlement, and gained the name of being an orthodox and straight-walking man.
 e:ferrier=neutral
 
-Lucy Ferrier grew up within the log-house, and assisted her adopted father in all his undertakings.
-b=villa-wide
-
-The keen air of the mountains and the balsamic odour of the pine trees took the place of nurse and mother to the young girl.
+Lucy Ferrier grew up within the log-house, and assisted her adopted father in all his undertakings. The keen air of the mountains and the balsamic odour of the pine trees took the place of nurse and mother to the young girl.
 e:lucy=happy
 
 As year succeeded to year she grew taller and stronger, her cheek more ruddy, and her step more elastic.
@@ -4123,11 +4117,8 @@ Many a wayfarer upon the high road which ran by Ferrier’s farm felt long-forgo
 So the bud blossomed into a flower, and the year which saw her father the richest of the farmers left her as fair a specimen of American girlhood as could be found in the whole Pacific slope.
 
 
-It was not the father, however, who first discovered that the child had developed into the woman.
+It was not the father, however, who first discovered that the child had developed into the woman. It seldom is in such cases. That mysterious change is too subtle and too gradual to be measured by dates.
 e:ferrier=confused
-
-It seldom is in such cases. That mysterious change is too subtle and too gradual to be measured by dates.
-e:ferrier=neutral
 
 Least of all does the maiden herself know it until the tone of a voice or the touch of a hand sets her heart thrilling within her, and she learns, with a mixture of pride and of fear, that a new and a larger nature has awoken within her.
 e:lucy=contemplative
@@ -4184,7 +4175,7 @@ It was all that the girl could do to keep herself in the saddle, yet a slip woul
 
 
 Unaccustomed to sudden emergencies, her head began to swim, and her grip upon the bridle to relax.
-e:lucy=weary
+e:lucy=weary;f:b:cattle=blur(5px)
 
 Choked by the rising cloud of dust and by the steam from the struggling creatures, she might have abandoned her efforts in despair, but for a kindly voice at her elbow which assured her of assistance.
 e:jefferson=serious
@@ -4193,64 +4184,67 @@ At the same moment a sinewy brown hand caught the frightened horse by the curb, 
 b=utah-outskirts
 
 “You’re not hurt, I hope, miss,” said her preserver, respectfully.
-s=jefferson;a:jefferson=young;n:jefferson=?;x:jefferson=sombrero,rifle
+s=jefferson;a:jefferson=young;n:jefferson=?;x:jefferson=sombrero,rifle;z:jefferson=83,55,9;e:jefferson=;i=;e:jefferson=thinking;i=2
 
 She looked up at his dark, fierce face, and laughed saucily.
 s=none;e:lucy=happy
 
 “I’m awful frightened,” she said, naively; “whoever would have thought that Poncho would have been so scared by a lot of cows?”
-s=lucy;x:lucy=hat
+s=lucy;x:lucy=hat;z:lucy-aold=79,,8;e:lucy=curious;i=
 
 “Thank God you kept your seat,” the other said earnestly.
-s=jefferson;e:jefferson=wary
+s=jefferson;e:jefferson=wary;e:jefferson=thinking;i=
 
 He was a tall, savage-looking young fellow, mounted on a powerful roan horse, and clad in the rough dress of a hunter, with a long rifle slung over his shoulders.
 s=none;e:jefferson=neutral
 
 “I guess you are the daughter of John Ferrier,” he remarked, “I saw you ride down from his house.”
-s=jefferson;e:jefferson=thinking
+s=jefferson;e:jefferson=thinking;e:jefferson=;i=
 
 “When you see him, ask him if he remembers the Jefferson Hopes of St. Louis. If he’s the same Ferrier, my father and he were pretty thick.”
-
+;e:jefferson=smirking;i=;e:jefferson=thinking;i=2
 
 “Hadn’t you better come and ask yourself?” she asked, demurely.
-s=lucy;e:lucy=curious;n:jefferson=Jefferson Hope
+s=lucy;e:lucy=curious;n:jefferson=Jefferson Hope;e:lucy=embarrassed;i=
 
 The young fellow seemed pleased at the suggestion, and his dark eyes sparkled with pleasure.
 s=none;e:jefferson=
 
 “I’ll do so,” he said, “we’ve been in the mountains for two months, and are not over and above in visiting condition. He must take us as he finds us.”
-s=jefferson
+s=jefferson;e:jefferson=smirking;i=
 
-“He has a good deal to thank you for, and so have I,” she answered, “he’s awful fond of me. If those cows had jumped on me he’d have never got over it.”
+“He has a good deal to thank you for, and so have I,” she answered, “he’s awful fond of me.”
 s=lucy;e:lucy=thinking
 
+“If those cows had jumped on me he’d have never got over it.”
+;e:lucy=confused;i=
+
 “Neither would I,” said her companion.
-s=jefferson;e:jefferson=serious
+s=jefferson;e:jefferson=serious;e:jefferson=nervous;i=
 
 “You! Well, I don’t see that it would make much matter to you, anyhow. You ain’t even a friend of ours.”
-s=lucy;e:lucy=confused
+s=lucy;e:lucy=confused;e:lucy=curious;i=
 
 The young hunter’s dark face grew so gloomy over this remark that Lucy Ferrier laughed aloud.
 s=none;e:jefferson=unhappy;e:lucy=happy
 
 “There, I didn’t mean that,” she said; “of course, you are a friend now. You must come and see us.”
-s=lucy;e:lucy=happy
+s=lucy;e:lucy=happy;i=2
 
 “Now I must push along, or father won’t trust me with his business any more. Goodbye!”
-e:lucy=happy
+e:lucy=happy;i=
 
 “Goodbye,” he answered, raising his broad sombrero, and bending over her little hand.
-s=jefferson;e:jefferson=sadsmile
+s=jefferson;e:jefferson=sadsmile;e:jefferson=thinking;i=
 
 She wheeled her mustang round, gave it a cut with her riding-whip, and darted away down the broad road in a rolling cloud of dust.
 s=none
 
 Young Jefferson Hope rode on with his companions, gloomy and taciturn.
-e:jefferson=unhappy;b=utah-road
+e:jefferson=unhappy;f:b:utah-outskirts=blur(3px)
 
 He and they had been among the Nevada Mountains prospecting for silver, and were returning to Salt Lake City in the hope of raising capital enough to work some lodes which they had discovered.
-e:jefferson=neutral
+e:jefferson=neutral;f:b:utah-town-wide=
 
 He had been as keen as any of them upon the business until this sudden incident had drawn his thoughts into another channel.
 
@@ -4268,12 +4262,12 @@ He had been accustomed to succeed in all that he undertook. He swore in his hear
 e:jefferson=serious
 
 He called on John Ferrier that night, and many times again, until his face was a familiar one at the farmhouse.
-e:jefferson=happy;e:ferrier=happy;b=villa-sitting
+e:jefferson=happy;e:ferrier=happy;b=villa-sitting;f:b:villa-sitting=blur(3px)
 
 John, cooped up in the valley, and absorbed in his work, had had little chance of learning the news of the outside world during the last twelve years.
 
 
-All this Jefferson Hope was able to tell him, and in a style which interested Lucy as well as her father.<e>Great sentence construction.</e>
+All this Jefferson Hope was able to tell him, and in a style which interested Lucy as well as her father.<e>Reconsider sentence construction.</e>
 e:lucy=curious
 
 He had been a pioneer in California, and could narrate many a strange tale of fortunes made and fortunes lost in those wild, halcyon days. He had been a scout too, and a trapper, a silver explorer, and a ranchman.
@@ -4292,58 +4286,55 @@ Her honest father may not have observed these symptoms, but they were assuredly 
 e:ferrier=confused;e:jefferson=smirking
 
 It was a summer evening when he came galloping down the road and pulled up at the gate.
-e:jefferson=serious;b=villa-wide
+e:jefferson=serious;b=villa-wide;f:b:villa-wide=
 
-She was at the doorway, and came down to meet him.
+She was at the doorway, and came down to meet him. He threw the bridle over the fence and strode up the pathway.
 e:lucy=happy
 
-He threw the bridle over the fence and strode up the pathway.
-
-
 “I am off, Lucy,” he said, taking her two hands in his, and gazing tenderly down into her face;
-s=jefferson
+s=jefferson;e:jefferson=thinking;i=2
 
 “I won’t ask you to come with me now, but will you be ready to come when I am here again?”
-e:jefferson=nervous
+e:jefferson=nervous;e:jefferson=nervous;i=
 
 “And when will that be?” she asked, blushing and laughing.
-s=lucy;e:lucy=embarrassed
+;x:lucy=;s=lucy;e:lucy=happy;i=
 
 “A couple of months at the outside.”
-s=jefferson;e:jefferson=serious
+s=jefferson;e:jefferson=serious;e:jefferson=thinking;i=
 
 “I will come and claim you then, my darling. There’s no one who can stand between us.”
-
+;e:jefferson=happy;i=
 
 “And how about father?” she asked.
-s=lucy;e:lucy=curious
+s=lucy;e:lucy=curious;e:lucy=confused;i=;e:lucy=nervous;i=;e:lucy=confused;i=
 
 “He has given his consent, provided we get these mines working all right. I have no fear on that head.”
 s=jefferson;e:jefferson=smirking
 
 “Oh, well; of course, if you and father have arranged it all, there’s no more to be said,” she whispered, with her cheek against his broad breast.
-s=lucy;e:lucy=happy
+s=lucy;e:lucy=happy;i=2
 
 “Thank God!” he said, hoarsely,
-s=jefferson;e:jefferson=happy;m=allowbreak
+s=jefferson;e:jefferson=happy;m=allowbreak;e:jefferson=sadsmile;i=
 
 stooping and kissing her.
 m=;s=
 
 “It is settled, then.”
-s=jefferson;e:jefferson=thinking
+s=jefferson;e:jefferson=thinking;e:jefferson=thinking;i=
 
-“The longer I stay, the harder it will be to go. They are waiting for me at the canyon. Goodbye, my own darling—goodbye. In two months you shall see me.”
+“The longer I stay, the harder it will be to go. They are waiting for me at the canyon.”
+;e:jefferson=thinking;i=2
+
+“Goodbye, my own darling—goodbye. In two months you shall see me.”
 e:jefferson=sadsmile
 
 He tore himself from her as he spoke, and, flinging himself upon his horse, galloped furiously away, never even looking round, as though afraid that his resolution might fail him if he took one glance at what he was leaving.
-s=none;e:jefferson=nervous
+s=none;e:jefferson=nervous;f:b:villa-wide=blur(3px)
 
-She stood at the gate, gazing after him until he vanished from her sight.
+She stood at the gate, gazing after him until he vanished from her sight. Then she walked back into the house, the happiest girl in all Utah.
 e:lucy=contemplative
-
-Then she walked back into the house, the happiest girl in all Utah.
-e:lucy=happy
 
 ### III<br>John Ferrier Talks with the Prophet
 r=title
