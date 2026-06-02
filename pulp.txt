@@ -2801,7 +2801,7 @@ n:stangerson=Joseph Stangerson;n:drebber=Enoch J. Drebber;e:mrs=annoyed;i=
 ;e:mrs=unhappy;i=
 
 “‘“You are of age,” he said, “and there is no law to stop you. I have money enough and to spare.”’”
-g=boarding-int-night;s=drebber;a:drebber=old;x:drebber=hat;e:drebber=serious;z:drebber=86,,10;i=2
+g=boarding-int-night;s=drebber;a:drebber=old;x:drebber=hat;e:drebber=serious;z:drebber-aold=86,,10;i=2
 
 “‘“Never mind the old girl here, but come along with me now straight away. You shall live like a princess.”’”
 i=
@@ -4622,7 +4622,7 @@ In it he told the young man of the imminent danger which threatened them, and ho
 
 
 Having done thus he felt easier in his mind, and returned home with a lighter heart.
-e:ferrier=neutral
+e:ferrier=neutral;b=villa-wide
 
 As he approached his farm, he was surprised to see a horse hitched to each of the posts of the gate.
 e:ferrier=surprised;b=villa-wide
@@ -4640,16 +4640,16 @@ Both of them nodded to Ferrier as he entered, and the one in the rocking-chair c
 e:stangerson=smirking;e:drebber=neutral
 
 “Maybe you don’t know us,” he said.
-s=stangerson;a:stangerson=young;a:drebber=young;n:stangerson=?
+s=stangerson;a:stangerson=young;a:drebber=young;n:stangerson=?;z:stangerson-ayoung=84,52,5
 
 “This here is the son of Elder Drebber, and I’m Joseph Stangerson, who travelled with you in the desert when the Lord stretched out His hand and gathered you into the true fold.”
-n:stangerson=Joseph Stangerson
+
 
 “As He will all the nations in His own good time,” said the other in a nasal voice;
-s=drebber;e:drebber=thinking
+s=drebber;e:drebber=thinking;n:stangerson=Joseph Stangerson;e:drebber=serious;i=;z:drebber-ayoung=83,55,9
 
 “He grindeth slowly but exceeding small.”
-
+;e:drebber=thinking;i=2
 
 John Ferrier bowed coldly. He had guessed who his visitors were.
 s=none;e:ferrier=scowling
@@ -4658,31 +4658,31 @@ s=none;e:ferrier=scowling
 s=stangerson;e:stangerson=serious
 
 “As I have but four wives and Brother Drebber here has seven, it appears to me that my claim is the stronger one.”
-
+;e:stangerson=thinking;i=2
 
 “Nay, nay, Brother Stangerson,” cried the other; “the question is not how many wives we have, but how many we can keep.”
-s=drebber;e:drebber=serious
+s=drebber;e:drebber=serious;e:drebber=serious;i=2
 
 “My father has now given over his mills to me, and I am the richer man.”
-
+;e:drebber=serious;i=
 
 “But my prospects are better,” said the other, warmly.
-s=stangerson;e:stangerson=thinking
+s=stangerson;e:stangerson=thinking;e:stangerson=smirking;i=2
 
 “When the Lord removes my father, I shall have his tanning yard and his leather factory. Then I am your elder, and am higher in the Church.”
+;e:stangerson=smirking;i=;e:stangerson=thinking;i=2
 
-
-“It will be for the maiden to decide,” rejoined young Drebber, smirking at his own reflection in the glass.<e>Patrick Bateman?</e>
-s=drebber;e:drebber=smirking
+“It will be for the maiden to decide,” rejoined young Drebber, smirking at his own reflection in the glass.<e>Enoch Bateman.</e>
+s=drebber;e:drebber=smirking;e:drebber=smirking;i=2
 
 “We will leave it all to her decision.”
-
+;e:drebber=thinking;i=2
 
 During this dialogue, John Ferrier had stood fuming in the doorway, hardly able to keep his riding-whip from the backs of his two visitors.
 s=none;e:ferrier=angry
 
 “Look here,” he said at last, striding up to them, “when my daughter summons you, you can come, but until then I don’t want to see your faces again.”
-s=ferrier
+s=ferrier;e:ferrier=serious;i=
 
 The two young Mormons stared at him in amazement.
 s=none;e:stangerson=surprised;e:drebber=surprised
@@ -4691,7 +4691,7 @@ In their eyes this competition between them for the maiden’s hand was the high
 
 
 “There are two ways out of the room,” cried Ferrier; “there is the door, and there is the window. Which do you care to use?”
-s=ferrier;e:ferrier=serious
+s=ferrier;e:ferrier=serious;e:ferrier=annoyed;i=
 
 His brown face looked so savage, and his gaunt hands so threatening, that his visitors sprang to their feet and beat a hurried retreat. The old farmer followed them to the door.
 s=none;e:stangerson=fearful;e:drebber=fearful
@@ -4709,7 +4709,7 @@ s=stangerson;e:stangerson=angry
 s=drebber;e:drebber=angry
 
 “Then I’ll start the smiting,” exclaimed Ferrier furiously,
-s=ferrier;e:ferrier=angry;e:lucy=wary;m=allowbreak
+s=ferrier;e:ferrier=angry;e:lucy=wary;m=allowbreak;e:ferrier=annoyed;i=
 
 and would have rushed upstairs for his gun had not Lucy seized him by the arm and restrained him.
 m=;s=
@@ -4721,13 +4721,13 @@ s=none
 s=ferrier;e:ferrier=wiping
 
 “I would sooner see you in your grave, my girl, than the wife of either of them.”
-e:ferrier=annoyed
+e:ferrier=annoyed;e:ferrier=serious;i=2;e:ferrier=serious;i=
 
 “And so should I, father,” she answered, with spirit; “but Jefferson will soon be here.”
 s=lucy;e:lucy=serious
 
 “Yes. It will not be long before he comes. The sooner the better, for we do not know what their next move may be.”
-s=ferrier;e:ferrier=thinking
+s=ferrier;e:ferrier=thinking;e:ferrier=confused;i=
 
 It was, indeed, high time that someone capable of giving advice and help should come to the aid of the sturdy old farmer and his adopted daughter.
 s=none;f:b:villa-sitting=blur(3px)
@@ -4745,7 +4745,7 @@ He was a brave man, but he trembled at the vague, shadowy terrors which hung ove
 e:ferrier=nervous
 
 He concealed his fears from his daughter, however, and affected to make light of the whole matter, though she, with the keen eye of love, saw plainly that he was ill at ease.
-e:ferrier=neutral;e:lucy=wary;b=villa-wide-night
+e:ferrier=neutral;e:lucy=wary
 
 He expected that he would receive some message or remonstrance from Young as to his conduct, and he was not mistaken, though it came in an unlooked-for manner.
 e:ferrier=surprised
@@ -4766,19 +4766,16 @@ How this warning came into his room puzzled John Ferrier sorely, for his servant
 e:ferrier=confused
 
 He crumpled the paper up and said nothing to his daughter, but the incident struck a chill into his heart.
-e:ferrier=wary;b=villa-wide
+e:ferrier=wary;f:b:villa-bedroom=blur(3px)
 
 The twenty-nine days were evidently the balance of the month which Young had promised.
 e:ferrier=thinking
 
-What strength or courage could avail against an enemy armed with such mysterious powers?
-e:ferrier=nervous
-
-The hand which fastened that pin might have struck him to the heart, and he could never have known who had slain him.
+What strength or courage could avail against an enemy armed with such mysterious powers? The hand which fastened that pin might have struck him to the heart, and he could never have known who had slain him.
 
 
 Still more shaken was he next morning.
-e:ferrier=fearful;b=villa-parlor
+e:ferrier=fearful;b=villa-parlor;f:b:villa-parlor=blur(3px)
 
 They had sat down to their breakfast when Lucy with a cry of surprise pointed upwards.
 e:lucy=surprised
@@ -4789,11 +4786,8 @@ e:ferrier=wary
 To his daughter it was unintelligible, and he did not enlighten her.
 e:lucy=confused
 
-That night he sat up with his gun and kept watch and ward.
-e:ferrier=serious;b=villa-bedroom
-
-He saw and he heard nothing, and yet in the morning a great 27 had been painted upon the outside of his door.
-e:ferrier=fearful;b=villa-wide
+That night he sat up with his gun and kept watch and ward. He saw and he heard nothing, and yet in the morning a great 27 had been painted upon the outside of his door.
+e:ferrier=fearful;b=villa-wide-night;f:b:villa-wide-night=blur(3px)
 
 Thus day followed day; and as sure as morning came he found that his unseen enemies had kept their register, and had marked up in some conspicuous position how many days were still left to him out of the month of grace.
 e:ferrier=weary;f:b:villa-wide=blur(3px)
@@ -4835,7 +4829,7 @@ Yet the old man never wavered in his resolution to part with life itself before 
 e:ferrier=serious
 
 He was sitting alone one evening pondering deeply over his troubles, and searching vainly for some way out of them.
-e:ferrier=thinking;b=villa-dining-night;f:b:villa-sitting=
+e:ferrier=thinking;b=villa-dining-night;f:b:villa-sitting=;f:b:villa-dining-night=blur(3px)
 
 That morning had shown the figure 2 upon the wall of his house, and the next day would be the last of the allotted time.
 
@@ -4852,10 +4846,16 @@ Was there no escape from the invisible network which was drawn all round them.<e
 He sank his head upon the table and sobbed at the thought of his own impotence.
 e:ferrier=upset
 
-What was that? In the silence he heard a gentle scratching sound—low, but very distinct in the quiet of the night.
-e:ferrier=surprised
+What was that?
+e:ferrier=surprised;f:b:villa-dining-night=
 
-It came from the door of the house. Ferrier crept into the hall and listened intently.
+In the silence he heard a gentle scratching sound—low, but very distinct in the quiet of the night.
+
+
+It came from the door of the house.
+
+
+Ferrier crept into the hall and listened intently.
 e:ferrier=nervous;b=villa-sitting
 
 There was a pause for a few moments, and then the low insidious sound was repeated.
@@ -4867,7 +4867,7 @@ Someone was evidently tapping very gently upon one of the panels of the door.
 Was it some midnight assassin who had come to carry out the murderous orders of the secret tribunal?
 e:ferrier=fearful
 
-Or was it some agent who was marking up that the last day of grace had arrived.<e>Question mark? Editor???</e>
+Or was it some agent who was marking up that the last day of grace had arrived.<e>Question mark???</e>
 
 
 John Ferrier felt that instant death would be better than the suspense which shook his nerves and chilled his heart.
@@ -4898,25 +4898,28 @@ e:jefferson=serious;e:ferrier=surprised
 s=ferrier;e:ferrier=surprised;x:jefferson=tunic
 
 “How you scared me! Whatever made you come in like that.”
-e:ferrier=confused
+e:ferrier=confused;e:ferrier=nervous;i=2
 
 “Give me food,” the other said, hoarsely.
-s=jefferson;e:jefferson=serious
+s=jefferson;e:jefferson=serious;e:jefferson=serious;i=2
 
 “I have had no time for bite or sup for eight-and-forty hours.”
-
+i=
 
 He flung himself upon the cold meat and bread which were still lying upon the table from his host’s supper, and devoured it voraciously.
 s=none;b=villa-dining-night
 
 “Does Lucy bear up well?” he asked, when he had satisfied his hunger.
-s=jefferson;e:jefferson=serious
+s=jefferson;e:jefferson=serious;e:jefferson=serious;i=2
 
 “Yes. She does not know the danger,” her father answered.
-s=ferrier;e:ferrier=serious
+s=ferrier;e:ferrier=serious;e:ferrier=thinking;i=2
 
-“That is well. The house is watched on every side. That is why I crawled my way up to it. They may be darned sharp, but they’re not quite sharp enough to catch a Washoe hunter.”
-s=jefferson;e:jefferson=smirking
+“That is well. The house is watched on every side. That is why I crawled my way up to it.”
+s=jefferson;
+
+“They may be darned sharp, but they’re not quite sharp enough to catch a Washoe hunter.”
+e:jefferson=smirking
 
 John Ferrier felt a different man now that he realized that he had a devoted ally.
 s=none;e:ferrier=happy
@@ -4928,31 +4931,28 @@ He seized the young man’s leathery hand and wrung it cordially.
 s=ferrier
 
 “You’ve hit it there, pard,” the young hunter answered.
-s=jefferson;e:jefferson=serious
+s=jefferson;e:jefferson=serious;e:jefferson=thinking;i=2
 
 “I have a respect for you, but if you were alone in this business I’d think twice before I put my head into such a hornet’s nest.”
-
+;e:jefferson=thinking;i=
 
 “It’s Lucy that brings me here, and before harm comes on her I guess there will be one less o’ the Hope family in Utah.”
-
+;e:jefferson=serious;i=
 
 “What are we to do?”
-s=ferrier;e:ferrier=serious
+s=ferrier;e:ferrier=serious;e:ferrier=;i=
 
-“Tomorrow is your last day, and unless you act tonight you are lost.”
-s=jefferson;e:jefferson=serious
-
-“I have a mule and two horses waiting in the Eagle Ravine. How much money have you?”
-
+“Tomorrow is your last day, and unless you act tonight you are lost. I have a mule and two horses waiting in the Eagle Ravine. How much money have you?”
+s=jefferson;e:jefferson=serious;e:jefferson=serious;i=2
 
 “Two thousand dollars in gold, and five in notes.”
-s=ferrier;e:ferrier=neutral
+s=ferrier;e:ferrier=neutral;e:ferrier=confused;i=
 
 “That will do. I have as much more to add to it. We must push for Carson City through the mountains.”
 s=jefferson;e:jefferson=thinking
 
 “You had best wake Lucy. It is as well that the servants do not sleep in the house.”
-
+;e:jefferson=serious;i=
 
 While Ferrier was absent, preparing his daughter for the approaching journey, Jefferson Hope packed all the eatables that he could find into a small parcel, and filled a stoneware jar with water, for he knew by experience that the mountain wells were few and far between.
 s=none;e:jefferson=serious
@@ -4963,20 +4963,20 @@ e:lucy=nervous
 The greeting between the lovers was warm, but brief, for minutes were precious, and there was much to be done.
 
 
-“We must make our start at once,” said Jefferson Hope, speaking in a low but resolute voice,
-s=jefferson;e:jefferson=serious;m=allowbreak
+“We must make our start at once,” said Jefferson Hope,
+s=jefferson;e:jefferson=serious;m=allowbreak;e:jefferson=thinking;i=2
 
-like one who realizes the greatness of the peril, but has steeled his heart to meet it.
+speaking in a low but resolute voice, like one who realizes the greatness of the peril, but has steeled his heart to meet it.
 m=;s=
 
 “The front and back entrances are watched, but with caution we may get away through the side window and across the fields.”
 s=jefferson
 
 “Once on the road we are only two miles from the ravine where the horses are waiting. By daybreak we should be halfway through the mountains.”
-
+;e:jefferson=serious;i=
 
 “What if we are stopped?” asked Ferrier.
-s=ferrier;e:ferrier=nervous
+s=ferrier;e:ferrier=nervous;e:ferrier=;i=
 
 Hope slapped the revolver butt which protruded from the front of his tunic.
 s=none;e:jefferson=smirking
@@ -4985,7 +4985,7 @@ s=none;e:jefferson=smirking
 s=jefferson
 
 The lights inside the house had all been extinguished, and from the darkened window Ferrier peered over the fields which had been his own, and which he was now about to abandon forever.
-s=none;e:ferrier=sadsmile;b=villa-wide-night
+s=none;e:ferrier=sadsmile;b=villa-wide-night;f:b:villa-wide-night=
 
 He had long nerved himself to the sacrifice, however, and the thought of the honour and happiness of his daughter outweighed any regret at his ruined fortunes.
 e:ferrier=serious
@@ -5017,31 +5017,37 @@ He and his friends had hardly crouched down before the melancholy hooting of a m
 At the same moment a vague shadowy figure emerged from the gap for which they had been making, and uttered the plaintive signal cry again, on which a second man appeared out of the obscurity.
 
 
-“Tomorrow at midnight,” said the first who appeared to be in authority. “When the whippoorwill calls three times.”
-m=dialogue
+“Tomorrow at midnight,” said the first who appeared to be in authority.
+m=nospeaker;n:p1=First Voice;s=p1
 
-“It is well,” returned the other. “Shall I tell Brother Drebber?”
+“When the whippoorwill calls three times.”
+
+
+“It is well,” returned the other.
+n:p2=Other Voice;s=p2
+
+“Shall I tell Brother Drebber?”
 
 
 “Pass it on to him, and from him to the others. Nine to seven!”
-
+s=p1
 
 “Seven to five!” repeated the other, and the two figures flitted away in different directions.
-
+s=p2
 
 Their concluding words had evidently been some form of sign and countersign.
-m=
+m=;s=
 
 The instant that their footsteps had died away in the distance, Jefferson Hope sprang to his feet, and helping his companions through the gap, led the way across the fields at the top of his speed, supporting and half-carrying the girl when her strength appeared to fail her.
-e:jefferson=serious;e:lucy=weary
+e:jefferson=serious;e:lucy=weary;f:b:villa-hedges=blur(3px)
 
 “Hurry on! hurry on!” he gasped from time to time.
-s=jefferson;e:jefferson=serious
+s=jefferson;e:jefferson=serious;e:jefferson=serious;i=2
 
 “We are through the line of sentinels. Everything depends on speed. Hurry on!”
+;e:jefferson=serious;i=
 
-
-Once on the high road they made rapid progress. Only once did they meet anyone, and then they managed to slip into a field, and so avoid recognition.
+Once on the high road they made rapid progress. Only once did they meet anyone, and then they managed to slip into a field, and so avoid recognition.<e>"Once… Only once…" Word choice, Doyle.</e>
 s=none;e:jefferson=wary;b=canyon-night
 
 Before reaching the town the hunter branched away into a rugged and narrow footpath which led to the mountains.
@@ -5059,10 +5065,7 @@ x:ferrier=hat;x:lucy=hat
 It was a bewildering route for anyone who was not accustomed to face Nature in her wildest moods.
 
 
-On the one side a great crag towered up a thousand feet or more, black, stern, and menacing, with long basaltic columns upon its rugged surface like the ribs of some petrified monster.
-
-
-On the other hand a wild chaos of boulders and debris made all advance impossible.
+On the one side a great crag towered up a thousand feet or more, black, stern, and menacing, with long basaltic columns upon its rugged surface like the ribs of some petrified monster. On the other hand a wild chaos of boulders and debris made all advance impossible.
 
 
 Between the two ran the irregular track, so narrow in places that they had to travel in Indian file, and so rough that only practised riders could have traversed it at all.
@@ -5072,7 +5075,7 @@ Yet in spite of all dangers and difficulties, the hearts of the fugitives were l
 e:lucy=happy;e:ferrier=happy;e:jefferson=serious
 
 They soon had a proof, however, that they were still within the jurisdiction of the Saints.
-e:jefferson=wary
+e:jefferson=wary;f:b:canyon-night=blur(3px)
 
 They had reached the very wildest and most desolate portion of the pass when the girl gave a startled cry, and pointed upwards.
 e:lucy=surprised
@@ -5102,16 +5105,13 @@ s=none
 
 
 “Seven from five,” returned Jefferson Hope promptly, remembering the countersign which he had heard in the garden.
-s=jefferson;e:jefferson=serious
+s=jefferson;e:jefferson=serious;e:jefferson=serious;i=2
 
 “Pass, and the Lord go with you,” said the voice from above.
 s=
 
-Beyond his post the path broadened out, and the horses were able to break into a trot.
-s=none;e:lucy=happy;e:ferrier=happy;b=canyon-night;m=
-
-Looking back, they could see the solitary watcher leaning upon his gun, and knew that they had passed the outlying post of the chosen people, and that freedom lay before them.
-
+Beyond his post the path broadened out, and the horses were able to break into a trot. Looking back, they could see the solitary watcher leaning upon his gun, and knew that they had passed the outlying post of the chosen people, and that freedom lay before them.
+s=none;e:lucy=happy;e:ferrier=happy;f:b:sentinel-rock=blur(3px)
 
 ### V<br>The Avenging Angels
 r=title
