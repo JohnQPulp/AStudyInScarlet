@@ -1,5 +1,5 @@
-A Study in Scarlet<br>Arthur Conan Doyle<e>Giga-phrenology-brain Doyle wrote this book in only three weeks. An impressive feat, but as with any book written in that short of a time: caveat lector. (There will be annoying Latin.)</e>
-b=title;t=author;z:author=90,,8
+A Study in Scarlet<br>Arthur Conan Doyle<e>Phrenology-brain Doyle wrote this book in only three weeks. An impressive feat, but as with any book written in that short of a time: caveat lector. (There will be annoying Latin.)</e>
+b=title;t=author;z:author=87,,8
 
 ## Part I<br>Being a Reprint from the Reminiscences of John H. Watson, M.D., Late of the Army Medical Department
 r=title
@@ -6529,5 +6529,5 @@ e:watson=happy
 “*Populus me sibilat, at mihi plaudo*<br>*Ipse domi simul ac nummos contemplor in arca.*”
 m=margin;e:watson=;i=2
 
-<e>The End, closing with Latin. One final poor decision to round off this structural trainwreck of a book. The whole Utah section truly is one of the most incredible sequences ever put to print: objectively terrible, but highly entertaining, and you've got to admire the audacity.</e>
+<e>The End, closing with annoying Latin. One final poor decision to round off this structural train wreck of a book. The whole Utah section really is one of the most incredible sequences ever put to print: objectively terrible, but highly entertaining. And if nothing else, the audacity is admirable.</e>
 s=;m=;r=title

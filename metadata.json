@@ -13,5 +13,6 @@
   },
   "blurb": "This book is both exactly what you'd expect the first Sherlock Holmes story to be and also nothing like what you'd expect the first Sherlock Holmes story to be. (Wait and see.)</i>",
   "blurb2": "Big-brain Doyle wrote a book that contains its own perfect blurb: \"This is not the place to commemorate the trials and privations endured by the immigrant Mormons before they came to their final haven.\"",
-  "useAvif": true
+  "useAvif": true,
+  "authorWidth": 84
 }
