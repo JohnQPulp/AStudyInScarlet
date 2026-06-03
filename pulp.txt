@@ -1,4 +1,4 @@
-A Study in Scarlet<br>Arthur Conan Doyle<e>TODO</e>
+A Study in Scarlet<br>Arthur Conan Doyle<e>Giga-phrenology-brain Doyle wrote this book in only three weeks. An impressive feat, but as with any book written in that short of a time: caveat lector. (There will be annoying Latin.)</e>
 b=title;t=author;z:author=90,,8
 
 ## Part I<br>Being a Reprint from the Reminiscences of John H. Watson, M.D., Late of the Army Medical Department

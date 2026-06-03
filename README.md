@@ -1,8 +1,14 @@
 ### *A Study in Scarlet: The Visual Novel*
 
-This repository will contain the metadata and images for the visual novel transformation (pulpification) of Arthur Conan Doyle's book *A Study in Scarlet*.
+This repository contains the metadata and images for the visual novel transformation (pulpification) of Arthur Conan Doyle's book *A Study in Scarlet*.
 
-This VN is a work-in-progress.
+You can read it in a few ways:
+
+* Online at https://publicdomainpulp.com/vn/AStudyInScarlet
+* Locally at http://localhost:1929/vn/AStudyInScarlet running https://github.com/JohnQPulp/PublicDomainPulp (ASP.NET/C#) from source
+* Locally via static html file using the tool https://github.com/JohnQPulp/Pulpifier (C#) from source
+
+![Preview](images/preview.avif)
 
 ### License Information
 
